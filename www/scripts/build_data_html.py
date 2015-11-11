@@ -53,8 +53,11 @@ import subprocess
 #
 
 DATA_ROOT = "../data/"
+WEB_DATA_ROOT = "/data/"
 PACK_LOCATION = "packs/"
 DATA_TYPES = ["election", "matching", "combinatorial", "optimization"]
+DATA_NAMES = ["Election Data", "Matching Data", "Rating and Combinatorial Preference Data", "Optimization Data"]
+LINK_NAMES = ['''<a name = "ed"></a>''', '''<a name = "md"></a>''', '''<a name = "cd"></a>''', '''<a name = "od"></a>''']
 
 EXTENSIONS = ["soc", "soi", "toc", "toi", "tog", "mjg", "wmg", "pwg", "wmd"]
 NAMES = [	"Strict Order - Complete List", 
@@ -71,25 +74,86 @@ NAMES = [	"Strict Order - Complete List",
 # Page Pieces.
 #
 
-HEAD_AND_MENU = '''
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
-<head>
-	<?php include "../common/head.php"; ?>
-</head>
+HEAD_AND_MENU = \
+	'''
+	<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+	<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+	<head>
+		<?php include "/common/head.php"; ?>
+	</head>
 
-<body>
-	<div class="container_12">
-		<?php include "../common/menu.php"; ?>
-'''
+	<body>
+		<div class="container_12">
+			<?php include "/common/menu.php"; ?>
+	'''
 
-BREAK_AND_FOOTER = '''
-		<!-- Break and Footer -->
-		<?php include "../common/foot.php"; ?>	
-	</div>
-</body>
-</html>
-'''
+DATA_INDEX_INTRO = \
+	'''
+			<div class="grid_7">
+				<h5> Data Sets</h5>
+				<p> Our data is separated into four categories:
+				<ul>
+					<li> <a href="source.php#ed">Election Data (ED):</a> Contains data that either was an election, or can be interpreted as election data. We have data from actual elections, movie rankings, and competitor rankings from various sporting competitions.</li>
+					<li><a href="source.php#md">Matching Data (MD):</a> Contains data where agents express preference over items (and vise-verse) in order to pair agents to items.  Currently, we only have synthetic data from organ and kidney matching in the USA.</li>
+					<li><a href="source.php#cd">Rating and Combinatorial Preference Data (CD):</a> Contains data from a broad set of domains that can be viewed as combinatorial and/or multidimensional including multi-attribute ratings, CP-nets, and GAI-nets. </li>
+					<li><a href="source.php#od">Optimization Data (OD):</a> Contain data that is typically associated with optimization problems including SAT and CSP problems.</li> 
+				</p>
+
+				<p> Each data file we host has a unique identifier in the format [XX]-#####-########.EXT.  These numbers are broken down as:
+				<ul>
+					<li>XX is a 2 letter category code from above. </li> 
+					<li>##### is a 5 digit Series Code which specifies the source of the data. </li>
+					<li>######## is an 8 digit Element Number for each individual file of a series.
+					<li>EXT which is a unique <a href="./format.php">file extension</a> describing the type of data in the file.
+				</ul>
+				</p>
+
+				<p> Each data file is labeled as either Original, Induced, or Imbued.
+				<ul>
+					<li><b>Original:</b> Data that has only been converted into our formatting.</li>
+					<li><b>Induced:</b> Data that has been induced from another context.  For example, computing a pairwise relation form a set of strict total orders.  No assumptions have been made to create these files, just a change in the expression language.</li> 
+					<li><b>Imbued:</b> Data that has been imbued with extra information.  For example, extending an incomplete partial order by placing all unranked candidates tied at the end.</li>
+				</ul>
+				We encourage you to understand some of the impacts that making these assumptions can have, see, e.g. <a href="http://scholar.google.com/scholar?as_q=A+Behavioral+Perspective+on+Social+Choice">A Behavioral Perspective on Social Choice.</a>  Anna Popova, Michel Regenwetter, and Nicholas Mattei.  Annals of Mathematics and Artificial Intelligence 68(1-3), 2013. 
+				</p>
+			</div>
+	'''
+
+PICTURES_AND_LINKS = \
+	'''
+			<!-- Pictures and Links -->
+			<div class="grid_5">
+				<p>
+				<img src="/images/pref.png" alt="" title="" />
+
+				<a href="http://www.nicta.com.au/category/research/optimisation/" class="center"> <h3>Supported By:</h3><img src="images/nicta.png" alt="" title="NICTA" /></a>
+				</p>
+			</div>
+			
+			<!-- Break Page... -->
+			<div class="clear"></div>
+			<div class="grid_12 spacer"></div>
+			<div class="clear"></div>
+	'''
+
+### Can only be used with a 8 width grid!!!
+LINKS = \
+	'''
+			<!-- Links -->
+			<div class="grid_4">
+				<h5 style=text-align:center> Links </h5>
+				<?php include "/common/links.php"; ?>
+			</div>
+	'''
+
+BREAK_AND_FOOTER = \
+	'''
+			<!-- Break and Footer -->
+			<?php include "/common/foot.php"; ?>	
+		</div>
+	</body>
+	</html>
+	'''
 
 
 
@@ -112,16 +176,66 @@ if __name__ == '__main__':
 	'''
 	# Create an FS zip file for each one of the data directories.
 
-	# Recurse through all the data directories and do something...
+	# Recurse through all the data directories make sure there are up to date zips for each one.
+	'''
 	for ctype in DATA_TYPES:
 		for subdir in glob.glob(DATA_ROOT + ctype + "/*/"):
 			#Somewhat hacky to include the info but not the .DS_Store.
 			name = os.path.basename(os.path.normpath(subdir))
 			os.system("zip --filesync --junk-paths " + subdir + name + ".zip " + subdir + "*")
+	'''
 
+	#(2) Recurse the directories and make 
+	#Datapage is:
+	data_index_page = HEAD_AND_MENU + DATA_INDEX_INTRO + PICTURES_AND_LINKS + '''\n\n
+		<!-- Generated Content -->
+		<div class="grid_8">\n'''
 
+	index = {x:{} for x in DATA_TYPES}
+	for i,ctype in enumerate(DATA_TYPES):
+		for subdir in glob.glob(DATA_ROOT + ctype + "/*/"):
+			#Open the INFO file and extract information (blanks between each).
+			# Name:
+			# Abbreviation:
+			# Extension:
+			# Series Number:
+			# Path:
+			# Description:
+			# Required Citations:
+			# Selected Studies:
+			#description,status,file_name
+			# -- File List --
 
+			# Build a Hash NUMBER --> output statement.
 
+			with open(subdir+"info.txt", 'r') as f:
+				lines = list(filter(None, (line.strip() for line in f)))
+			# Extract and process info and listing
+			info = lines[:7]
+			listing = lines[8:]
+			info = [x.split(": ")[1].strip() for x in info]
 
-	#(2) Make Individual Data Pages.
-	#(3) Make Data index page.
+			#Make a Data Page...
+			#make_listing_page(info, listing)
+
+			name = info[2] + "-" + info[3] + ": " + info[0]
+			link = WEB_DATA_ROOT + info[4] + "/" + info[1] + ".php"
+			desc = info[5].split("</p>")[0].strip() + "</p>"
+
+			#Build description string.
+			html = '''<div class="news_box"><h6><a href=" ''' + link + ''' "> ''' + name + '''</a></h6>'''+desc+'''</div>'''
+
+			# Add it to the index...
+			index[ctype][int(info[3])] = html
+
+		#Print the output to the index page in numerical order.
+		data_index_page += '''\n<h4 style=text-align:center> ''' + DATA_NAMES[i] + '''</h4>''' + LINK_NAMES[i] + '\n'
+		for k in sorted(index[ctype]):
+			data_index_page += index[ctype][k] + "\n\n"
+
+	data_index_page += '''\n </div> \n ''' + LINKS + BREAK_AND_FOOTER
+	with open(DATA_ROOT+"index.php", 'w') as f:
+		f.write(data_index_page)
+
+	#(4) Make Pack Index Page.
+
