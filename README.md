@@ -17,20 +17,11 @@ Currently we are in beta, getting everything from the old site imported and upda
 
 ## OVERVIEW
 
-The structure of the repository is:
 
-|-archive\
-|-combinatorial\
-|-common\
-|-css\
-|-data\
-|-
-|
 
 ## DETAILS
 
 ### Main Scripts:
 
-- alldata.py: Script to generate the alldata.php page.  This iterativly goes through the data\ directory and creates headings for each top level folder and then recurses through creating a link block for the particular page.
+- build_data_html.py: Recurses through the data directory of the PrefLib website and builds up (1) the /index.php page listing all data that is present, (2) the data/x/y file which is the listing for all the data from a particular group and (3) updates the /packs/index.php page and ensures that all zip files in the index match the requsite directories (not including the html, just the info .txt).
 
-- datapages.py: Script to go through each of the sub folders and create a data page to go next to the plain text file for each of the data directories.
