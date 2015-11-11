@@ -1,0 +1,9 @@
+@inproceedings{preflib,
+  author    = {Nicholas Mattei and Toby Walsh},
+  title     = {PrefLib: A Library of Preference Data},
+  year      = {2013},
+  ee        = {http://preflib.org},
+  booktitle = {Proceedings of Third International Conference on Algorithmic Decision Theory (ADT 2013)},
+  publisher = {Springer},
+  series    = {Lecture Notes in Artificial Intelligence}
+}
