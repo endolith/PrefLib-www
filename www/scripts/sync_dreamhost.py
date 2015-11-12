@@ -59,13 +59,13 @@ if __name__ == '__main__':
 		A wrapper around system calls to build the PrefLib webiste.
 		Requires that you have SSH Key access to the server at www.preflib.org and www.dev.preflib.org.
 		''')
-	parser.add_argument('-rb', '--rebuild', type=bool, default=False, dest='rebuild', help= '''Rebuild the index before doing anything.''')
-	parser.add_argument('-m', '--main', type=bool, default=False, dest='main', help='''Push to the main site.''')
+	parser.add_argument('-rb', '--rebuild', action='store_true', default=False, dest='rebuild', help= '''Rebuild the index before doing anything.''')
+	parser.add_argument('-m', '--main', action='store_true', default=False, dest='main', help='''Push to the main site.''')
 	results = parser.parse_args()
 
 	if results.rebuild:
 		print(" *** Rebuilding Site Index *** ")
-		os.system("./python3 build_data_html.py")
+		os.system("python3 build_data_html.py")
 
 	# Sync EVERYTHING to DEV.
 	print(" *** Pushing ENTIRE www directory to DEV@DREAMHOST *** ")

@@ -54,7 +54,7 @@ import subprocess
 
 DATA_ROOT = "../data/"
 WEB_DATA_ROOT = "/data/"
-PACK_LOCATION = "packs/"
+PACK_LOCATION = "/packs/"
 DATA_TYPES = ["election", "matching", "combinatorial", "optimization"]
 DATA_NAMES = ["Election Data", "Matching Data", "Rating and Combinatorial Preference Data", "Optimization Data"]
 LINK_NAMES = ['''<a name = "ed"></a>''', '''<a name = "md"></a>''', '''<a name = "cd"></a>''', '''<a name = "od"></a>''']
@@ -79,12 +79,12 @@ HEAD_AND_MENU = \
 	<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 	<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 	<head>
-		<?php include "/common/head.php"; ?>
+		<?php require_once($_SERVER['DOCUMENT_ROOT'] . '/common/head.php'); ?>
 	</head>
 
 	<body>
 		<div class="container_12">
-			<?php include "/common/menu.php"; ?>
+			<?php require_once($_SERVER['DOCUMENT_ROOT'] . '/common/menu.php'); ?>
 	'''
 
 DATA_INDEX_INTRO = \
@@ -93,10 +93,10 @@ DATA_INDEX_INTRO = \
 				<h5> Data Sets</h5>
 				<p> Our data is separated into four categories:
 				<ul>
-					<li> <a href="source.php#ed">Election Data (ED):</a> Contains data that either was an election, or can be interpreted as election data. We have data from actual elections, movie rankings, and competitor rankings from various sporting competitions.</li>
-					<li><a href="source.php#md">Matching Data (MD):</a> Contains data where agents express preference over items (and vise-verse) in order to pair agents to items.  Currently, we only have synthetic data from organ and kidney matching in the USA.</li>
-					<li><a href="source.php#cd">Rating and Combinatorial Preference Data (CD):</a> Contains data from a broad set of domains that can be viewed as combinatorial and/or multidimensional including multi-attribute ratings, CP-nets, and GAI-nets. </li>
-					<li><a href="source.php#od">Optimization Data (OD):</a> Contain data that is typically associated with optimization problems including SAT and CSP problems.</li> 
+					<li> <a href="/data/index.php#ed">Election Data (ED):</a> Contains data that either was an election, or can be interpreted as election data. We have data from actual elections, movie rankings, and competitor rankings from various sporting competitions.</li>
+					<li><a href="/data/index.php#md">Matching Data (MD):</a> Contains data where agents express preference over items (and vise-verse) in order to pair agents to items.  Currently, we only have synthetic data from organ and kidney matching in the USA.</li>
+					<li><a href="/data/index.php#cd">Rating and Combinatorial Preference Data (CD):</a> Contains data from a broad set of domains that can be viewed as combinatorial and/or multidimensional including multi-attribute ratings, CP-nets, and GAI-nets. </li>
+					<li><a href="/data/index.php#od">Optimization Data (OD):</a> Contain data that is typically associated with optimization problems including SAT and CSP problems.</li> 
 				</p>
 
 				<p> Each data file we host has a unique identifier in the format [XX]-#####-########.EXT.  These numbers are broken down as:
@@ -126,7 +126,7 @@ PICTURES_AND_LINKS = \
 				<p>
 				<img src="/images/pref.png" alt="" title="" />
 
-				<a href="http://www.nicta.com.au/category/research/optimisation/" class="center"> <h3>Supported By:</h3><img src="images/nicta.png" alt="" title="NICTA" /></a>
+				<a href="http://www.nicta.com.au/category/research/optimisation/" class="center"> <h3>Supported By:</h3><img src="/images/nicta.png" alt="" title="NICTA" /></a>
 				</p>
 			</div>
 			
@@ -142,14 +142,14 @@ LINKS = \
 			<!-- Links -->
 			<div class="grid_4">
 				<h5 style=text-align:center> Links </h5>
-				<?php include "/common/links.php"; ?>
+				<?php require_once($_SERVER['DOCUMENT_ROOT'] . '/common/links.php'); ?>
 			</div>
 	'''
 
 BREAK_AND_FOOTER = \
 	'''
 			<!-- Break and Footer -->
-			<?php include "/common/foot.php"; ?>	
+			<?php require_once($_SERVER['DOCUMENT_ROOT'] . '/common/foot.php'); ?>	
 		</div>
 	</body>
 	</html>
@@ -190,6 +190,7 @@ def make_listing_page(meta_data, file_list):
   	Writes HTML file to the same directory location as the 
   	info.txt file came from.
   """
+  pass
 
 if __name__ == '__main__':
 
@@ -252,7 +253,7 @@ if __name__ == '__main__':
 			make_listing_page(info, listing)
 
 			name = info[2] + "-" + info[3] + ": " + info[0]
-			link = WEB_DATA_ROOT + info[4] + "/" + info[1] + ".php"
+			link = WEB_DATA_ROOT + info[4] + "/"
 			desc = info[5].split("</p>")[0].strip() + "</p>"
 
 			#Build description string.
@@ -263,8 +264,14 @@ if __name__ == '__main__':
 
 		#Print the output to the index page in numerical order.
 		data_index_page += '''\n<h4 style=text-align:center> ''' + DATA_NAMES[i] + '''</h4>''' + LINK_NAMES[i] + '\n'
-		for k in sorted(index[ctype]):
-			data_index_page += index[ctype][k] + "\n\n"
+		if len(index[ctype]) == 0:
+			data_index_page += '''\n\n <p style=text-align:center>No Sets Yet, Please Donate!</p>\n\n'''
+		else:
+			for k in sorted(index[ctype]):
+				data_index_page += index[ctype][k] + "\n\n"
+
+		#Clearing spacer between types..
+		data_index_page += '''\n\n<div class="clear"></div> <div class="grid_8 spacer"></div>\n\n'''
 
 	data_index_page += '''\n </div> \n ''' + LINKS + BREAK_AND_FOOTER
 	with open(DATA_ROOT+"index.php", 'w') as f:
