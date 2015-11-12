@@ -1,12 +1,12 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head>
-	<?php include "./common/head.php"; ?>
+	<?php require_once($_SERVER['DOCUMENT_ROOT'] . '/common/head.php'); ?>
 </head>
 
 <body>
 	<div class="container_12">
-		<?php include "./common/menu.php"; ?>
+		<?php require_once($_SERVER['DOCUMENT_ROOT'] . '/common/menu.php'); ?>
 		
 		<!-- Intro Material -->
 		<div class="grid_7">
@@ -14,15 +14,15 @@
 			
 			<p> We want to provide a comprehensive resource for the multuple research communities that deal with preferences, including computational social choice, recommender systems, data mining, machine learning, and combinatorial optimization, to name just a few.</p>
 			
-			<p> Please see the <a href="about.php">about</a> page for information about the site, contacting us, and our citation policy. We rely on the support of the community in order to grow the usefulness of this site.  To contribute, please contact <a href="http://www.nickmattei.net">Nicholas Mattei</a> at: nicholas<b>{dot}</b>mattei@nicta.com.au</p>
+			<p> Please see the <a href="/about.php">about</a> page for information about the site, contacting us, and our citation policy. We rely on the support of the community in order to grow the usefulness of this site.  To contribute, please contact <a href="http://www.nickmattei.net">Nicholas Mattei</a> at: nicholas<b>{dot}</b>mattei@nicta.com.au</p>
 		</div>
 		
 		<!-- Pictures and Links -->
 		<div class="grid_5">
 			<p>
-			<img src="images/pref.png" alt="" title="" />
+			<img src="/images/pref.png" alt="" title="" />
 
-			<a href="http://www.nicta.com.au/category/research/optimisation/" class="center"> <h3>Supported By:</h3><img src="images/nicta.png" alt="" title="NICTA" /></a>
+			<a href="http://www.nicta.com.au/category/research/optimisation/" class="center"> <h3>Supported By:</h3><img src="/images/nicta.png" alt="" title="NICTA" /></a>
 			</p>
 		</div>
 		
@@ -55,7 +55,7 @@
 		            <b>Oct. 20, 2014:</b>
 		            <p> Release of PrefLib v. 1.6, incorporating a substantial update of the library with 5 new data sources, many thanks to <a href="https://sites.google.com/site/jflaslierhomepage/">J-F Laslier</a>. There have been a few small bug fixes files from data sets ED-00015 and ED-00018.</p>
 		                	
-		            <p> There is also a significant update to the <a href="tools.php">Tools page.</a>We now have two community donated tool chains, many thanks to <a href="http://jpdickerson.com/">John Dickerson</a> and <a href="http://www.cs.huji.ac.il/~omerl/"> Omer Lev</a>.</p>
+		            <p> There is also a significant update to the <a href="/tools/">Tools page.</a>We now have two community donated tool chains, many thanks to <a href="http://jpdickerson.com/">John Dickerson</a> and <a href="http://www.cs.huji.ac.il/~omerl/"> Omer Lev</a>.</p>
 		        </div>
 		    </div>
 
@@ -63,11 +63,11 @@
 		    <div class="news_icon"></div>
 		        <div class="news_content">
 		            <b>June 20, 2014:</b>
-		            <p> Massive site update sees a revamp of the top menu and the addition of the <a href="archive.php">Archive</a> page.</p>
+		            <p> Massive site update sees a revamp of the top menu and the addition of the <a href="/archive/">Archive</a> page.</p>
 
-					<p> We have added over 1,000 new data sets from over 10 new sources -- bringing the total library size to over 4,000 files! We have also revamped the <a href="source.php">data pages</a> to make them easier to navigate. A small change to the <a href="format.php">file extensions</a> has been made for more clarity.</p>
+					<p> We have added over 1,000 new data sets from over 10 new sources -- bringing the total library size to over 4,000 files! We have also revamped the <a href="/data/">data pages</a> to make them easier to navigate. A small change to the <a href="/data/format.php">file extensions</a> has been made for more clarity.</p>
 		                	
-		            <p> Finally there is a small update to the <a href="tools.php">Tools</a> library inclding a command line interface and functions to test for Single Peakedness.</p>
+		            <p> Finally there is a small update to the <a href="/tools/">Tools</a> library inclding a command line interface and functions to test for Single Peakedness.</p>
 		        </div>   
 		    </div>
 			
@@ -90,13 +90,13 @@
 			<div class="news_box">
 	        <div class="news_icon"></div>
             	<div class="news_content">
-                	<b>Sept. 3, 2013:</b><p> A big update today brings us over 3000 datasets hosted on the site with a full data archive over 7 GB!</p> <p> We have also added a <a href="about.php">Thanks!!</a> section to recognize those individuals who have helped make PrefLib possible.</p>
+                	<b>Sept. 3, 2013:</b><p> A big update today brings us over 3000 datasets hosted on the site with a full data archive over 7 GB!</p> <p> We have also added a <a href="/about.php">Thanks!!</a> section to recognize those individuals who have helped make PrefLib possible.</p>
                 </div>
 	        </div>
 
 	        <div class="news_box">
 	        	<div class="news_content">
-	        		<p> For older news and site revisions please see the <a href="archive.php">Archive Page</a>.</p>
+	        		<p> For older news and site revisions please see the <a href="/archive/">Archive Page</a>.</p>
 	            </div>
 	        </div>    	
 		</div>
@@ -104,11 +104,11 @@
 		<!-- Links -->
 		<div class="grid_4">
 			<h5 style=text-align:center> Links </h5>
-			<?php include "./common/links.php"; ?>
+			<?php require_once($_SERVER['DOCUMENT_ROOT'] . '/common/links.php'); ?>
 		</div>
 		
 		<!-- Break and Footer -->
-		<?php include "./common/foot.php"; ?>	
+		<?php require_once($_SERVER['DOCUMENT_ROOT'] . '/common/foot.php'); ?>
 	</div>
 </body>
 </html>

@@ -1,10 +1,10 @@
 <meta http-equiv="content-type" content="text/html; charset=utf-8" />
 
 <title>PrefLib.org: A Library for Preferences</title>
-<link rel="stylesheet" type="text/css" media="all" href="css/reset.css" />
-<link rel="stylesheet" type="text/css" media="all" href="css/text.css" />
-<link rel="stylesheet" type="text/css" media="all" href="css/960.css" />
-<link rel="stylesheet" type="text/css" media="all" href="css/style.css" />
+<link rel="stylesheet" type="text/css" media="all" href="/css/reset.css" />
+<link rel="stylesheet" type="text/css" media="all" href="/css/text.css" />
+<link rel="stylesheet" type="text/css" media="all" href="/css/960.css" />
+<link rel="stylesheet" type="text/css" media="all" href="/css/style.css" />
 
 <script type="text/javascript">
 

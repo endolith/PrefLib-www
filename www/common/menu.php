@@ -2,18 +2,18 @@
 	<div class="clear"></div>
 	<div class="grid_12" id="navbar">
 		<ul id="nav" class="drop">
-	  	<li><a href="index.php">Main</a></li>
-	  	<li><a href="about.php">About</a></li>
-	  	<li><a href="papers.php">Papers</a></li>
+	  	<li><a href="/">Main</a></li>
+	  	<li><a href="/about.php">About</a></li>
+	  	<li><a href="/papers.php">Papers</a></li>
 	  	<li>Data
 	    	<ul>
-	    	  <li><a href="format.php">Formats</a></li>
-	    	  <li><a href="source.php">All Data Sets</a></li>
-	    	  <li><a href="type.php">Data Grouped By Type</a></li>
+	    	  <li><a href="/data/format.php">Formats</a></li>
+	    	  <li><a href="/data/">All Data</a></li>
+	    	  <li><a href="/data/packs/">Data Packs</a></li>
 	    	</ul>
 	    </li>
-	    <li><a href="tools.php">Tools</a></li>
-	    <li><a href="archive.php">Archive</a></li>
+	    <li><a href="/tools/">Tools</a></li>
+	    <li><a href="/archive/">Archive</a></li>
   	</div>
 	
 	<div class="clear"></div>

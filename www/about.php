@@ -1,12 +1,12 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head>
-	<?php include "./common/head.php"; ?>
+	<?php require_once($_SERVER['DOCUMENT_ROOT'] . '/common/head.php'); ?>
 </head>
 
 <body>
 	<div class="container_12">
-		<?php include "./common/menu.php"; ?>
+		<?php require_once($_SERVER['DOCUMENT_ROOT'] . '/common/menu.php'); ?>
 	
 		<!-- About Material -->
 		<div class="grid_7">
@@ -20,11 +20,11 @@
 					 <i>Proceedings of Third International Conference on Algorithmic Decision Theory (ADT 2013)</i>. 
 					 Springer, <i>Lecture Notes in Artificial Intelligence</i>, November 13-15, 2013.</li>
 				
-				<li> <a href="./common/preflib.pdf">[PDF]</a>  <a href="./common/prefbib.txt">[BiBTeX]</a>
+				<li> <a href="/common/preflib.pdf">[PDF]</a>  <a href="/common/prefbib.txt">[BiBTeX]</a>
 				</ul>
 			</p>
 			
-			<p> If you use data from PrefLib in a publication please let us know and we will add it to our <a href="papers.php">Papers</a> page. </p>
+			<p> If you use data from PrefLib in a publication please let us know and we will add it to our <a href="/papers.php">Papers</a> page. </p>
 
 			
 			<h5> Donation Policy </h5>
@@ -35,9 +35,9 @@
 		<!-- Pictures and Links -->
 		<div class="grid_5">
 			<p>
-			<img src="images/pref.png" alt="" title="" />
+			<img src="/images/pref.png" alt="" title="" />
 
-			<a href="http://www.nicta.com.au/category/research/optimisation/" class="center"> <h3>Supported By:</h3><img src="images/nicta.png" alt="" title="NICTA" /></a>
+			<a href="http://www.nicta.com.au/category/research/optimisation/" class="center"> <h3>Supported By:</h3><img src="/images/nicta.png" alt="" title="NICTA" /></a>
 			</p>
 		</div>
 	
@@ -68,7 +68,7 @@
 		<!-- Links -->
 		<div class="grid_4">
 			<h5 style=text-align:center> Links </h5>
-			<?php include "./common/links.php"; ?>
+			<?php require_once($_SERVER['DOCUMENT_ROOT'] . '/common/links.php'); ?>
 		</div>
 	
 		<!-- Break Page... -->
@@ -97,7 +97,7 @@
 		</div>
 	
 		<!-- Break and Footer -->
-		<?php include "./common/foot.php"; ?>
+		<?php require_once($_SERVER['DOCUMENT_ROOT'] . '/common/foot.php'); ?>
 	
 	</div>
 </body>

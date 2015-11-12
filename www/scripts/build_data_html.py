@@ -156,6 +156,40 @@ BREAK_AND_FOOTER = \
 	'''
 
 
+def make_listing_page(meta_data, file_list):
+  """
+  Generate a per dataset index file to sit alongside 
+  the info.txt file.  All HTML is encoded in this 
+  function.
+
+  Parameters
+  -----------
+  meta_data: list
+ 	meta data for the dataset.
+  	0: Name:
+	1: Abbreviation:
+	2: Extension:
+	3: Series Number:
+	4: Path:
+	5: Description:
+	6: Required Citations:
+	7: Selected Studies:
+			
+  file_list: string
+    Listing of the files for the dataset.
+    0: description,status,file_name
+	1: # -- File List -- CSV.
+
+
+  Returns
+  -----------
+    None:
+
+  Notes
+  -----------
+  	Writes HTML file to the same directory location as the 
+  	info.txt file came from.
+  """
 
 if __name__ == '__main__':
 
@@ -185,8 +219,7 @@ if __name__ == '__main__':
 			os.system("zip --filesync --junk-paths " + subdir + name + ".zip " + subdir + "*")
 	'''
 
-	#(2) Recurse the directories and make 
-	#Datapage is:
+	#(2) Recurse the directories to build the index and the make the top level index page.
 	data_index_page = HEAD_AND_MENU + DATA_INDEX_INTRO + PICTURES_AND_LINKS + '''\n\n
 		<!-- Generated Content -->
 		<div class="grid_8">\n'''
@@ -215,8 +248,8 @@ if __name__ == '__main__':
 			listing = lines[8:]
 			info = [x.split(": ")[1].strip() for x in info]
 
-			#Make a Data Page...
-			#make_listing_page(info, listing)
+			#Call to make per directory index page.
+			make_listing_page(info, listing)
 
 			name = info[2] + "-" + info[3] + ": " + info[0]
 			link = WEB_DATA_ROOT + info[4] + "/" + info[1] + ".php"

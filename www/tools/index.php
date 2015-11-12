@@ -1,12 +1,12 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head>
-	<?php include "./common/head.php"; ?>
+	<?php require_once($_SERVER['DOCUMENT_ROOT'] . '/common/head.php'); ?>
 </head>
 
 <body>
 	<div class="container_12">
-		<?php include "./common/menu.php"; ?>
+		<?php require_once($_SERVER['DOCUMENT_ROOT'] . '/common/menu.php'); ?>
 
 		<!-- Tools Intro -->
 		<div class="grid_7"> 
@@ -33,9 +33,9 @@
 		<!-- Pictures and Links -->
 		<div class="grid_5">
 			<p>
-			<img src="images/pref.png" alt="" title="" />
+			<img src="/images/pref.png" alt="" title="" />
 
-			<a href="http://www.nicta.com.au/category/research/optimisation/" class="center"> <h3>Supported By:</h3><img src="images/nicta.png" alt="" title="NICTA" /></a>
+			<a href="http://www.nicta.com.au/category/research/optimisation/" class="center"> <h3>Supported By:</h3><img src="/images/nicta.png" alt="" title="NICTA" /></a>
 			</p>
 		</div>
 
@@ -49,13 +49,18 @@
 			<h4 style=text-align:center> Contributed Tools </h4>
 
 			<div class="news_box">
-				<h6><a href="tools/ivs.php">Iterative Voting Simulator</a></h6>
+				<h6><a href="/tools/ivs.php">Iterative Voting Simulator</a></h6>
 				<p>This is a voting simulator built for the paper <a href="http://arxiv.org/abs/1404.4688">A Local-Dominance Theory of Voting Equilibria</a>. We are releasing its source code to be expanded and enhanced by the community. However, it is quite versatile in its current construction, and can be used for various simulations "as is".</p> 
 			</div>
 
 			<div class="news_box">
-				<h6><a href="tools/kidney.php">Kidney Dataset Generator</a></h6>
+				<h6><a href="/tools/kidney.php">Kidney Dataset Generator</a></h6>
 				<p>Kidney failure is a life-threatening health issue that affects hundreds of thousands of people worldwide. In the US alone, the waitlist for a kidney transplant has over 100,000 patients. This list is growing: demand far outstrips supply.This codebase includes: structural elements of kidney exchange like "pools", "hospitals", and "pairs", a couple of kidney exchange graph generators, a couple of kidney exchange solvers (max weight, failure-aware, fairness-aware, individually rational), and a dynamic kidney exchange simulator.</p> 
+			</div>
+
+			<div class="news_box">
+				<h6><a href="/tools/crisner.php">CRISNER: A Qualitative Preference Reasoner for CP-nets, TCP-nets, CP-Theories</a></h6>
+				<p>CRISNER stands for Conditional and Relative Importance Statement Network PrEference Reasoner. It can reason about ceteris paribus preference languages such as CP-nets, TCP-nets and CP-theories.	Given a preference specification (a set of preference statements) in one of these languages, CRISNER succinctly encodes its induced preference graph (IPG) into a Kripke structure model in the language of the NuSMV model checker. This Kripke model is reachability-equivalent to the induced preference graph. CRISNER generates the model only once, and then translates each query posed against this preference specification into a temporal logic formula in computation-tree temporal logic (CTL) such that the formula is verified in the Kripke model if and only if the query holds true according to the ceteris paribus semantics of the preference language. The model checker either affirms the query or returns with a counterexample. For answering queries related to equivalence and subsumption checking of two sets of preferences, CRISNER constructs a combined IPG and uses temporal queries in CTL to identify whether every dominance that holds in one also holds in the other, and vice-versa.</p> 
 			</div>
 		</div>
 
@@ -63,11 +68,11 @@
 		<div class="grid_1"><p>  &nbsp; </p></div>
 		<div class="grid_4">
 			<h5 style=text-align:center> Links </h5>
-			<?php include "./common/links.php"; ?>
+			<?php require_once($_SERVER['DOCUMENT_ROOT'] . '/common/links.php'); ?>
 		</div>
 	
 		<!-- Break and Footer -->
-		<?php include "./common/foot.php"; ?>
+		<?php require_once($_SERVER['DOCUMENT_ROOT'] . '/common/foot.php'); ?>
 	</div> 
 </body>
 </html>
