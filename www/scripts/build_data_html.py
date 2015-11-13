@@ -157,7 +157,7 @@ BREAK_AND_FOOTER = \
 
 
 def make_listing_page(meta_data, file_list):
-  """
+    """
   Generate a per dataset index file to sit alongside 
   the info.txt file.  All HTML is encoded in this 
   function.
@@ -189,93 +189,129 @@ def make_listing_page(meta_data, file_list):
   -----------
   	Writes HTML file to the same directory location as the 
   	info.txt file came from.
-  """
-  pass
+    """
+    print("*** Writing " + meta_data[4])
+    print(meta_data)
+    print(file_list)
+    
+    html_page = HEAD_AND_MENU
+
+    # Build Top Stuff.
+    html_page += '''\n\n&nbsp;<div class="grid_7">\n'''
+    html_page += '''<h6>''' + info[2] + "-" + info[3] + ": " + info[0] + '''</h6>\n'''
+
+    # Description.
+    html_page += info[5]
+
+    # Required Citations
+    html_page += '''\n\n<p><h6>Required Citations</h6> \n''' + info[6] + '''</p>\n\n'''
+
+    # Selected Citations
+    html_page += '''<p><h6>Selected Citations Using This Dataset</h6> \n''' + info[7] + '''</p>\n\n'''
+
+    # Break and zip Archive.
+    # Get file size...
+    #Grab file size...
+    cmdstr = "ls -lh " + data_root_preflib+pack_path+stem+".zip"
+    c = subprocess.check_output([cmdstr], shell=True)
+    size = str(c).strip().split(" ")
+
+    # File List
+
+    #Bottom Stuff.
+    html_page += BREAK_AND_FOOTER
+
+    print(file_list)
+
+    print(html_page)
+    exit()
+    #with open(DATA_ROOT+ meta_data[4] + "/index.php", 'w') as f:
+    #    f.write(data_page)
 
 if __name__ == '__main__':
 
 	#(1) Ensure Consistancy of Data Packs by file extension and also by directory.
 	# Count Hash
-	'''
-	pack_counts = {x: 0 for x in EXTENSIONS}
+    print("\t\t *** Updating Data Pack Zips with --filesync *** ")
+    pack_counts = {x: 0 for x in EXTENSIONS}
 
 	#use some wicked system calls to do this... note we are using the --filesync option so this will make the ZIPS EXACT!
-	for ext in EXTENSIONS:
-		count = os.system("find " + DATA_ROOT + " -type f -name '*." + ext + "' -print | zip --filesync --junk-paths " + DATA_ROOT + PACK_LOCATION + ext + " -@")
-		cmdstr = "find " + DATA_ROOT + " -type f -name '*." + ext + "' -print | wc -l"
-		
-		c = subprocess.check_output([cmdstr], shell=True)
-		c = str(c).strip().replace("\\n'", "")
-		pack_counts[ext] = int(c.strip().split(" ")[len(c.strip().split(" "))-1])
-		print(pack_counts)
-	'''
-	# Create an FS zip file for each one of the data directories.
+    for ext in EXTENSIONS:
+        print(" *** Updating " + ext + " Pack *** ")
+        count = os.system("find " + DATA_ROOT + " -type f -name '*." + ext + "' -print | zip --filesync --junk-paths " + DATA_ROOT + PACK_LOCATION + ext + " -@")
+        cmdstr = "find " + DATA_ROOT + " -type f -name '*." + ext + "' -print | wc -l"
+    	
+        c = subprocess.check_output([cmdstr], shell=True)
+        c = str(c).strip().replace("\\n'", "")
+        pack_counts[ext] = int(c.strip().split(" ")[len(c.strip().split(" "))-1])
 
 	# Recurse through all the data directories make sure there are up to date zips for each one.
-	'''
-	for ctype in DATA_TYPES:
-		for subdir in glob.glob(DATA_ROOT + ctype + "/*/"):
-			#Somewhat hacky to include the info but not the .DS_Store.
-			name = os.path.basename(os.path.normpath(subdir))
-			os.system("zip --filesync --junk-paths " + subdir + name + ".zip " + subdir + "*")
-	'''
+    print("\n\n\t\t *** Updating Dataset Packs *** ")
+    for ctype in DATA_TYPES:
+    	for subdir in glob.glob(DATA_ROOT + ctype + "/*/"):
+            print(" *** Checking " + subdir + " *** ")
+    		#Somewhat hacky to include the info but not the .DS_Store.
+            name = os.path.basename(os.path.normpath(subdir))
+            os.system("zip --filesync --junk-paths " + subdir + name + ".zip " + subdir + "*")
 
-	#(2) Recurse the directories to build the index and the make the top level index page.
-	data_index_page = HEAD_AND_MENU + DATA_INDEX_INTRO + PICTURES_AND_LINKS + '''\n\n
-		<!-- Generated Content -->
-		<div class="grid_8">\n'''
+    #(2) Recurse the directories to build the index and the make the top level index page.
+    print("\n\n\t\t *** Building Index Pages *** ")
+    data_index_page = HEAD_AND_MENU + DATA_INDEX_INTRO + PICTURES_AND_LINKS + '''\n\n
+    	<!-- Generated Content -->
+    	<div class="grid_8">\n'''
 
-	index = {x:{} for x in DATA_TYPES}
-	for i,ctype in enumerate(DATA_TYPES):
-		for subdir in glob.glob(DATA_ROOT + ctype + "/*/"):
-			#Open the INFO file and extract information (blanks between each).
-			# Name:
-			# Abbreviation:
-			# Extension:
-			# Series Number:
-			# Path:
-			# Description:
-			# Required Citations:
-			# Selected Studies:
-			#description,status,file_name
-			# -- File List --
+    index = {x:{} for x in DATA_TYPES}
+    for i,ctype in enumerate(DATA_TYPES):
+    	for subdir in glob.glob(DATA_ROOT + ctype + "/*/"):
+    		#Open the INFO file and extract information (blanks between each).
+    		# Name:
+    		# Abbreviation:
+    		# Extension:
+    		# Series Number:
+    		# Path:
+    		# Description:
+    		# Required Citations:
+    		# Selected Studies:
+    		#description,status,file_name
+    		# -- File List --
 
-			# Build a Hash NUMBER --> output statement.
+    		# Build a Hash NUMBER --> output statement.
 
-			with open(subdir+"info.txt", 'r') as f:
-				lines = list(filter(None, (line.strip() for line in f)))
-			# Extract and process info and listing
-			info = lines[:7]
-			listing = lines[8:]
-			info = [x.split(": ")[1].strip() for x in info]
+    		with open(subdir+"info.txt", 'r') as f:
+    			lines = list(filter(None, (line.strip() for line in f)))
+    		# Extract and process info and listing
+    		info = lines[:8]
+    		listing = lines[8:]
+    		info = [x.split(": ")[1].strip() for x in info]
 
-			#Call to make per directory index page.
-			make_listing_page(info, listing)
+    		#Call to make per directory index page.
+    		make_listing_page(info, listing)
 
-			name = info[2] + "-" + info[3] + ": " + info[0]
-			link = WEB_DATA_ROOT + info[4] + "/"
-			desc = info[5].split("</p>")[0].strip() + "</p>"
+    		name = info[2] + "-" + info[3] + ": " + info[0]
+    		link = WEB_DATA_ROOT + info[4] + "/"
+    		desc = info[5].split("</p>")[0].strip() + "</p>"
 
-			#Build description string.
-			html = '''<div class="news_box"><h6><a href=" ''' + link + ''' "> ''' + name + '''</a></h6>'''+desc+'''</div>'''
+    		#Build description string.
+    		html = '''<div class="news_box"><h6><a href=" ''' + link + ''' "> ''' + name + '''</a></h6>'''+desc+'''</div>'''
 
-			# Add it to the index...
-			index[ctype][int(info[3])] = html
+    		# Add it to the index...
+    		index[ctype][int(info[3])] = html
 
-		#Print the output to the index page in numerical order.
-		data_index_page += '''\n<h4 style=text-align:center> ''' + DATA_NAMES[i] + '''</h4>''' + LINK_NAMES[i] + '\n'
-		if len(index[ctype]) == 0:
-			data_index_page += '''\n\n <p style=text-align:center>No Sets Yet, Please Donate!</p>\n\n'''
-		else:
-			for k in sorted(index[ctype]):
-				data_index_page += index[ctype][k] + "\n\n"
+    	#Print the output to the index page in numerical order.
+    	data_index_page += '''\n<h4 style=text-align:center> ''' + DATA_NAMES[i] + '''</h4>''' + LINK_NAMES[i] + '\n'
+    	if len(index[ctype]) == 0:
+    		data_index_page += '''\n\n <p style=text-align:center>No Sets Yet, Please Donate!</p>\n\n'''
+    	else:
+    		for k in sorted(index[ctype]):
+    			data_index_page += index[ctype][k] + "\n\n"
 
-		#Clearing spacer between types..
-		data_index_page += '''\n\n<div class="clear"></div> <div class="grid_8 spacer"></div>\n\n'''
+    	#Clearing spacer between types..
+    	data_index_page += '''\n\n<div class="clear"></div> <div class="grid_8 spacer"></div>\n\n'''
 
-	data_index_page += '''\n </div> \n ''' + LINKS + BREAK_AND_FOOTER
-	with open(DATA_ROOT+"index.php", 'w') as f:
-		f.write(data_index_page)
+    data_index_page += '''\n </div> \n ''' + LINKS + BREAK_AND_FOOTER
+    with open(DATA_ROOT+"index.php", 'w') as f:
+    	f.write(data_index_page)
+    print("*** Wrote /data/index.php")
 
-	#(4) Make Pack Index Page.
+    #(4) Make Pack Index Page.
 
