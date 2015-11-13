@@ -60,6 +60,7 @@ DATA_NAMES = ["Election Data", "Matching Data", "Rating and Combinatorial Prefer
 LINK_NAMES = ['''<a name = "ed"></a>''', '''<a name = "md"></a>''', '''<a name = "cd"></a>''', '''<a name = "od"></a>''']
 
 EXTENSIONS = ["soc", "soi", "toc", "toi", "tog", "mjg", "wmg", "pwg", "wmd"]
+
 NAMES = [	"Strict Order - Complete List", 
 			"Strict Order - Incomplete List", 
 			"Tied Order - Complete List", 
@@ -68,6 +69,32 @@ NAMES = [	"Strict Order - Complete List",
 			"Weighted Majority Graph", 
 			"Pairwise Graph", 
 			"Weighted Matching Data"]
+
+EXTENSION_LONG = { "soc":"Strict Order - Complete", 
+                   "soi":"Strict Order - Incomplete",
+                    "toc":"Order with Ties - Complete",
+                    "toi":"Order with Ties - Incomplete",
+                    "tog":"Tournament Graph",
+                    "mjg":"Majority Graph", 
+                    "wmg":"Weighted Majority Graph",
+                    "pwg":"Pairwise Graph",
+                    "wmd":"Weighted Matching Data",
+                    "zip":"Zipped Data File",
+                    "dat":"Extra Data File (CSV)"}
+
+FORMAT_LINKS = {    "soc":"/data/format.php#soc", 
+                    "soi":"/data/format.php#soi",
+                    "toc":"/data/format.php#toc",
+                    "toi":"/data/format.php#toi",
+                    "tog":"/data/format.php#tog",
+                    "mjg":"/data/format.php#mjg", 
+                    "wmg":"/data/format.php#wmg",
+                    "pwg":"/data/format.php#pwg",
+                    "wmd":"/data/format.php#wmd",
+                    "zip":"/data/format.php#data",
+                    "dat":"/data/format.php#data"}
+
+
 
 
 #
@@ -198,7 +225,7 @@ def make_listing_page(meta_data, file_list):
 
     # Build Top Stuff.
     html_page += '''\n\n&nbsp;<div class="grid_7">\n'''
-    html_page += '''<h6>''' + info[2] + "-" + info[3] + ": " + info[0] + '''</h6>\n'''
+    html_page += '''<h5>''' + info[2] + "-" + info[3] + ": " + info[0] + '''</h5>\n'''
 
     # Description.
     html_page += info[5]
@@ -209,24 +236,60 @@ def make_listing_page(meta_data, file_list):
     # Selected Citations
     html_page += '''<p><h6>Selected Citations Using This Dataset</h6> \n''' + info[7] + '''</p>\n\n'''
 
-    # Break and zip Archive.
+    html_page += '''</div>'''
+    html_page += PICTURES_AND_LINKS
+
+    # Download All Section.
     # Get file size...
     #Grab file size...
-    cmdstr = "ls -lh " + data_root_preflib+pack_path+stem+".zip"
+    cmdstr = "du -h " + DATA_ROOT + info[4] + "/" + info[1] + ".zip"
     c = subprocess.check_output([cmdstr], shell=True)
-    size = str(c).strip().split(" ")
+    size = str(c.decode('ascii')).strip()
+    size = size.split("\t")
+    size = size[0].strip()
+    
+    html_page += '''\n\n<div class="grid_12"><p><ul><h5 style="text-align:center;"><a href=" ''' + "/data/" + info[4] + "/" + info[1] + ".zip" + ''' ">Download This Complete Dataset (''' + str(size) + ''').</a></h5></ul></p></div>'''
 
-    # File List
+    html_page += '''\n\n<!-- Break Page... -->
+                    <div class="clear"></div>
+                    <div class="grid_12 spacer"></div>
+                    <div class="clear"></div>
+                '''
+
+    # Make the Table...
+    html_page += ''' 
+                    <div class="grid_12">
+                    <table class="DataTable">
+                    <tr><th>Description</th><th>Type</th><th>Modification</th><th>File Name</th><th>File Size</th></tr>\n
+                    '''
+    file_list = file_list[1:]
+    for cline in file_list:
+        desc, status, fname = cline.strip().split(",")
+        desc = desc.strip()
+        status = status.strip()
+        fname = fname.strip()
+
+        link = "/data/" + info[4] + "/" + fname
+        cmdstr = "du -h " + DATA_ROOT + info[4]  + "/" + fname
+        c = subprocess.check_output([cmdstr], shell=True)
+        size = str(c.decode('ascii')).strip()
+        size = size.split("\t")
+        size = size[0].strip()
+        extension = fname.split(".")[1].strip()
+
+        html_page += " <tr><td> " + desc + " </td><td> <a href=\"" + FORMAT_LINKS[extension] + "\">" + EXTENSION_LONG[extension] + "</a></td> <td> " +  status + ''' </td> <td> <a href="''' + link + "\" onClick=\"_gaq.push(['_trackEvent', 'Download', 'individual', '" + fname + "']);\">" + fname + "</a> </td><td> " + size + "</td></tr> \n\n"
+                    
+
+    html_page +=  '''
+    </table>
+    </div>\n\n'''
+
 
     #Bottom Stuff.
     html_page += BREAK_AND_FOOTER
-
-    print(file_list)
-
-    print(html_page)
-    exit()
-    #with open(DATA_ROOT+ meta_data[4] + "/index.php", 'w') as f:
-    #    f.write(data_page)
+    
+    with open(DATA_ROOT+ meta_data[4] + "/index.php", 'w') as f:
+        f.write(html_page)
 
 if __name__ == '__main__':
 
@@ -252,7 +315,7 @@ if __name__ == '__main__':
             print(" *** Checking " + subdir + " *** ")
     		#Somewhat hacky to include the info but not the .DS_Store.
             name = os.path.basename(os.path.normpath(subdir))
-            os.system("zip --filesync --junk-paths " + subdir + name + ".zip " + subdir + "*")
+            os.system("zip --filesync --junk-paths " + subdir + name + ".zip " + subdir + "* -x *.php")
 
     #(2) Recurse the directories to build the index and the make the top level index page.
     print("\n\n\t\t *** Building Index Pages *** ")
@@ -314,4 +377,4 @@ if __name__ == '__main__':
     print("*** Wrote /data/index.php")
 
     #(4) Make Pack Index Page.
-
+    # TODO!

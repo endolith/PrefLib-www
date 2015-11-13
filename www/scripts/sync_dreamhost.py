@@ -48,30 +48,32 @@ About
 import sys
 import os
 import argparse
+import build_data_html
 
 if __name__ == '__main__':
-	#
-	# Setup ARGPARSE for the above.
-	#
+    #
+    # Setup ARGPARSE for the above.
+    #
 
-	parser = argparse.ArgumentParser(description= \
-		'''
-		A wrapper around system calls to build the PrefLib webiste.
-		Requires that you have SSH Key access to the server at www.preflib.org and www.dev.preflib.org.
-		''')
-	parser.add_argument('-rb', '--rebuild', action='store_true', default=False, dest='rebuild', help= '''Rebuild the index before doing anything.''')
-	parser.add_argument('-m', '--main', action='store_true', default=False, dest='main', help='''Push to the main site.''')
-	results = parser.parse_args()
+    parser = argparse.ArgumentParser(description= \
+    	'''
+    	A wrapper around system calls to build the PrefLib webiste.
+    	Requires that you have SSH Key access to the server at www.preflib.org and www.dev.preflib.org.
+    	''')
+    parser.add_argument('-rb', '--rebuild', action='store_true', default=False, dest='rebuild', help= '''Rebuild the index before doing anything.''')
+    parser.add_argument('-m', '--main', action='store_true', default=False, dest='main', help='''Push to the main site.''')
+    results = parser.parse_args()
 
-	if results.rebuild:
-		print(" *** Rebuilding Site Index *** ")
-		os.system("python3 build_data_html.py")
+    if results.rebuild:
+        print(" *** Rebuilding Site Index *** ")
+        os.system("python3 build_data_html.py")
+        #print(build_data_html.main())
 
-	# Sync EVERYTHING to DEV.
-	print(" *** Pushing ENTIRE www directory to DEV@DREAMHOST *** ")
-	os.system('''rsync --recursive --times --verbose --progress --compress --delete-after --exclude="*.DS_Store" /Users/Nick/repo/github/PrefLib-www.git/www/ koolkamel@www.preflib.org:~/dev.preflib.org''')
+    # Sync EVERYTHING to DEV.
+    print(" *** Pushing ENTIRE www directory to DEV@DREAMHOST *** ")
+    os.system('''rsync --recursive --times --verbose --progress --compress --delete-after --exclude="*.DS_Store" /Users/Nick/repo/github/PrefLib-www.git/www/ koolkamel@www.preflib.org:~/dev.preflib.org''')
 
 
-	# Do a main push but don't take the .htaccess and .htpassword
-	if results.main:
-		os.system('''rsync --recursive --times --verbose --progress --compress --delete-after --exclude="*.DS_Store" --exclude=".htaccess" --exclude=".htpasswd" /Users/Nick/repo/github/PrefLib-www.git/www/ koolkamel@www.preflib.org:~/www.preflib.org''')
+    # Do a main push but don't take the .htaccess and .htpassword
+    if results.main:
+    	os.system('''rsync --recursive --times --verbose --progress --compress --delete-after --exclude="*.DS_Store" --exclude=".htaccess" --exclude=".htpasswd" /Users/Nick/repo/github/PrefLib-www.git/www/ koolkamel@www.preflib.org:~/www.preflib.org''')
