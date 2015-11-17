@@ -54,8 +54,8 @@
 	
 
 
-    	<!-- Generated Content -->
-    	<div class="grid_8">
+					<!-- Generated Content -->
+					<div class="grid_8">
 
 <h4 style=text-align:center> Election Data</h4><a name = "ed"></a>
 <div class="news_box"><h6><a href=" /data/election/irish/ "> ED-00001: Irish Election Data</a></h6><p>The Dublin North, West, and Meath data sets contain a complete record of votes for two separate elections held in Dublin, Ireland in 2002.  The votes were posted <a href="http://www.dublincountyreturningofficer.com/">online</a> but have since been removed.</p></div>
