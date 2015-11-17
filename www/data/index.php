@@ -24,7 +24,7 @@
 					<li>XX is a 2 letter category code from above. </li> 
 					<li>##### is a 5 digit Series Code which specifies the source of the data. </li>
 					<li>######## is an 8 digit Element Number for each individual file of a series.
-					<li>EXT which is a unique <a href="./format.php">file extension</a> describing the type of data in the file.
+					<li>EXT which is a unique <a href="./data/format.php">file extension</a> describing the type of data in the file.
 				</ul>
 				</p>
 

@@ -62,19 +62,11 @@ LINK_NAMES = ['''<a name = "ed"></a>''', '''<a name = "md"></a>''', '''<a name =
 
 EXTENSIONS = ["soc", "soi", "toc", "toi", "tog", "mjg", "wmg", "pwg", "wmd"]
 
-NAMES = [	"Strict Order - Complete List", 
-			"Strict Order - Incomplete List", 
-			"Tied Order - Complete List", 
-			"Tied Order - Incomplete List", 
-			"Tournament Graph", "Majority Graph", 
-			"Weighted Majority Graph", 
-			"Pairwise Graph", 
-			"Weighted Matching Data"]
 
-EXTENSION_LONG = { "soc":"Strict Order - Complete", 
-																			"soi":"Strict Order - Incomplete",
-																				"toc":"Order with Ties - Complete",
-																				"toi":"Order with Ties - Incomplete",
+EXTENSION_LONG = { "soc":"Strict Order - Complete List", 
+																			"soi":"Strict Order - Incomplete List",
+																				"toc":"Order with Ties - Complete List",
+																				"toi":"Order with Ties - Incomplete List",
 																				"tog":"Tournament Graph",
 																				"mjg":"Majority Graph", 
 																				"wmg":"Weighted Majority Graph",
@@ -132,7 +124,7 @@ DATA_INDEX_INTRO = \
 					<li>XX is a 2 letter category code from above. </li> 
 					<li>##### is a 5 digit Series Code which specifies the source of the data. </li>
 					<li>######## is an 8 digit Element Number for each individual file of a series.
-					<li>EXT which is a unique <a href="./format.php">file extension</a> describing the type of data in the file.
+					<li>EXT which is a unique <a href="./data/format.php">file extension</a> describing the type of data in the file.
 				</ul>
 				</p>
 
@@ -426,7 +418,48 @@ def build_data_pages():
 				print("*** Wrote /data/index.php")
 
 				#(4) Make Pack Index Page.
-				# TODO!
+				print("\n\n\t\t *** Building Data Pack Index Page *** ")
+				packs_index = HEAD_AND_MENU
+				packs_index += '''<div class="grid_7"><h5> Data Types </h5>\n<p>We currently have ''' + str(len(EXTENSIONS)) + ''' distinct data file types on the site.  Please click on the particular data type to download all files of that type, regardless of data set or catagory.  For information on the types of data on this site, please see <a href="/data/format.php">Data Formats</a>.\n <ul>'''
+
+				for i in EXTENSIONS:
+					packs_index += '''<li><a href="''' + FORMAT_LINKS[i] + '''">''' + i + ''' - ''' + EXTENSION_LONG[i] + '''</a></li>\n'''
+
+				packs_index += '''</ul>\n</p>\n</div>'''
+				packs_index += PICTURES_AND_LINKS
+				packs_index += '''\n\n
+					<!-- Generated Content -->
+					<div class="grid_8">\n'''
+
+				#Make listing...
+				#make a count hash...
+				counts = {x: 0 for x in EXTENSIONS}
+
+				#use some wicked system calls to do this...
+				for ext in EXTENSIONS:
+					cmdstr = "find " + DATA_ROOT + " -type f -name '*." + ext + "' -print | wc -l"
+					c = subprocess.check_output([cmdstr], shell=True)
+					c = str(c).strip().replace("\\n'", "")
+					counts[ext] = int(c.strip().split(" ")[len(c.strip().split(" "))-1])
+
+				for i,ext in enumerate(EXTENSIONS):
+					packs_index += '''<div class="news_box"><h5>''' + EXTENSION_LONG[ext] + '''</h5>\n<p>\nWe currently have ''' + str(counts[ext]) + ''' data files with an <b>''' + ext + '''</b> extension on the site. \n'''
+
+					if counts[ext] > 0:
+						packs_index += '''<a href="/data/packs/''' + ext + '''.zip" onClick="_gaq.push(['_trackEvent', 'Download', 'pack', '''' + ext + '''']);">Click Here To Download.</a> <br><br>\n'''
+					else:
+						packs_index += ''' Please Donate!!! <br><br>\n'''
+
+					packs_index += '''For information on the types of data on this site, please see <a href="/data/format.php">Data Formats</a>.</p></div>\n<br>\n\n'''
+
+				packs_index += '''</div>\n'''
+
+				packs_index += LINKS + BREAK_AND_FOOTER
+				with open(DATA_ROOT+"packs/index.php", 'w') as f:
+					f.write(packs_index)
+				print("*** Wrote /data/packs/index.php")
+
+ 
 
 
 if __name__ == '__main__':
