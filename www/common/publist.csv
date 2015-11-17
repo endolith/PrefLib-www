@@ -1,7 +1,55 @@
 * Publication Database for PrefLib.
 * Title ; Authors ; Info ; Year |
 
+Strategyproof Peer Selection: Mechanisms, Analyses, and Experiments; 
+Haris Aziz, Omer Lev, Nicholas Mattei, Jeffery S. Rosenschein, and Toby Walsh;
+30th AAAI Conference on Artificial Intelligence (AAAI 2016);
+2016 |
 
+Equilibria Under the Probabilistic Serial Rule ;
+Haris Aziz, Serge Gaspers, Simon Mackenzie, Nicholas Mattei, Nina Narodytska, and Toby Walsh ;
+24th International Joint Conference on Artificial Intelligence (IJCAI 2015) ;
+2015 |
+
+Manipulating the Probabilistic Serial Rule ;
+Haris Aziz, Serge Gaspers, Simon Mackenzie, Nicholas Mattei, Nina Narodytska, and Toby Walsh ;
+14th International Conference on Autonomous Agents and Multiagent Systems (AAMAS 2015) ;
+2015 |
+
+Voting with Rank Dependent Scoring Rules ;
+Judy Goldsmith, Jerome Lang, Nicholas Mattei, and Patrice Perny ;
+28th AAAI Conference on Artificial Intelligence (AAAI 2014) ; 
+2014 | 
+
+A study of human behavior in online voting ;
+M. Tal, R. Meir, and Y. Kobi Gal ;
+Proceedings of AAMAS ;
+2015 |
+
+The complexity of recognizing incomplete single-crossing preferences ;
+E. Elkind, P. Faliszewski, M. Lackner, and S. Obraztsova ;
+Proceedings of AAAI ;
+2015 |
+
+Complexity of Manipulative Actions When Voting with Ties ;
+Z. Fitzsimmons and Edith Hemaspaandra ; 
+Algorithmic Decision Theory ;
+2015 |
+
+Conventional machine learning for social choice ;
+J. A. Doucette, Kate Larson, and Robin Cohen ;
+Twenty-Ninth AAAI Conference on Artificial Intelligence (AAAI) ;
+2015 |
+
+Privacy in Elections: k-Anonymizing Preference Orders;
+N. Talmon ;
+Fundamentals of Computation Theory ;
+2015 |
+
+Pnyx: A Powerful and User-friendly Tool for Preference Aggregation;
+Felix Brandt, Guillaume Chabin, and Christian Geist;
+Proceedings of AAMAS;
+2015|
 
 DEMOCRATIX: A Declarative Approach to Winner Determination ;
 G. Charwat and A. Pfandler ;

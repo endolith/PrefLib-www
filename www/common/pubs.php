@@ -1,4 +1,22 @@
 <ol reversed>
+<li class="wide"> <a href="http://scholar.google.com/scholar?as_q=Strategyproof+Peer+Selection:+Mechanisms,+Analyses,+and+Experiments">Strategyproof Peer Selection: Mechanisms, Analyses, and Experiments.</a> Haris Aziz, Omer Lev, Nicholas Mattei, Jeffery S. Rosenschein, and Toby Walsh. 30th AAAI Conference on Artificial Intelligence (AAAI 2016), 2016. </li>
+<li class="wide"> <a href="http://scholar.google.com/scholar?as_q=Equilibria+Under+the+Probabilistic+Serial+Rule">Equilibria Under the Probabilistic Serial Rule.</a> Haris Aziz, Serge Gaspers, Simon Mackenzie, Nicholas Mattei, Nina Narodytska, and Toby Walsh. 24th International Joint Conference on Artificial Intelligence (IJCAI 2015), 2015. </li>
+
+<li class="wide"> <a href="http://scholar.google.com/scholar?as_q=Manipulating+the+Probabilistic+Serial+Rule">Manipulating the Probabilistic Serial Rule.</a> Haris Aziz, Serge Gaspers, Simon Mackenzie, Nicholas Mattei, Nina Narodytska, and Toby Walsh. 14th International Conference on Autonomous Agents and Multiagent Systems (AAMAS 2015), 2015. </li>
+
+<li class="wide"> <a href="http://scholar.google.com/scholar?as_q=A+study+of+human+behavior+in+online+voting">A study of human behavior in online voting.</a> M. Tal, R. Meir, and Y. Kobi Gal. Proceedings of AAMAS, 2015. </li>
+
+<li class="wide"> <a href="http://scholar.google.com/scholar?as_q=The+complexity+of+recognizing+incomplete+single-crossing+preferences">The complexity of recognizing incomplete single-crossing preferences.</a> E. Elkind, P. Faliszewski, M. Lackner, and S. Obraztsova. Proceedings of AAAI, 2015. </li>
+
+<li class="wide"> <a href="http://scholar.google.com/scholar?as_q=Complexity+of+Manipulative+Actions+When+Voting+with+Ties">Complexity of Manipulative Actions When Voting with Ties.</a> Z. Fitzsimmons and Edith Hemaspaandra. Algorithmic Decision Theory, 2015. </li>
+
+<li class="wide"> <a href="http://scholar.google.com/scholar?as_q=Conventional+machine+learning+for+social+choice">Conventional machine learning for social choice.</a> J. A. Doucette, Kate Larson, and Robin Cohen. Twenty-Ninth AAAI Conference on Artificial Intelligence (AAAI), 2015. </li>
+
+<li class="wide"> <a href="http://scholar.google.com/scholar?as_q=Privacy+in+Elections:+k-Anonymizing+Preference+Orders">Privacy in Elections: k-Anonymizing Preference Orders.</a> N. Talmon. Fundamentals of Computation Theory, 2015. </li>
+
+<li class="wide"> <a href="http://scholar.google.com/scholar?as_q=Pnyx:+A+Powerful+and+User-friendly+Tool+for+Preference+Aggregation">Pnyx: A Powerful and User-friendly Tool for Preference Aggregation.</a> Felix Brandt, Guillaume Chabin, and Christian Geist. Proceedings of AAMAS, 2015. </li>
+<li class="wide"> <a href="http://scholar.google.com/scholar?as_q=Voting+with+Rank+Dependent+Scoring+Rules">Voting with Rank Dependent Scoring Rules.</a> Judy Goldsmith, Jerome Lang, Nicholas Mattei, and Patrice Perny. 28th AAAI Conference on Artificial Intelligence (AAAI 2014), 2014. </li>
+
 <li class="wide"> <a href="http://scholar.google.com/scholar?as_q=DEMOCRATIX:+A+Declarative+Approach+to+Winner+Determination">DEMOCRATIX: A Declarative Approach to Winner Determination.</a> G. Charwat and A. Pfandler. 5th Workshop on Computational Social Choice (COMSOC), 2014. </li>
 
 <li class="wide"> <a href="http://scholar.google.com/scholar?as_q=Theoretical+and+empirical+evaluation+of+data+reduction+for+exact+Kemeny+Rank+Aggregation">Theoretical and empirical evaluation of data reduction for exact Kemeny Rank Aggregation.</a> N. Betzler,  R. Bredereck and R. Niedermeier. Autonomous Agents and Multi-Agent Systems, 28(5):721-748, Springer, 2014. </li>

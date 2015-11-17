@@ -202,10 +202,8 @@ def make_study_html(studies):
 				info.txt file came from.
 
 		'''
-		print(studies)
 		bits = studies.strip().split("|")
 		bits = [x.strip() for x in bits]
-		print(bits)
 		if bits[0] == "None":
 				return "<li>None.</li>"
 		else:
@@ -250,8 +248,6 @@ def make_listing_page(meta_data, file_list):
 			info.txt file came from.
 		"""
 		print("*** Writing " + meta_data[4])
-		print(meta_data)
-		print(file_list)
 
 		html_page = HEAD_AND_MENU
 
@@ -383,9 +379,8 @@ def build_data_pages():
 						# Extract and process info and listing
 						info = lines[:8]
 						listing = lines[8:]
-						print(info)
-								# Catch here for extra : than the first... need to take 
-								# Everything after the first :...
+						# Catch here for extra : than the first... need to take 
+						# Everything after the first :...
 						info = [x[x.find(":")+1:].strip() for x in info]
 
 						#Call to make per directory index page.

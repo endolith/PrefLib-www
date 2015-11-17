@@ -13,6 +13,9 @@
 			<p> A reference library of preference data and links assembled by <a href="http://www.nickmattei.net">Nicholas Mattei</a> and <a href="http://www.cse.unsw.edu.au/~tw/">Toby Walsh</a>.  This site and library is proudly supported by the <a href="http://www.org.nicta.com.au">Optimization Research Group</a> at <a href="http://www.nicta.com.au">NICTA</a>. We currently house over 3,000 datasets for use by the community.</p>
 			
 			<p> We want to provide a comprehensive resource for the multuple research communities that deal with preferences, including computational social choice, recommender systems, data mining, machine learning, and combinatorial optimization, to name just a few.</p>
+
+			<p> For more information on PrefLib and some helpful tips on using it, please see <a href="
+			http://www.explore14.preflib.org/?page_id=11">Nick's Tutorial Slides and Code from EXPLORE 2014.</a></p>
 			
 			<p> Please see the <a href="/about.php">about</a> page for information about the site, contacting us, and our citation policy. We rely on the support of the community in order to grow the usefulness of this site.  To contribute, please contact <a href="http://www.nickmattei.net">Nicholas Mattei</a> at: nicholas<b>{dot}</b>mattei@nicta.com.au</p>
 		</div>
