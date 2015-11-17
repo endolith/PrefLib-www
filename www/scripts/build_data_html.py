@@ -211,8 +211,8 @@ def make_study_html(studies):
 		else:
 				html = ""
 				for c in bits:
-						title, author, venue = c.strip().split(";")
-						html += '''<li> <a href="http://scholar.google.com/scholar?as_q=''' + title.strip().replace(" ", "+") + '''">''' + title.strip() + '''.</a> ''' + author.strip() + '''. ''' + venue.strip() + '''. </li>\n'''
+						title, author, venue, year = c.strip().split(";")
+						html += '''<li> <a href="http://scholar.google.com/scholar?as_q=''' + title.strip().replace(" ", "+") + '''">''' + title.strip() + '''.</a> ''' + author.strip() + '''. ''' + venue.strip() + ''', ''' + year.strip() + '''. </li>\n'''
 		return html
 
 def make_listing_page(meta_data, file_list):
@@ -459,8 +459,55 @@ def build_data_pages():
 					f.write(packs_index)
 				print("*** Wrote /data/packs/index.php")
 
- 
+				#
+				# Make Pubs php.
+				#
+				print("\n\n\t\t *** Making Publications Page *** \n\n")
+				build_pubs_php()
+				print("*** Wrote /common/pubs.php")
 
+def build_pubs_php():
+		'''
+		Lazy and dirty to make the pubs.php in the /common/ folder
+		which is the lower include for papers.
+
+		Parameters
+		-----------
+			None
+
+		Returns
+		-----------
+			None
+
+		Notes
+		-----------
+				Writes HTML file to /common/pubs.php using a reverse order
+				list object.
+
+		'''
+		# Open, parse, discard all blank lines and merge them all.
+		with open("../common/publist.csv", 'r') as f:
+							lines = list(filter(None, (line.strip() for line in f)))
+		#Throw out lines with *..
+		lines = [l for l in lines if l[0] != '*']
+		lines = ''.join(lines)
+		
+		# Parse all the strings into a hash by year...
+		papers = {}
+		recs = lines.strip().split("|")
+		for crec in recs:
+			# Get list element.
+			title, author, venue, year = crec.strip().split(";")
+			html = '''<li class="wide"> <a href="http://scholar.google.com/scholar?as_q=''' + title.strip().replace(" ", "+") + '''">''' + title.strip() + '''.</a> ''' + author.strip() + '''. ''' + venue.strip() + ''', ''' + year.strip() + '''. </li>\n'''
+			papers[int(year.strip())] = papers.get(int(year.strip()), []) + [html]
+			
+		# Write it out...
+		with open("../common/pubs.php", 'w') as f:
+			f.write('''<ol reversed>\n''')
+			for c in sorted(papers.keys(), reverse=True):
+					f.write("\n".join(papers[c]))
+			f.write('''</ol>\n''')
+		
 
 if __name__ == '__main__':
 		build_data_pages()

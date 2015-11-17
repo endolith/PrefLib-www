@@ -12,7 +12,7 @@ Description: <p>This dataset contains the results of surveying students at <a hr
 
 Required Citations: None
 
-Selected Studies: Achieving Fully Proportional Representation is Easy in Practice; P. Skowron, P. Faliszewski, A. Slinko; Proceedings of AAMAS 2013 | Measuring Diversity of Preferences in a Group; V. Hashemi and U. Endriss; Proceedings of ECAI 2014
+Selected Studies: Achieving Fully Proportional Representation is Easy in Practice; P. Skowron, P. Faliszewski, A. Slinko; Proceedings of AAMAS; 2013 | Measuring Diversity of Preferences in a Group; V. Hashemi and U. Endriss; Proceedings of ECAI; 2014
 
 description,status,file_name
 2003 Registration,Induced,ED-00009-00000001.pwg

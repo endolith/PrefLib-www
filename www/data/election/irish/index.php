@@ -18,7 +18,7 @@
 <li>None.</li></ul></p>
 
 <p><h6>Selected Citations Using This Dataset</h6><p><ul> 
-<li> <a href="http://scholar.google.com/scholar?as_q=Budgeted+Social+Choice:+From+Consensus+to+Personalized+Decision+Making">Budgeted Social Choice: From Consensus to Personalized Decision Making.</a> Tyler Lu and Craig Boutilier. IJCAI 2011. </li>
+<li> <a href="http://scholar.google.com/scholar?as_q=Budgeted+Social+Choice:+From+Consensus+to+Personalized+Decision+Making">Budgeted Social Choice: From Consensus to Personalized Decision Making.</a> Tyler Lu and Craig Boutilier. Proceedings of IJCAI, 2011. </li>
 </ul></p>
 
 </div>

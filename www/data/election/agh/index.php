@@ -18,8 +18,8 @@
 <li>None.</li></ul></p>
 
 <p><h6>Selected Citations Using This Dataset</h6><p><ul> 
-<li> <a href="http://scholar.google.com/scholar?as_q=Achieving+Fully+Proportional+Representation+is+Easy+in+Practice">Achieving Fully Proportional Representation is Easy in Practice.</a> P. Skowron, P. Faliszewski, A. Slinko. Proceedings of AAMAS 2013. </li>
-<li> <a href="http://scholar.google.com/scholar?as_q=Measuring+Diversity+of+Preferences+in+a+Group">Measuring Diversity of Preferences in a Group.</a> V. Hashemi and U. Endriss. Proceedings of ECAI 2014. </li>
+<li> <a href="http://scholar.google.com/scholar?as_q=Achieving+Fully+Proportional+Representation+is+Easy+in+Practice">Achieving Fully Proportional Representation is Easy in Practice.</a> P. Skowron, P. Faliszewski, A. Slinko. Proceedings of AAMAS, 2013. </li>
+<li> <a href="http://scholar.google.com/scholar?as_q=Measuring+Diversity+of+Preferences+in+a+Group">Measuring Diversity of Preferences in a Group.</a> V. Hashemi and U. Endriss. Proceedings of ECAI, 2014. </li>
 </ul></p>
 
 </div>

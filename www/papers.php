@@ -16,7 +16,15 @@
 
 			<p> Additional references for individual datasets can be found on the appropriate <a href="/data/">Data</a> pages.  All links below jump to Google Scholar.</p>	
 
-			<p> We may not have everything listed here!  Another good place to see papers that have used PrefLib is to check out the citing page at <a href="https://scholar.google.com/scholar?oi=bibs&hl=en&cites=6088122193376974661">Google Scholar.</a>
+			<p> Even more references, papers, and tutorials can be found in the proceedings of the EXPLORE Workshops:
+				<ul>
+					<li> <a href="http://www.explore-2016.preflib.org/">EXPLORE 2016 - Singapore</a></li>
+					<li> <a href="http://www.explore-2015.preflib.org/">EXPLORE 2015 - Istanbul</a></li>
+					<li> <a href="http://www.explore14.preflib.org/">EXPLORE 2014 - Paris</a></li>
+				</ul>
+			</p>
+
+			<p> We may not have everything listed here! Another good place to see papers that have used PrefLib is to check out the citing page at <a href="https://scholar.google.com/scholar?oi=bibs&hl=en&cites=6088122193376974661">Google Scholar.</a></p>
 		</div>
 	
 		<!-- Pictures and Links -->
