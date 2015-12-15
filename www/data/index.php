@@ -62,7 +62,13 @@
 
 <div class="news_box"><h6><a href=" /data/election/debian/ "> ED-00002: Debian Project Data</a></h6><p>The Debian Project Leader Elections are held yearly with most of the ballots available <a href="http://www.debian.org/vote/">online.</a></p></div>
 
-<div class="news_box"><h6><a href=" /data/election/burlington/ "> ED-00005: Burlington Election Data</a></h6><p>The <a href="http://rangevoting.org/Burlington.html">2009 Burlington, Vermont Mayoral Election Data</a> is posted online at www.rangevoting.org.  It contains a number of interesting features when evaluated with the IRV method.  Namely, the majority candidate in the first round does not emerge as the winner of the election.</p></div>
+<div class="news_box"><h6><a href=" /data/election/nasa/ "> ED-00003: Mariner Path Selection</a></h6><p>The Mariner Trajectory Selection Data Set is the votes cast by the various science teams responsible for selecting the trajectory for the 1977 interplanetary satellite.  There were a total of 10 science teams voting over 32 possible paths.  All these votes are complete but indifference was allowed between some of the objects.</p></div>
+
+<div class="news_box"><h6><a href=" /data/election/netflix/ "> ED-00004: Netflix Prize Data</a></h6><p>The <a href="http://www.netflixprize.com/">Netflix Prize</a> was a competition devised by Netflix to improve the accuracy of its recommendation system.  To facilitate this Netflix released real ratings about movies from the users of the system.  Any set of movies can be transformed into an election via a process outlined by Mattei, Forshee, and Goldsmith (reference below).</p></div>
+
+<div class="news_box"><h6><a href=" /data/election/burlington/ "> ED-00005: Burlington Election Data</a></h6><p>The <a href="http://rangevoting.org/Burlington.html">2009 Burlington, Vermont Mayoral Election Data is posted online at www.rangevoting.org.</a>  It contains a number of interesting features when evaluated with the IRV method.  Namely, the majority candidate in the first round does not emerge as the winner of the election.</p></div>
+
+<div class="news_box"><h6><a href=" /data/election/skate/ "> ED-00006: Skate Data</a></h6><p>This dataset contains figure skating rankings from various competitions during the 1998 season including the World Juniors, World Championships, and the Olympics.  These data sets generally have 10-25 candidates (skaters) and 8-10 judges (voters).</p></div>
 
 <div class="news_box"><h6><a href=" /data/election/ers/ "> ED-00007: Electorial Reform Society (ERS) Data</a></h6><p>This dataset contains the results of 86 separate elections of various elections held by non-profit orginizations, trade unions, and professional orginizations.  They were originally dontated by <a href="http://www.econ.vt.edu/faculty/facultybios/tidemanbio.htm">Nicolaus Tideman</a> who secured NSF funding to have the ballots tabulated.  The ballots are from elections held under various voting rules requiring incomplete strict orders.  The tabulated results were initially collected by the Electoral Reform Society in the UK in order to support the adoption of STV and other range voting methods.</p></div>
 
@@ -74,7 +80,11 @@
 
 <div class="news_box"><h6><a href=" /data/election/web/ "> ED-00011: Web Search</a></h6><p>This dataset contains the results of comparing websearches across Bing, Google, Yahoo, and Ask.  This data is provided by <a href="http://robert.bredereck.info/">Robert Bredereck</a> at TU:Berlin.  Robert provides tools to compute Kemeny rankings on this data at his <a href="http://fpt.akt.tu-berlin.de/kconsens/README">website at TU Berlin</a>.</p></div>
 
+<div class="news_box"><h6><a href=" /data/election/shirt/ "> ED-00012: T Shirt</a></h6><p>This dataset contains complete rank orderings of T-Shirt designs voted on by members of the <a href="http://http://nicta.com.au/research/optimisation">Optimization Research Group</a> at <a href="http://www.nicta.com.au/">NICTA</a>.  There are 11 designs (candidates) and 30 votes about these deisgns.  Voters were required to submit complete strict orders.</p></div>
+
 <div class="news_box"><h6><a href=" /data/election/anes/ "> ED-00013: American National Election Studies Data</a></h6><p>This dataset contains the results of the <a href="http://www.electionstudies.org/">American National Election Studies</a> thermometer polls taken between 1970 and 2008 (not including 2006).  The data presented here was derrived by datasets assembled by <a href="http://www.econ.vt.edu/faculty/facultybios/tidemanbio.htm">Nicolaus Tideman</a> and <a href="http://www2.binghamton.edu/economics/people/plassmann.html">Florenz Plassmann</a>.</p></div>
+
+<div class="news_box"><h6><a href=" /data/election/sushi/ "> ED-00014: Sushi Data</a></h6><p>This dataset contains the results of a series of surveys conducted by <a href="http://www.kamishima.net/sushi/">Toshihiro Kamishima</a> asking 5000 individuals for their preferences about various kinds of sushi.  There are three different datasets that were elicited in different ways: <ul><li> <b>Element Series 00000001</b> contains 10 complete strict rank orders of 10 different kinds of sushi.</li> <li> <b>Element Series 00000002</b> contains individual's strict rank ordering of 100 different kinds of sushi (candidates). </li> <li> <b>Element Series 00000003</b> contains individual's scoring of sushi items on a scale of 0-4, with repeats allowed.</li> </ul>  This dataset contains 14 files in total including soc, soi, toi, and toc files.</p></div>
 
 <div class="news_box"><h6><a href=" /data/election/cleanweb/ "> ED-00015: Clean Web Search</a></h6><p>This dataset contains the results of comparing websearches across Bing, Google, Yahoo, and Ask.  This data is provided by <a href="http://robert.bredereck.info/">Robert Bredereck</a> at TU:Berlin.  Robert provides tools to compute Kemeny rankings on this data at his <a href="http://fpt.akt.tu-berlin.de/kconsens/README">website at TU Berlin</a>.</p></div>
 
@@ -88,7 +98,15 @@
 
 <div class="news_box"><h6><a href=" /data/election/pierce/ "> ED-00020: Pierce Election Data</a></h6><p>The 2008 Pierce Data contains the results from several elections, including county executive, held in Pierce, WA in 2008. The set contains 4 distinct elections with between 4 and 7 canddiates and 40,000 and 300,000 voters.</p></div>
 
+<div class="news_box"><h6><a href=" /data/election/sf/ "> ED-00021: San Francisco Election Data</a></h6><p>The San Francsico data contains the results from several elections, including board of supervisors, district attorny, and mayoral elections, held in San Francisco, CA between 2008 and 2012. The set contains 14 distinct elections with between 4 and 25 canddiates and 18,000 and 195,000 voters.</p></div>
+
+<div class="news_box"><h6><a href=" /data/election/sl/ "> ED-00022: San Leandro Election Data</a></h6><p>The San Leandro data contains the results from several elections, including mayor and city council elections, held in San Leandro, CA between 2010 and 2012. The set contains 3 distinct elections with between 4 and 7 canddiates and about 25,000 voters each.</p></div>
+
+<div class="news_box"><h6><a href=" /data/election/takomapark/ "> ED-00023: Takoma Park Election Data</a></h6><p>The Takoma Park Data contains the results from the 2007 Takoma Park, WA special election for city council. The set contains one elections with between 4 canddiates and about 400 voters.</p></div>
+
 <div class="news_box"><h6><a href=" /data/election/dots/ "> ED-00024: Mechanical Turk Dots</a></h6><p>The Mechanical Turk Dots datasets come from <a href="http://www.andrewmao.net/">Andrew Mao</a> and were collected using Mechanical Turk.  These data sets each contain elections with 794-800 voters over 4 candidates.</p></div>
+
+<div class="news_box"><h6><a href=" /data/election/puzzle/ "> ED-00025: Mechanical Turk Puzzle</a></h6><p>The Mechanical Turk Dots datasets come from <a href="http://www.andrewmao.net/">Andrew Mao</a> and were collected using Mechanical Turk.  These data sets each contain elections with 793-797 voters over 4 candidates.</p></div>
 
 <div class="news_box"><h6><a href=" /data/election/frenchapproval/ "> ED-00026: 2002 French Presidental Election</a></h6><p> The 2002 French Presidental Election Dataset was collected by Jean-Francois Laslier and Karine Van der Straeten.  It consists of 2,597 approval ballots collected in parallel to the actual election in 6 different districts in France.</p></div>
 

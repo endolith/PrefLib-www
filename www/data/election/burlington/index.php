@@ -12,7 +12,7 @@
 
 &nbsp;<div class="grid_7">
 <h5>ED-00005: Burlington Election Data</h5>
-<p>The <a href="http://rangevoting.org/Burlington.html">2009 Burlington, Vermont Mayoral Election Data</a> is posted online at www.rangevoting.org.  It contains a number of interesting features when evaluated with the IRV method.  Namely, the majority candidate in the first round does not emerge as the winner of the election.</p><p> The 2006 Burlington, Vermont Mayoral data presented here was donated by Jeffrey O'Neill who runs the site <a href="http://www.openstv.org">OpenSTV.org</a>.</p>
+<p>The <a href="http://rangevoting.org/Burlington.html">2009 Burlington, Vermont Mayoral Election Data is posted online at www.rangevoting.org.</a>  It contains a number of interesting features when evaluated with the IRV method.  Namely, the majority candidate in the first round does not emerge as the winner of the election.</p><p> The 2006 Burlington, Vermont Mayoral data presented here was donated by Jeffrey O'Neill who runs the site <a href="http://www.openstv.org">OpenSTV.org</a>.</p>
 
 <p><h6>Required Citations</h6><p><ul> 
 <li> <a href="http://scholar.google.com/scholar?as_q=Open+STV">Open STV.</a> Jeffery O'Neill. <a href="http://www.openstv.org">www.OpenSTV.org</a>, 2013. </li>
