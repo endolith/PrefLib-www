@@ -42,56 +42,56 @@
 					<div class="grid_8">
 <div class="news_box"><h5>Strict Order - Complete List</h5>
 <p>
-We currently have 2 data files with an <b>soc</b> extension on the site. 
+We currently have 88 data files with an <b>soc</b> extension on the site. 
 <a href="/data/packs/soc.zip" onClick="_gaq.push(['_trackEvent', 'Download', 'pack',  + ext + ]);">Click Here To Download.</a> <br><br>
 For information on the types of data on this site, please see <a href="/data/format.php">Data Formats</a>.</p></div>
 <br>
 
 <div class="news_box"><h5>Strict Order - Incomplete List</h5>
 <p>
-We currently have 3 data files with an <b>soi</b> extension on the site. 
+We currently have 247 data files with an <b>soi</b> extension on the site. 
 <a href="/data/packs/soi.zip" onClick="_gaq.push(['_trackEvent', 'Download', 'pack',  + ext + ]);">Click Here To Download.</a> <br><br>
 For information on the types of data on this site, please see <a href="/data/format.php">Data Formats</a>.</p></div>
 <br>
 
 <div class="news_box"><h5>Order with Ties - Complete List</h5>
 <p>
-We currently have 24 data files with an <b>toc</b> extension on the site. 
+We currently have 289 data files with an <b>toc</b> extension on the site. 
 <a href="/data/packs/toc.zip" onClick="_gaq.push(['_trackEvent', 'Download', 'pack',  + ext + ]);">Click Here To Download.</a> <br><br>
 For information on the types of data on this site, please see <a href="/data/format.php">Data Formats</a>.</p></div>
 <br>
 
 <div class="news_box"><h5>Order with Ties - Incomplete List</h5>
 <p>
-We currently have 21 data files with an <b>toi</b> extension on the site. 
+We currently have 35 data files with an <b>toi</b> extension on the site. 
 <a href="/data/packs/toi.zip" onClick="_gaq.push(['_trackEvent', 'Download', 'pack',  + ext + ]);">Click Here To Download.</a> <br><br>
 For information on the types of data on this site, please see <a href="/data/format.php">Data Formats</a>.</p></div>
 <br>
 
 <div class="news_box"><h5>Tournament Graph</h5>
 <p>
-We currently have 26 data files with an <b>tog</b> extension on the site. 
+We currently have 134 data files with an <b>tog</b> extension on the site. 
 <a href="/data/packs/tog.zip" onClick="_gaq.push(['_trackEvent', 'Download', 'pack',  + ext + ]);">Click Here To Download.</a> <br><br>
 For information on the types of data on this site, please see <a href="/data/format.php">Data Formats</a>.</p></div>
 <br>
 
 <div class="news_box"><h5>Majority Graph</h5>
 <p>
-We currently have 19 data files with an <b>mjg</b> extension on the site. 
+We currently have 262 data files with an <b>mjg</b> extension on the site. 
 <a href="/data/packs/mjg.zip" onClick="_gaq.push(['_trackEvent', 'Download', 'pack',  + ext + ]);">Click Here To Download.</a> <br><br>
 For information on the types of data on this site, please see <a href="/data/format.php">Data Formats</a>.</p></div>
 <br>
 
 <div class="news_box"><h5>Weighted Majority Graph</h5>
 <p>
-We currently have 26 data files with an <b>wmg</b> extension on the site. 
+We currently have 377 data files with an <b>wmg</b> extension on the site. 
 <a href="/data/packs/wmg.zip" onClick="_gaq.push(['_trackEvent', 'Download', 'pack',  + ext + ]);">Click Here To Download.</a> <br><br>
 For information on the types of data on this site, please see <a href="/data/format.php">Data Formats</a>.</p></div>
 <br>
 
 <div class="news_box"><h5>Pairwise Graph</h5>
 <p>
-We currently have 26 data files with an <b>pwg</b> extension on the site. 
+We currently have 377 data files with an <b>pwg</b> extension on the site. 
 <a href="/data/packs/pwg.zip" onClick="_gaq.push(['_trackEvent', 'Download', 'pack',  + ext + ]);">Click Here To Download.</a> <br><br>
 For information on the types of data on this site, please see <a href="/data/format.php">Data Formats</a>.</p></div>
 <br>

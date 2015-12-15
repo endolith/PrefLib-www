@@ -60,11 +60,39 @@
 <h4 style=text-align:center> Election Data</h4><a name = "ed"></a>
 <div class="news_box"><h6><a href=" /data/election/irish/ "> ED-00001: Irish Election Data</a></h6><p>The Dublin North, West, and Meath data sets contain a complete record of votes for two separate elections held in Dublin, Ireland in 2002.  The votes were posted <a href="http://www.dublincountyreturningofficer.com/">online</a> but have since been removed.</p></div>
 
+<div class="news_box"><h6><a href=" /data/election/debian/ "> ED-00002: Debian Project Data</a></h6><p>The Debian Project Leader Elections are held yearly with most of the ballots available <a href="http://www.debian.org/vote/">online.</a></p></div>
+
+<div class="news_box"><h6><a href=" /data/election/burlington/ "> ED-00005: Burlington Election Data</a></h6><p>The <a href="http://rangevoting.org/Burlington.html">2009 Burlington, Vermont Mayoral Election Data</a> is posted online at www.rangevoting.org.  It contains a number of interesting features when evaluated with the IRV method.  Namely, the majority candidate in the first round does not emerge as the winner of the election.</p></div>
+
+<div class="news_box"><h6><a href=" /data/election/ers/ "> ED-00007: Electorial Reform Society (ERS) Data</a></h6><p>This dataset contains the results of 86 separate elections of various elections held by non-profit orginizations, trade unions, and professional orginizations.  They were originally dontated by <a href="http://www.econ.vt.edu/faculty/facultybios/tidemanbio.htm">Nicolaus Tideman</a> who secured NSF funding to have the ballots tabulated.  The ballots are from elections held under various voting rules requiring incomplete strict orders.  The tabulated results were initially collected by the Electoral Reform Society in the UK in order to support the adoption of STV and other range voting methods.</p></div>
+
+<div class="news_box"><h6><a href=" /data/election/glasgow/ "> ED-00008: Glasgow City Council</a></h6><p>This data set contains the results of the 2007 Glasgow City Council elections, seperated by Ward.  There are 21 wards, each with different candidates and voters.  These files report the results of all the Ward level elections which were origionally held under STV.  In this data set there is a maximum of 13 candidates and a minimum of 8 candidates.  The maximum number of voters is 12,744 and the minimum is 5,199.</p></div>
+
 <div class="news_box"><h6><a href=" /data/election/agh/ "> ED-00009: AGH Course Selection</a></h6><p>This dataset contains the results of surveying students at <a href="http://www.agh.edu.pl/en/">AGU University of Science and Technology</a> about their course preferences.  Each student provided a rank ordering over all the courses with no missing elements.  There are 9 courses to choose from in 2003 and 7 in 2004.</p></div>
+
+<div class="news_box"><h6><a href=" /data/election/f1/ "> ED-00010: F1 and Skiing</a></h6><p>This dataset contains the results of F1 Racing competitions between 1961 and 2008 as well as Cross Country Skiing and Ski Jumping results from the 2006-2009 World Championships.  This data is provided by <a href="http://robert.bredereck.info/">Robert Bredereck</a> at TU:Berlin.  Robert provides tools to compute Kemeny rankings on this data at his <a href="http://fpt.akt.tu-berlin.de/kconsens/README">website at TU Berlin</a>.</p></div>
+
+<div class="news_box"><h6><a href=" /data/election/web/ "> ED-00011: Web Search</a></h6><p>This dataset contains the results of comparing websearches across Bing, Google, Yahoo, and Ask.  This data is provided by <a href="http://robert.bredereck.info/">Robert Bredereck</a> at TU:Berlin.  Robert provides tools to compute Kemeny rankings on this data at his <a href="http://fpt.akt.tu-berlin.de/kconsens/README">website at TU Berlin</a>.</p></div>
 
 <div class="news_box"><h6><a href=" /data/election/anes/ "> ED-00013: American National Election Studies Data</a></h6><p>This dataset contains the results of the <a href="http://www.electionstudies.org/">American National Election Studies</a> thermometer polls taken between 1970 and 2008 (not including 2006).  The data presented here was derrived by datasets assembled by <a href="http://www.econ.vt.edu/faculty/facultybios/tidemanbio.htm">Nicolaus Tideman</a> and <a href="http://www2.binghamton.edu/economics/people/plassmann.html">Florenz Plassmann</a>.</p></div>
 
+<div class="news_box"><h6><a href=" /data/election/cleanweb/ "> ED-00015: Clean Web Search</a></h6><p>This dataset contains the results of comparing websearches across Bing, Google, Yahoo, and Ask.  This data is provided by <a href="http://robert.bredereck.info/">Robert Bredereck</a> at TU:Berlin.  Robert provides tools to compute Kemeny rankings on this data at his <a href="http://fpt.akt.tu-berlin.de/kconsens/README">website at TU Berlin</a>.</p></div>
+
 <div class="news_box"><h6><a href=" /data/election/aspen/ "> ED-00016: Aspen Election Data</a></h6><p>The 2009 Aspen Data contains the results from the mayoral and city council elections held in Aspen, CO in 2009. The data contains two different elections with about 2,500 votes each over 5 and 11 candidates.</p></div>
+
+<div class="news_box"><h6><a href=" /data/election/berkley/ "> ED-00017: Berkley Election Data</a></h6><p>The 2010 Berkley Data contains the results from a city council election (District 7) in Berkley, CA. The set contains about 4,000 votes over 4 candidates.</p></div>
+
+<div class="news_box"><h6><a href=" /data/election/minneapolis/ "> ED-00018: Minneapolis Election Data</a></h6><p>The 2009 Minneapolis Data contains the results from the election for the Parks and Rec Commissioner and Tax Assessor in Minneapolis, MN. The set contains about 30,000 votes over 7-400 candidates. The <b>full</b> data sets contain ballots along with write in candidates (Mikey Mouse and Yoda are well represented).  The <b>No Write In</b> files contain the same votes removing any write-ins and modifying the votes accordingly.</p></div>
+
+<div class="news_box"><h6><a href=" /data/election/oakland/ "> ED-00019: Oakland Election Data</a></h6><p>The 2010 Oakland Data contains the results from the city council and mayoral elections held in Oakland, CA in 2010. The set contains 7 distinct elections with between 4 and 11 canddiates and 900 and 145,000 voters.</p></div>
+
+<div class="news_box"><h6><a href=" /data/election/pierce/ "> ED-00020: Pierce Election Data</a></h6><p>The 2008 Pierce Data contains the results from several elections, including county executive, held in Pierce, WA in 2008. The set contains 4 distinct elections with between 4 and 7 canddiates and 40,000 and 300,000 voters.</p></div>
+
+<div class="news_box"><h6><a href=" /data/election/dots/ "> ED-00024: Mechanical Turk Dots</a></h6><p>The Mechanical Turk Dots datasets come from <a href="http://www.andrewmao.net/">Andrew Mao</a> and were collected using Mechanical Turk.  These data sets each contain elections with 794-800 voters over 4 candidates.</p></div>
+
+<div class="news_box"><h6><a href=" /data/election/frenchapproval/ "> ED-00026: 2002 French Presidental Election</a></h6><p> The 2002 French Presidental Election Dataset was collected by Jean-Francois Laslier and Karine Van der Straeten.  It consists of 2,597 approval ballots collected in parallel to the actual election in 6 different districts in France.</p></div>
+
+<div class="news_box"><h6><a href=" /data/election/frenchrate/ "> ED-00027: Proto French Election</a></h6><p> This analog dataset to the 2002 French Presidential Election Dataset was collected by Jean-Francois Laslier, Karine Van der Straeten and Michel Balinski.  It consists of 398 approval ballots collected over potential candidates for the 2002 French Presidential election cast by students at Institut d’Etudes Politiques de Paris.</p></div>
 
 
 
