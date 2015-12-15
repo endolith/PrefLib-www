@@ -72,9 +72,9 @@ if __name__ == '__main__':
 
     # Sync EVERYTHING to DEV.
     print(" *** Pushing ENTIRE www directory to DEV@DREAMHOST *** ")
-    os.system('''rsync --recursive --times --verbose --progress --compress --delete-after --exclude="*.DS_Store" --exclude="*pycache*" /Users/Nick/repo/github/PrefLib-www.git/www/ koolkamel@www.preflib.org:~/dev.preflib.org''')
+    os.system('''rsync --recursive --times --verbose --progress --compress --delete-after --exclude="*.DS_Store" --exclude="*pycache*" /Users/Nick/repo/www-preflib.github/www/ koolkamel@www.preflib.org:~/dev.preflib.org''')
 
 
     # Do a main push but don't take the .htaccess and .htpassword
     if results.main:
-    	os.system('''rsync --recursive --times --verbose --progress --compress --delete-after --exclude="*.DS_Store" --exclude=".htaccess" --exclude=".htpasswd" --exclude="*pycache*" /Users/Nick/repo/github/PrefLib-www.git/www/ koolkamel@www.preflib.org:~/www.preflib.org''')
+    	os.system('''rsync --recursive --times --verbose --progress --compress --delete-after --exclude="*.DS_Store" --exclude=".htaccess" --exclude=".htpasswd" --exclude="*pycache*" /Users/Nick/repo/www-preflib.github/www/ koolkamel@www.preflib.org:~/www.preflib.org''')

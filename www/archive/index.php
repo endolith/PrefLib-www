@@ -40,6 +40,13 @@
 			<div class="news_box">
 			<div class="news_icon"></div>
 		    	<div class="news_content">
+		        	<b>Dec. 10, 2015:</b>
+		        	<p> We are hosting the 3rd Workshop on <a href="http://www.explore-2016.preflib.org/" target="_blank"> Exploring Beyond the Worst Case in Computational Social Choice (EXPLORE 2016)</a> at <a href="http://sis.smu.edu.sg/aamas2016" target="_blank">AAMAS 2016!</a>. Please check out the website for more information and we hope to see you in Singapore!.</p> 
+		        </div>
+		    </div>
+			<div class="news_box">
+			<div class="news_icon"></div>
+		    	<div class="news_content">
 		        	<b>June 1, 2015:</b>
 		            <p> We have moved the devlopment and hosting of <a href="https://github.com/nmattei/PrefLib-Tools" target="_blank"> PrefLib Tools over to GitHub!</a>  Check out the current version and join us on expanding the capabilities of PrefLib!</p>
 		        	</div>

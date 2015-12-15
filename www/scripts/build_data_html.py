@@ -246,6 +246,10 @@ def make_listing_page(meta_data, file_list):
 		-----------
 			Writes HTML file to the same directory location as the 
 			info.txt file came from.
+
+			TODO: 15-Dec: We should put some sanity checking in here to make sure the files
+			in the directory are actually there -- just flying blind at the moment.
+
 		"""
 		print("*** Writing " + meta_data[4])
 
@@ -260,7 +264,6 @@ def make_listing_page(meta_data, file_list):
 
 		'''
 				Modify studies and citations to have links to google scholar
-				TODO: Note that this uses the aincent code which isn't the best.. should convert to CSV soon.
 		'''
 		required = make_study_html(meta_data[6])
 		selected = make_study_html(meta_data[7])  

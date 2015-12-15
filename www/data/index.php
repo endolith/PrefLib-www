@@ -62,6 +62,10 @@
 
 <div class="news_box"><h6><a href=" /data/election/agh/ "> ED-00009: AGH Course Selection</a></h6><p>This dataset contains the results of surveying students at <a href="http://www.agh.edu.pl/en/">AGU University of Science and Technology</a> about their course preferences.  Each student provided a rank ordering over all the courses with no missing elements.  There are 9 courses to choose from in 2003 and 7 in 2004.</p></div>
 
+<div class="news_box"><h6><a href=" /data/election/anes/ "> ED-00013: American National Election Studies Data</a></h6><p>This dataset contains the results of the <a href="http://www.electionstudies.org/">American National Election Studies</a> thermometer polls taken between 1970 and 2008 (not including 2006).  The data presented here was derrived by datasets assembled by <a href="http://www.econ.vt.edu/faculty/facultybios/tidemanbio.htm">Nicolaus Tideman</a> and <a href="http://www2.binghamton.edu/economics/people/plassmann.html">Florenz Plassmann</a>.</p></div>
+
+<div class="news_box"><h6><a href=" /data/election/aspen/ "> ED-00016: Aspen Election Data</a></h6><p>The 2009 Aspen Data contains the results from the mayoral and city council elections held in Aspen, CO in 2009. The data contains two different elections with about 2,500 votes each over 5 and 11 candidates.</p></div>
+
 
 
 <div class="clear"></div> <div class="grid_8 spacer"></div>
@@ -76,9 +80,9 @@
 
 
 <h4 style=text-align:center> Rating and Combinatorial Preference Data</h4><a name = "cd"></a>
+<div class="news_box"><h6><a href=" /data/combinatorial/trip/ "> CD-00001: Trip Advisor Data</a></h6><p>This dataset contains 675,069 reviews of 1,851 hotels across the world scraped from <a href="www.tripadvisor.com">Trip Advisor</a>.  The data was scraped and donated by <a href="http://sifaka.cs.uiuc.edu/~wang296/">Hongning Wang</a>.</p></div>
 
-
- <p style=text-align:center>No Sets Yet, Please Donate!</p>
+<div class="news_box"><h6><a href=" /data/combinatorial/frenchrate/ "> CD-00002: Proto French Election</a></h6><p> This analog dataset to the 2002 French Presidential Election Dataset was collected by Jean-Francois Laslier, Karine Van der Straeten and Michel Balinski.  It consists of 398 approval ballots and subjective ratings on a 20 point scale collected over potential candidates for the 2002 French Presidential election cast by students at Institut d’Etudes Politiques de Paris.</p></div>
 
 
 
