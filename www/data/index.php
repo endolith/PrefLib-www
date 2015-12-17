@@ -120,6 +120,8 @@
 <h4 style=text-align:center> Matching Data</h4><a name = "md"></a>
 <div class="news_box"><h6><a href=" /data/matching/kidney/ "> MD-00001: Kidney Data</a></h6><p>This dataset contains 310 instances of synthetic kidney donor pools.  The data was generated using a state of the art donor pool generation method (described in Saidman et al., Increasing the opportunity of live kidney donation by matching for two-and three-way exchanges. Transplantation 81(5), 2006) and was donated by <a href="http://www.cs.cmu.edu/~dickerson">John Dickerson.</a>  John has recently posted his generation as well as his exchange solving code online; it is available <a href="https://github.com/JohnDickerson/KidneyExchange">here</a>.</p></div>
 
+<div class="news_box"><h6><a href=" /data/matching/aiconf/ "> MD-00002: AI Conference Bidding Data</a></h6><p>This dataset contains the bidding data from 3 AI Conferences.  This contains the bids of all reviewers (aside a small number of opt-outs) over a subset of papers at the conference.</p></div>
+
 
 
 <div class="clear"></div> <div class="grid_8 spacer"></div>
