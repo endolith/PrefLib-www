@@ -15,6 +15,6 @@ Required Citations: None
 Selected Studies: None
 
 description,status,file_name
-AI Conference 1, Original, MD-00002-00000001.toi
-AI Conference 2, Original, MD-00002-00000002.toi
-AI Conference 3, Original, MD-00002-00000003.toi
+AI Conference 1,Original,MD-00002-00000001.toi
+AI Conference 2,Original,MD-00002-00000002.toi
+AI Conference 3,Original,MD-00002-00000003.toi

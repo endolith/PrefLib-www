@@ -13,6 +13,7 @@
 			<h5> Site Archive </h5>
 			<p> Previous editions of PrefLib.  These archives contain a full, compressed copy of the Library and website for the given release date.</p>
 			<ul>
+				<li class="wide"> <a href="/archive/PrefLib_v2.0.zip">PrefLib Version 2.0.</a> Stable Release: December 23, 2015.  Backend overhaul and 1 GB of new data.</li>
 				<li class="wide"> <a href="/archive/PrefLib_v1.6.zip">PrefLib Version 1.6.</a> Stable Release: October 2, 2014.  Major site update and bug fixes.</li>
 				<li class="wide"><a href="/archive/PrefLib_v1.0.zip">PrefLib Version 1.0.</a> Stable Release: December 3, 2013; Revision 164. Major update to the database and first tools release.</li>
 				<li class="wide"><a href="/archive/PrefLib_v0.5.zip">PrefLib Version 0.5.</a> Stable Release: June 4, 2013; Revision 55. First version of the library.</li>
@@ -37,6 +38,15 @@
 		<!-- News Archive -->
 		<div class="grid_8">
 			<h5> News Archive </h5>
+			
+			<div class="news_box">
+			<div class="news_icon"></div>
+		    	<div class="news_content">
+		        	<b>Dec. 23, 2015:</b>
+		        	<p>Happy Holidays from Nick!  We have added over 70,000 new data sets to the site in the last couple of days!  These include real elections, bidding data from various conferences, and data from other real world preference domains.  This brings our total database size up to 5 GB!</p><p>In other news I completely overhauled the backend of the site (the part no one sees) and put the code up on <a href="https://github.com/nmattei/PrefLib-www">GitHub!  There has also been a small update to the PrefLib Tools, we have added a bunch of new papers to the links page as well as links to all the iterations of the EXPLORE conference.</p>
+		        </div>
+		    </div>
+
 			<div class="news_box">
 			<div class="news_icon"></div>
 		    	<div class="news_content">

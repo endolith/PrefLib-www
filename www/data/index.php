@@ -112,6 +112,12 @@
 
 <div class="news_box"><h6><a href=" /data/election/frenchrate/ "> ED-00027: Proto French Election</a></h6><p> This analog dataset to the 2002 French Presidential Election Dataset was collected by Jean-Francois Laslier, Karine Van der Straeten and Michel Balinski.  It consists of 398 approval ballots collected over potential candidates for the 2002 French Presidential election cast by students at Institut d’Etudes Politiques de Paris.</p></div>
 
+<div class="news_box"><h6><a href=" /data/election/apa/ "> ED-00028: APA Election Data</a></h6><p>This dataset contains the results of the elections of the American Psychological Association between 1998 - 2009.  The voters are allowed to rank any number of the 5 candidates without ties.  Each of these elections have 5 candidates and between 13,318 and 20,239 voters.</p></div>
+
+<div class="news_box"><h6><a href=" /data/election/netflix-noncondorcet/ "> ED-00029: Netflix Prize Data - No Condorcet Winners</a></h6><p>The <a href="http://www.netflixprize.com/">Netflix Prize</a> was a competition devised by Netflix to improve the accuracy of its recommendation system.  To facilitate this Netflix released real ratings about movies from the users of the system.  Any set of movies can be transformed into an election via a process outlined by Mattei, Forshee, and Goldsmith (reference below). This is a new slice of the Netflix Prize Dataset containing only those 71,943 instances that do not contain a Condorcet Winner.</p></div>
+
+<div class="news_box"><h6><a href=" /data/election/uklabor/ "> ED-00030: UK Labor Party Leadership Vote</a></h6><p>The <a href="http://rangevoting.org/LabourUK2010.html">2010 UK Labor Party Leadership Vote is posted at www.rangevoting.org.</a>  This set contains the votes cast by all 266 MPs over the 5 leadership candidates.  The votes are incomplete strict orders which we have posted along with extensions placing all unranked candidates tied at the end and pairwise graphs.</p></div>
+
 
 
 <div class="clear"></div> <div class="grid_8 spacer"></div>
@@ -121,6 +127,10 @@
 <div class="news_box"><h6><a href=" /data/matching/kidney/ "> MD-00001: Kidney Data</a></h6><p>This dataset contains 310 instances of synthetic kidney donor pools.  The data was generated using a state of the art donor pool generation method (described in Saidman et al., Increasing the opportunity of live kidney donation by matching for two-and three-way exchanges. Transplantation 81(5), 2006) and was donated by <a href="http://www.cs.cmu.edu/~dickerson">John Dickerson.</a>  John has recently posted his generation as well as his exchange solving code online; it is available <a href="https://github.com/JohnDickerson/KidneyExchange">here</a>.</p></div>
 
 <div class="news_box"><h6><a href=" /data/matching/csconf/ "> MD-00002: Computer Science Conference Bidding Data</a></h6><p>This dataset contains the bidding data from 3 Computer Science Conferences.  This contains the bids of all reviewers (aside a small number of opt-outs) over a subset of papers at the conference.</p></div>
+
+<div class="news_box"><h6><a href=" /data/matching/project/ "> MD-00003: Project Bidding Data</a></h6><p>This dataset contains bids of students over a set of projects for student/project allocations at the School of Computing Science, University of Glasgod.  Each project is supervised by an individual each with a maximum capacity of supervision.  There are 8 years worth of data in this set and with between 31 and 51 students and 56 and 155 projects. This data was kindly donated by <a href="http://www.dcs.gla.ac.uk/~davidm/">David Manlove</a> who collected this data.</p></div>
+
+<div class="news_box"><h6><a href=" /data/matching/aamas/ "> MD-00004: AAMAS Bidding Data</a></h6><p>This dataset contains the bids of reviewers over papers from the <a href="http://www.aamas2015.com/en/">2015 Autonomous Agents and Multiagent Systems Conference</a>.  Inclusion in this data set was explicitly opt-in; it contains 9,817 bids of 201 reviewers over 613 papers; this represents about 40% of the actual 22,360 bids of 281 reviewers over 670 papers.</p></div>
 
 
 

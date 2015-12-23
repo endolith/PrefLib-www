@@ -19,7 +19,7 @@
 </ul></p>
 
 <p><h6>Selected Citations Using This Dataset</h6><p><ul> 
-<li> <a href="http://scholar.google.com/scholar?as_q=Burlington+Vermont+2009+IRV+Mayoral+Election+Analysis">Burlington Vermont 2009 IRV Mayoral Election Analysis.</a> Anthony Gierzynski, Wes Hamilton, & Warren D. Smith. Available at <a href="http://rangevoting.org/Burlington.html" www.rangevoting.com </a>, 2009. </li>
+<li> <a href="http://scholar.google.com/scholar?as_q=Burlington+Vermont+2009+IRV+Mayoral+Election+Analysis">Burlington Vermont 2009 IRV Mayoral Election Analysis.</a> Anthony Gierzynski, Wes Hamilton, & Warren D. Smith. Available at <a href="http://rangevoting.org/Burlington.html"> www.rangevoting.com </a>, 2009. </li>
 </ul></p>
 
 </div>
