@@ -43,7 +43,7 @@
 			<div class="news_icon"></div>
 		    	<div class="news_content">
 		        	<b>Dec. 23, 2015:</b>
-		        	<p>Happy Holidays from Nick!  We have added over 70,000 new data sets to the site in the last couple of days!  These include real elections, bidding data from various conferences, and data from other real world preference domains.  This brings our total database size up to 5 GB!</p><p>In other news I completely overhauled the backend of the site (the part no one sees) and put the code up on <a href="https://github.com/nmattei/PrefLib-www">GitHub!  There has also been a small update to the PrefLib Tools, we have added a bunch of new papers to the links page as well as links to all the iterations of the EXPLORE conference.</p>
+		        	<p>Happy Holidays from Nick!  We have added over 70,000 new data sets to the site in the last couple of days!  These include real elections, bidding data from various conferences, and data from other real world preference domains.  This brings our total database size up to 5 GB!</p><p>In other news I completely overhauled the backend of the site (the part no one sees) and put the code up on <a href="https://github.com/nmattei/PrefLib-www">GitHub!</a>  There has also been a small update to the PrefLib Tools, we have added a bunch of new papers to the links page as well as links to all the iterations of the EXPLORE conference.</p>
 		        </div>
 		    </div>
 

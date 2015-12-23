@@ -65,10 +65,8 @@ if __name__ == '__main__':
     results = parser.parse_args()
 
     if results.rebuild:
-        print(" *** Rebuilding Site Index *** \n\n")
-        #os.system("python3 ./build_data_html.py")
-        #print(build_data_html.main())
-        build_data_html.build_data_pages()
+      print(" *** Rebuilding Site Index *** \n\n")
+      build_data_html.build_data_pages()
 
     # Sync EVERYTHING to DEV.
     print(" *** Pushing ENTIRE www directory to DEV@DREAMHOST *** ")
@@ -77,4 +75,5 @@ if __name__ == '__main__':
 
     # Do a main push but don't take the .htaccess and .htpassword
     if results.main:
-    	os.system('''rsync --recursive --times --verbose --progress --compress --delete-after --exclude="*.DS_Store" --exclude=".htaccess" --exclude=".htpasswd" --exclude="*pycache*" /Users/Nick/repo/www-preflib.github/www/ koolkamel@www.preflib.org:~/www.preflib.org''')
+      print(" *** Pushing ENTIRE www directory to PREFLIB@DREAMHOST *** ")
+      os.system('''rsync --recursive --times --verbose --progress --compress --delete-after --exclude="*.DS_Store" --exclude=".htaccess" --exclude=".htpasswd" --exclude="*pycache*" /Users/Nick/repo/www-preflib.github/www/ koolkamel@www.preflib.org:~/preflib.org''')
