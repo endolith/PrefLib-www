@@ -11,9 +11,13 @@ This code comes without warranty. Please use or distribute for research and acad
 
 # Release Notes
 
+## 2.0
+
+Final version of the index and scripts for main site push on Dec. 23, 2015.
+
 ## 1.0
 
-Everything seems to be working at this point for the scripting and site building.  The entire site is built out of 
+Everything seems to be working at this point for the scripting and site building.
 
 ## OVERVIEW
 
