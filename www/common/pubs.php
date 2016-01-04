@@ -1,4 +1,6 @@
 <ol reversed>
+<li class="wide"> <a href="http://scholar.google.com/scholar?as_q=Judgment+Aggregation+under+Issue+Dependencies">Judgment Aggregation under Issue Dependencies.</a> Marco Costantini, Carla Groenland, and Ulle Endriss. 30th AAAI Conference on Artificial Intelligence (AAAI), 2016. </li>
+
 <li class="wide"> <a href="http://scholar.google.com/scholar?as_q=Strategyproof+Peer+Selection:+Mechanisms,+Analyses,+and+Experiments">Strategyproof Peer Selection: Mechanisms, Analyses, and Experiments.</a> Haris Aziz, Omer Lev, Nicholas Mattei, Jeffery S. Rosenschein, and Toby Walsh. 30th AAAI Conference on Artificial Intelligence (AAAI 2016), 2016. </li>
 <li class="wide"> <a href="http://scholar.google.com/scholar?as_q=Equilibria+Under+the+Probabilistic+Serial+Rule">Equilibria Under the Probabilistic Serial Rule.</a> Haris Aziz, Serge Gaspers, Simon Mackenzie, Nicholas Mattei, Nina Narodytska, and Toby Walsh. 24th International Joint Conference on Artificial Intelligence (IJCAI 2015), 2015. </li>
 
