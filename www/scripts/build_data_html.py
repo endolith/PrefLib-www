@@ -441,7 +441,7 @@ def build_data_pages():
 					counts[ext] = int(c.strip().split(" ")[len(c.strip().split(" "))-1])
 
 				for i,ext in enumerate(EXTENSIONS):
-					packs_index += '''<div class="news_box"><h5>''' + EXTENSION_LONG[ext] + '''</h5>\n<p>\nWe currently have ''' + str(counts[ext]) + ''' data files with an <b>''' + ext + '''</b> extension on the site. \n'''
+					packs_index += '''<div class="news_box"><a name="''' + ext + '''"></a><h5>''' + EXTENSION_LONG[ext] + '''</h5>\n<p>\nWe currently have ''' + str(counts[ext]) + ''' data files with an <b>''' + ext + '''</b> extension on the site. \n'''
 
 					if counts[ext] > 0:
 						packs_index += '''<a href="/data/packs/''' + ext + '''.zip" onClick="_gaq.push(['_trackEvent', 'Download', 'pack', '''' + ext + '''']);">Click Here To Download.</a> <br><br>\n'''
