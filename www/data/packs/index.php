@@ -77,7 +77,7 @@ For information on the types of data on this site, please see <a href="/data/for
 
 <div class="news_box"><a name="mjg"></a><h5>Majority Graph</h5>
 <p>
-We currently have 314 data files with an <b>mjg</b> extension on the site. 
+We currently have 313 data files with an <b>mjg</b> extension on the site. 
 <a href="/data/packs/mjg.zip" onClick="_gaq.push(['_trackEvent', 'Download', 'pack',  + ext + ]);">Click Here To Download.</a> <br><br>
 For information on the types of data on this site, please see <a href="/data/format.php">Data Formats</a>.</p></div>
 <br>
