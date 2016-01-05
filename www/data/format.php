@@ -71,21 +71,21 @@
 		   		
 		   		<h5>SOC - Strict Orders - Complete List</h5>
 		       		
-		       	<p>Each file with a <b>soc</b> extension contains a profile consisting of a complete, transitive, and asymmetric relation over a group of objects. These are written A,B,C; meaning that A is strictly preferred to B which is strictly preferred to C.  The strict relation is always denoted by use of a comma (,). <br><br> <a href="/packs/index.php#soc">Download all data files containing SOC data.</a> <br><br> <a href="#top">Top.</a> </p>
+		       	<p>Each file with a <b>soc</b> extension contains a profile consisting of a complete, transitive, and asymmetric relation over a group of objects. These are written A,B,C; meaning that A is strictly preferred to B which is strictly preferred to C.  The strict relation is always denoted by use of a comma (,). <br><br> <a href="/data/packs/index.php#soc">Download all data files containing SOC data.</a> <br><br> <a href="#top">Top.</a> </p>
 	        </div>
 	       
 	       	<div class="news_box"><a name = "soi"></a>
 	       		
 	       		<h5>SOI - Strict Orders - Incomplete List</h5>
 	       		
-	       		<p> Each file with a <b>soi</b> extension contains a profile consisting of a transitive and asymmetric relation over a group of objects. These are written A,B,C; meaning that A is strictly preferred to B which is strictly preferred to C. The strict relation is always denoted by use of a comma (,) and unranked elements are not included in the list of a particular agent. <br><br> <a href="/packs/index.php#soi">Download all data files containing SOI data.</a> <br><br> <a href="#top">Top.</a> </p> 
+	       		<p> Each file with a <b>soi</b> extension contains a profile consisting of a transitive and asymmetric relation over a group of objects. These are written A,B,C; meaning that A is strictly preferred to B which is strictly preferred to C. The strict relation is always denoted by use of a comma (,) and unranked elements are not included in the list of a particular agent. <br><br> <a href="/data/packs/index.php#soi">Download all data files containing SOI data.</a> <br><br> <a href="#top">Top.</a> </p> 
 	       	</div>
 	       
 	       	<div class="news_box"><a name = "toc"></a>
 
 	       		<h5>TOC - Orders with Ties - Complete List</h5>
 	       		
-	       		<p> Each file with a <b>toc</b> extension contains a profile consisting of an transitive relation where all elements appear in every list. These written A,{B,C},D; meaning A is strictly preferred to {B,C}, while the voter is indifferent between B and C, with A,B, and C all preferred to D. The strict relation is always denoted by use of a comma (,) while elements that an agent is indifferent between are grouped in a curly brace ({}). <br><br> <a href="/packs/index.php#toc">Download all data files containing TOC data.</a> <br><br> <a href="#top">Top.</a> </p> 
+	       		<p> Each file with a <b>toc</b> extension contains a profile consisting of an transitive relation where all elements appear in every list. These written A,{B,C},D; meaning A is strictly preferred to {B,C}, while the voter is indifferent between B and C, with A,B, and C all preferred to D. The strict relation is always denoted by use of a comma (,) while elements that an agent is indifferent between are grouped in a curly brace ({}). <br><br> <a href="/data/packs/index.php#toc">Download all data files containing TOC data.</a> <br><br> <a href="#top">Top.</a> </p> 
 	       	</div>
 	       
 	       
@@ -93,42 +93,42 @@
 
 	       		<h5>TOI - Orders with Ties - Incomplete List</h5>
 
-	       		<p> Each file with a <b>toi</b> extension contains a profile consisting of an transitive relation where not all elements appear in every list. These written A,{B,C},D; meaning A is strictly preferred to {B,C}, while the voter is indifferent between B and C, with A,B, and C all preferred to D. The strict relation is always denoted by use of a comma (,) while elements that an agent is indifferent between are grouped in a curly brace ({}). <br><br> <a href="/packs/index.php#toi">Download all data files containing TOI data.</a> <br><br> <a href="#top">Top.</a> </p> 
+	       		<p> Each file with a <b>toi</b> extension contains a profile consisting of an transitive relation where not all elements appear in every list. These written A,{B,C},D; meaning A is strictly preferred to {B,C}, while the voter is indifferent between B and C, with A,B, and C all preferred to D. The strict relation is always denoted by use of a comma (,) while elements that an agent is indifferent between are grouped in a curly brace ({}). <br><br> <a href="/data/packs/index.php#toi">Download all data files containing TOI data.</a> <br><br> <a href="#top">Top.</a> </p> 
 	       	</div>
 	       
 	       	<div class="news_box"><a name = "tog"></a>
 
 	       		<h5>TOG - Tournament Graph </h5>
 	       	
-	       		<p> Files with a <b>tog</b> extension describe a tournament graph. A tournament graph is a complete directed graph over a set of alternatives.  In our formatting we simply state the list of pairwise relations that describe the tournament (A,B; B,C). The strict relation is always denoted by use of a comma (,).  Note that tournaments must be complete assignment of the strict preference relation, otherwise it is a majority graph (see below). <br><br> <a href="/packs/index.php#tog">Download all data files containing TOG data.</a> <br><br> <a href="#top">Top.</a> </p> 
+	       		<p> Files with a <b>tog</b> extension describe a tournament graph. A tournament graph is a complete directed graph over a set of alternatives.  In our formatting we simply state the list of pairwise relations that describe the tournament (A,B; B,C). The strict relation is always denoted by use of a comma (,).  Note that tournaments must be complete assignment of the strict preference relation, otherwise it is a majority graph (see below). <br><br> <a href="/data/packs/index.php#tog">Download all data files containing TOG data.</a> <br><br> <a href="#top">Top.</a> </p> 
 	       	</div>
 	       
 	       	<div class="news_box"><a name = "mjg"></a>
 	       	
 	       		<h5>MJG - Majority Graph </h5>
 	       	
-	       		<p> Files with a <b>mjg</b> extension describe a majority graph (relation). A majority graph is a directed graph over a set of alternatives.  In our formatting we simply state the list of pairwise relations that described the majority graph (A,B; B,C). The strict relation is always denoted by use of a comma (,).  Note that majority graphs need not be complete, additionally there is no concept of a "tie" between two elements. <br><br> <a href="/packs/index.php#mjg">Download all data files containing MJG data.</a> <br><br> <a href="#top">Top.</a> </p> 
+	       		<p> Files with a <b>mjg</b> extension describe a majority graph (relation). A majority graph is a directed graph over a set of alternatives.  In our formatting we simply state the list of pairwise relations that described the majority graph (A,B; B,C). The strict relation is always denoted by use of a comma (,).  Note that majority graphs need not be complete, additionally there is no concept of a "tie" between two elements. <br><br> <a href="/data/packs/index.php#mjg">Download all data files containing MJG data.</a> <br><br> <a href="#top">Top.</a> </p> 
 	       	</div>
 	       
 	       	<div class="news_box"><a name = "wmg"></a>
 
 	       		<h5>WMG - Weighted Majority Graph </h5>
 	       		
-	       		<p> Files with a <b>wmg</b> extension describe a majority graph (relation) with weights. A majority graph is a directed graph over a set of alternatives.  In our formatting we simply state the list of pairwise relations that described the majority graph (A,B; B,C) along with the number of times the particular relation was listed (A,B) minus the number of times the reverse relation was listed (B,A). The strict relation is always denoted by use of a comma (,). Note that majority graphs need not be complete, additionally there is no concept of a "tie" between two elements. <br><br> <a href="/packs/index.php#wmg">Download all data files containing WMG data.</a> <br><br> <a href="#top">Top.</a> </p> 
+	       		<p> Files with a <b>wmg</b> extension describe a majority graph (relation) with weights. A majority graph is a directed graph over a set of alternatives.  In our formatting we simply state the list of pairwise relations that described the majority graph (A,B; B,C) along with the number of times the particular relation was listed (A,B) minus the number of times the reverse relation was listed (B,A). The strict relation is always denoted by use of a comma (,). Note that majority graphs need not be complete, additionally there is no concept of a "tie" between two elements. <br><br> <a href="/data/packs/index.php#wmg">Download all data files containing WMG data.</a> <br><br> <a href="#top">Top.</a> </p> 
 	       	</div>
 	        
 	        <div class="news_box"><a name = "pwg"></a>
 
 	       		<h5>PWG - Pairwise Graph</h5>
 	       		
-	       		<p> Files with a <b>pwg</b> extension describe a set of pairwise relations. Every possible pairwise comparison is listed (if it appears in the data set) along with the number of time it appears. For example: 61 A,B; 21 B,A. <br><br> <a href="/packs/index.php#pwg">Download all data files containing PWG data.</a> <br><br> <a href="#top">Top.</a> </p> 
+	       		<p> Files with a <b>pwg</b> extension describe a set of pairwise relations. Every possible pairwise comparison is listed (if it appears in the data set) along with the number of time it appears. For example: 61 A,B; 21 B,A. <br><br> <a href="/data/packs/index.php#pwg">Download all data files containing PWG data.</a> <br><br> <a href="#top">Top.</a> </p> 
 	       	</div> 
 
 	       	<div class="news_box"><a name = "wmd"></a>
 	       	
 	       		<h5>WMD - Weighted Matching Data</h5>
 	       	
-	       		<p> Files with a <b>wmd</b> extension describe a set of weighted matching data. These are directed graphs where source is linked to the sink with a specified weight. <br><br> <a href="/packs/index.php#wmd">Download all data files containing WMD data.</a> <br><br> <a href="#top">Top.</a> </p> 
+	       		<p> Files with a <b>wmd</b> extension describe a set of weighted matching data. These are directed graphs where source is linked to the sink with a specified weight. <br><br> <a href="/data/packs/index.php#wmd">Download all data files containing WMD data.</a> <br><br> <a href="#top">Top.</a> </p> 
 	       	</div> 
 
 	       	<div class="news_box"><a name = "dat"></a>
