@@ -53,14 +53,16 @@
 			<ul>
 				<li> <a href="https://sites.google.com/site/harisaziz/">Haris Aziz</a> </li>
 				<li> <a href="http://robert.bredereck.info/">Robert Bredereck</a> </li>
-				<li> <a href="www.cs.cmu.edu/~dickerson">John Dickerson</a> </li>
+				<li> <a href="www.cs.cmu.edu/~dickerson">John P. Dickerson</a> </li>
 				<li> <a href="http://www.coffr.in/">Carleton Coffrin</a> </li>
 				<li> <a href="http://home.agh.edu.pl/~faliszew/">Piotr Faliszewski</a> </li>
 				<li> <a href="http://www.kamishima.net/">Toshihiro Kamishima</a></li>
 				<li> <a href="http://www.cs.huji.ac.il/~omerl/">Omer Lev</a></li>
+				<li> <a href="http://www.dcs.gla.ac.uk/~davidm/">David Manlove </a></li>
 				<li> <a href="http://www.openstv.org">Jeffrey O'Neill</a> </li>
-				<li> <a href="http://www.econ.vt.edu/faculty/facultybios/tidemanbio.htm">Nicolaus Tideman</a> </li>
+				<li> <a href="http://www.dominik-peters.de/">Dominik Peters</a> </li>
 				<li> <a href="http://www2.binghamton.edu/economics/people/plassmann.html">Florenz Plassmann</a> </li>
+				<li> <a href="http://www.econ.vt.edu/faculty/facultybios/tidemanbio.htm">Nicolaus Tideman</a> </li>
 				<li> <a href="http://sifaka.cs.uiuc.edu/~wang296/">Hongning Wang</a> </li>
 			</ul>	
 		</div>
