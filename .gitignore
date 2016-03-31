@@ -54,3 +54,4 @@ www/data/election/netflix-noncondorcet/4set8.zip
 www/data/election/netflix-noncondorcet/4set9.zip
 www/data/election/netflix-noncondorcet/4setlarge.zip
 www/data/election/netflix-noncondorcet/4setnear.zip
+*.pyc

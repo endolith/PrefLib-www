@@ -4,6 +4,8 @@
 <li class="wide"> <a href="http://scholar.google.com/scholar?as_q=Strategyproof+Peer+Selection:+Mechanisms,+Analyses,+and+Experiments">Strategyproof Peer Selection: Mechanisms, Analyses, and Experiments.</a> Haris Aziz, Omer Lev, Nicholas Mattei, Jeffery S. Rosenschein, and Toby Walsh. 30th AAAI Conference on Artificial Intelligence (AAAI 2016), 2016. </li>
 <li class="wide"> <a href="http://scholar.google.com/scholar?as_q=Equilibria+Under+the+Probabilistic+Serial+Rule">Equilibria Under the Probabilistic Serial Rule.</a> Haris Aziz, Serge Gaspers, Simon Mackenzie, Nicholas Mattei, Nina Narodytska, and Toby Walsh. 24th International Joint Conference on Artificial Intelligence (IJCAI 2015), 2015. </li>
 
+<li class="wide"> <a href="http://scholar.google.com/scholar?as_q=Adapting+the+Social+Network+to+Affect+Elections">Adapting the Social Network to Affect Elections.</a> Sigal Sina, Noam Hazon, Avinatan Hassidim and Sarit Kraus. 14th International Conference on Autonomous Agents and Multiagent Systems (AAMAS 2015), 2015. </li>
+
 <li class="wide"> <a href="http://scholar.google.com/scholar?as_q=Manipulating+the+Probabilistic+Serial+Rule">Manipulating the Probabilistic Serial Rule.</a> Haris Aziz, Serge Gaspers, Simon Mackenzie, Nicholas Mattei, Nina Narodytska, and Toby Walsh. 14th International Conference on Autonomous Agents and Multiagent Systems (AAMAS 2015), 2015. </li>
 
 <li class="wide"> <a href="http://scholar.google.com/scholar?as_q=A+study+of+human+behavior+in+online+voting">A study of human behavior in online voting.</a> M. Tal, R. Meir, and Y. Kobi Gal. Proceedings of AAMAS, 2015. </li>
