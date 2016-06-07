@@ -118,6 +118,8 @@
 
 <div class="news_box"><h6><a href=" /data/election/uklabor/ "> ED-00030: UK Labor Party Leadership Vote</a></h6><p>The <a href="http://rangevoting.org/LabourUK2010.html">2010 UK Labor Party Leadership Vote is posted at www.rangevoting.org.</a>  This set contains the votes cast by all 266 MPs over the 5 leadership candidates.  The votes are incomplete strict orders which we have posted along with extensions placing all unranked candidates tied at the end and pairwise graphs.</p></div>
 
+<div class="news_box"><h6><a href=" /data/election/vermont/ "> ED-00031: Vermont District Races</a></h6><p>This dataset contains votes for 15 different races for various public offices held in Vermont in 2014.  This data was collected and donated by <a href="https://www.researchgate.net/profile/Jeremy_Hansen2">Jeremy A Hansen</a>.  There are 3 to 6 candidates and 532 to 1960 voters in these data files.  Not all races were competitive so not every race is reported for every district.</p></div>
+
 
 
 <div class="clear"></div> <div class="grid_8 spacer"></div>
