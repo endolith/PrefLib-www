@@ -36,7 +36,7 @@
 			<div class="clear"></div>
 	
 
-<div class="grid_12"><p><ul><h5 style="text-align:center;"><a href=" /data/matching/aamas/aamas.zip ">Download This Complete Dataset (32K).</a></h5></ul></p></div>
+<div class="grid_12"><p><ul><h5 style="text-align:center;"><a href=" /data/matching/aamas/aamas.zip ">Download This Complete Dataset (44K).</a></h5></ul></p></div>
 
 <!-- Break Page... -->
 																		<div class="clear"></div>
@@ -47,7 +47,7 @@
 																		<table class="DataTable">
 																		<tr><th>Description</th><th>Type</th><th>Modification</th><th>File Name</th><th>File Size</th></tr>
 
-																		 <tr><td> AAMAS 2015 </td><td> <a href="/data/format.php#toi">Order with Ties - Incomplete List</a></td> <td> Original </td> <td> <a href="/data/matching/aamas/MD-00004-00000001.toi" onClick="_gaq.push(['_trackEvent', 'Download', 'individual', 'MD-00004-00000001.toi']);">MD-00004-00000001.toi</a> </td><td> 504K</td></tr> 
+																		 <tr><td> AAMAS 2015 </td><td> <a href="/data/format.php#toi">Order with Ties - Incomplete List</a></td> <td> Original </td> <td> <a href="/data/matching/aamas/MD-00004-00000001.toi" onClick="_gaq.push(['_trackEvent', 'Download', 'individual', 'MD-00004-00000001.toi']);">MD-00004-00000001.toi</a> </td><td> 472K</td></tr> 
 
 
 		</table>

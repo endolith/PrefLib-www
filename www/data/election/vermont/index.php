@@ -37,7 +37,7 @@
 			<div class="clear"></div>
 	
 
-<div class="grid_12"><p><ul><h5 style="text-align:center;"><a href=" /data/election/vermont/vermont.zip ">Download This Complete Dataset (36K).</a></h5></ul></p></div>
+<div class="grid_12"><p><ul><h5 style="text-align:center;"><a href=" /data/election/vermont/vermont.zip ">Download This Complete Dataset (20K).</a></h5></ul></p></div>
 
 <!-- Break Page... -->
 																		<div class="clear"></div>

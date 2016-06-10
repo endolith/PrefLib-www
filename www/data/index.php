@@ -120,6 +120,8 @@
 
 <div class="news_box"><h6><a href=" /data/election/vermont/ "> ED-00031: Vermont District Races</a></h6><p>This dataset contains votes for 15 different races for various public offices held in Vermont in 2014.  This data was collected and donated by <a href="https://www.researchgate.net/profile/Jeremy_Hansen2">Jeremy A Hansen</a>.  There are 3 to 6 candidates and 532 to 1960 voters in these data files.  Not all races were competitive so not every race is reported for every district.</p></div>
 
+<div class="news_box"><h6><a href=" /data/election/education/ "> ED-00032: Education Surveys in Informatics (Cujae)</a></h6><p>This dataset contains the results of surveying students and professors in the Faculty of Informatics, <a href="http://cujae.edu.cu/">Instituto Superior Politécnico José Antonio Echeverría (Cujae, Havana, Cuba)</a> about their preferences on courses and the most important aspects affecting their performance as students and professionals. Answers include ties and missing elements. These surveys, conducted in 2015, include criteria about different numbers of aspects (6 to 32 candidates) and 13 courses.</p></div>
+
 
 
 <div class="clear"></div> <div class="grid_8 spacer"></div>
