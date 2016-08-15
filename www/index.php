@@ -39,7 +39,7 @@
 			<div class="news_box">
 			<div class="news_icon"></div>
 		    	<div class="news_content">
-		        	<b>June 10, 2015:</b>
+		        	<b>June 10, 2016:</b>
 		        	<p>Happy summer (and winter down under!).  We have had a few typo fixes in the AAMAS dataset, and added two new election datasets!  There has also been some fun refactoring going on with the PrefLib tools so head over to <a href="https://github.com/nmattei/PrefLib-Tools" target="_blank"> GitHub!</a> for more on that.</p>
 		        </div>
 		    </div>
