@@ -73,9 +73,9 @@
 
  <tr><td> Sushi 100 Score </td><td> <a href="/data/format.php#toi">Order with Ties - Incomplete List</a></td> <td> Original </td> <td> <a href="/data/election/sushi/ED-00014-00000003.toi" onClick="_gaq.push(['_trackEvent', 'Download', 'individual', 'ED-00014-00000003.toi']);">ED-00014-00000003.toi</a> </td><td> 172K</td></tr> 
 
- <tr><td> Sushi 100 Score </td><td> <a href="/data/format.php#pwg">Pairwise Graph</a></td> <td> Induced </td> <td> <a href="/data/election/sushi/ED-00014-00000003.pwg" onClick="_gaq.push(['_trackEvent', 'Download', 'individual', 'ED-00014-00000003.pwg']);">ED-00014-00000003.pwg</a> </td><td> 80K</td></tr> 
+ <tr><td> Sushi 100 Score </td><td> <a href="/data/format.php#pwg">Pairwise Graph</a></td> <td> Induced </td> <td> <a href="/data/election/sushi/ED-00014-00000003.pwg" onClick="_gaq.push(['_trackEvent', 'Download', 'individual', 'ED-00014-00000003.pwg']);">ED-00014-00000003.pwg</a> </td><td> 76K</td></tr> 
 
- <tr><td> Sushi 100 Score </td><td> <a href="/data/format.php#wmg">Weighted Majority Graph</a></td> <td> Induced </td> <td> <a href="/data/election/sushi/ED-00014-00000003.wmg" onClick="_gaq.push(['_trackEvent', 'Download', 'individual', 'ED-00014-00000003.wmg']);">ED-00014-00000003.wmg</a> </td><td> 40K</td></tr> 
+ <tr><td> Sushi 100 Score </td><td> <a href="/data/format.php#wmg">Weighted Majority Graph</a></td> <td> Induced </td> <td> <a href="/data/election/sushi/ED-00014-00000003.wmg" onClick="_gaq.push(['_trackEvent', 'Download', 'individual', 'ED-00014-00000003.wmg']);">ED-00014-00000003.wmg</a> </td><td> 44K</td></tr> 
 
 
 		</table>

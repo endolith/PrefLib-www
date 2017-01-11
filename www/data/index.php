@@ -118,6 +118,12 @@
 
 <div class="news_box"><h6><a href=" /data/election/uklabor/ "> ED-00030: UK Labor Party Leadership Vote</a></h6><p>The <a href="http://rangevoting.org/LabourUK2010.html">2010 UK Labor Party Leadership Vote is posted at www.rangevoting.org.</a>  This set contains the votes cast by all 266 MPs over the 5 leadership candidates.  The votes are incomplete strict orders which we have posted along with extensions placing all unranked candidates tied at the end and pairwise graphs.</p></div>
 
+<div class="news_box"><h6><a href=" /data/election/vermont/ "> ED-00031: Vermont District Races</a></h6><p>This dataset contains votes for 15 different races for various public offices held in Vermont in 2014.  This data was collected and donated by <a href="https://www.researchgate.net/profile/Jeremy_Hansen2">Jeremy A Hansen</a>.  There are 3 to 6 candidates and 532 to 1960 voters in these data files.  Not all races were competitive so not every race is reported for every district.</p></div>
+
+<div class="news_box"><h6><a href=" /data/election/education/ "> ED-00032: Education Surveys in Informatics (Cujae)</a></h6><p>This dataset contains the results of surveying students and professors in the Faculty of Informatics, <a href="http://cujae.edu.cu/">Instituto Superior Politécnico José Antonio Echeverría (Cujae, Havana, Cuba)</a> about their preferences on courses and the most important aspects affecting their performance as students and professionals. Answers include ties and missing elements. These surveys, conducted in 2015, include criteria about different numbers of aspects (6 to 32 candidates) and 13 courses.</p></div>
+
+<div class="news_box"><h6><a href=" /data/election/poster/ "> ED-00033: San Sebastian Poster Competition</a></h6><p>Approval Ballots from the San Sebastian Poster Competition held during <a href="http://www.illc.uva.nl/COST-IC1205/Events/Action-Summer-Schools/San-Sebastian-2016/">The Summer School on Computational Social Choice</a> organized by COST Action IC1205 at the Miramar Palace in San Sebastian in July 2016.  This set has two elections of approval ballots with 17 alternatives and about 60 voters each.  The data on this page was donated by <a href="https://staff.science.uva.nl/u.endriss/">Ulle Endriss</a>.</p></div>
+
 
 
 <div class="clear"></div> <div class="grid_8 spacer"></div>
