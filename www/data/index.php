@@ -16,12 +16,12 @@
 					<li> <a href="/data/index.php#ed">Election Data (ED):</a> Contains data that either was an election, or can be interpreted as election data. We have data from actual elections, movie rankings, and competitor rankings from various sporting competitions.</li>
 					<li><a href="/data/index.php#md">Matching Data (MD):</a> Contains data where agents express preference over items (and vise-verse) in order to pair agents to items.  Currently, we only have synthetic data from organ and kidney matching in the USA.</li>
 					<li><a href="/data/index.php#cd">Rating and Combinatorial Preference Data (CD):</a> Contains data from a broad set of domains that can be viewed as combinatorial and/or multidimensional including multi-attribute ratings, CP-nets, and GAI-nets. </li>
-					<li><a href="/data/index.php#od">Optimization Data (OD):</a> Contain data that is typically associated with optimization problems including SAT and CSP problems.</li> 
+					<li><a href="/data/index.php#od">Optimization Data (OD):</a> Contain data that is typically associated with optimization problems including SAT and CSP problems.</li>
 				</p>
 
 				<p> Each data file we host has a unique identifier in the format [XX]-#####-########.EXT.  These numbers are broken down as:
 				<ul>
-					<li>XX is a 2 letter category code from above. </li> 
+					<li>XX is a 2 letter category code from above. </li>
 					<li>##### is a 5 digit Series Code which specifies the source of the data. </li>
 					<li>######## is an 8 digit Element Number for each individual file of a series.
 					<li>EXT which is a unique <a href="./data/format.php">file extension</a> describing the type of data in the file.
@@ -31,10 +31,10 @@
 				<p> Each data file is labeled as either Original, Induced, or Imbued.
 				<ul>
 					<li><b>Original:</b> Data that has only been converted into our formatting.</li>
-					<li><b>Induced:</b> Data that has been induced from another context.  For example, computing a pairwise relation form a set of strict total orders.  No assumptions have been made to create these files, just a change in the expression language.</li> 
+					<li><b>Induced:</b> Data that has been induced from another context.  For example, computing a pairwise relation form a set of strict total orders.  No assumptions have been made to create these files, just a change in the expression language.</li>
 					<li><b>Imbued:</b> Data that has been imbued with extra information.  For example, extending an incomplete partial order by placing all unranked candidates tied at the end.</li>
 				</ul>
-				We encourage you to understand some of the impacts that making these assumptions can have, see, e.g. <a href="http://scholar.google.com/scholar?as_q=A+Behavioral+Perspective+on+Social+Choice">A Behavioral Perspective on Social Choice.</a>  Anna Popova, Michel Regenwetter, and Nicholas Mattei.  Annals of Mathematics and Artificial Intelligence 68(1-3), 2013. 
+				We encourage you to understand some of the impacts that making these assumptions can have, see, e.g. <a href="http://scholar.google.com/scholar?as_q=A+Behavioral+Perspective+on+Social+Choice">A Behavioral Perspective on Social Choice.</a>  Anna Popova, Michel Regenwetter, and Nicholas Mattei.  Annals of Mathematics and Artificial Intelligence 68(1-3), 2013.
 				</p>
 			</div>
 	
@@ -43,10 +43,10 @@
 				<p>
 				<img src="/images/pref.png" alt="" title="" />
 
-				<a href="http://www.nicta.com.au/category/research/optimisation/" class="center"> <h3>Supported By:</h3><img src="/images/nicta.png" alt="" title="NICTA" /></a>
+				<a href="https://research.csiro.au/data61/preflib-tools-and-archive/" class="center"> <h3>Supported By:</h3><img src="/images/nicta.png" alt="" title="NICTA" /></a>
 				</p>
 			</div>
-			
+
 			<!-- Break Page... -->
 			<div class="clear"></div>
 			<div class="grid_12 spacer"></div>
@@ -124,6 +124,8 @@
 
 <div class="news_box"><h6><a href=" /data/election/poster/ "> ED-00033: San Sebastian Poster Competition</a></h6><p>Approval Ballots from the San Sebastian Poster Competition held during <a href="http://www.illc.uva.nl/COST-IC1205/Events/Action-Summer-Schools/San-Sebastian-2016/">The Summer School on Computational Social Choice</a> organized by COST Action IC1205 at the Miramar Palace in San Sebastian in July 2016.  This set has two elections of approval ballots with 17 alternatives and about 60 voters each.  The data on this page was donated by <a href="https://staff.science.uva.nl/u.endriss/">Ulle Endriss</a>.</p></div>
 
+<div class="news_box"><h6><a href=" /data/election/cities/ "> ED-00034: Cities Survey</a></h6><p>This dataset contains noisy input from two surveys, one about cost of living and one about population, of 392 individuals over 36 alternatives for cost of living and 48 alternatives for population. Each individual provided a ranking of six given cities in terms of cost of living and a ranking of six countries in terms of population.</p></div>
+
 
 
 <div class="clear"></div> <div class="grid_8 spacer"></div>
@@ -136,7 +138,7 @@
 
 <div class="news_box"><h6><a href=" /data/matching/project/ "> MD-00003: Project Bidding Data</a></h6><p>This dataset contains bids of students over a set of projects for student/project allocations at the School of Computing Science, University of Glasgow.  Each project is supervised by an individual each with a maximum capacity of supervision.  There are 8 years worth of data in this set and with between 31 and 51 students and 56 and 155 projects. This data was kindly donated by <a href="http://www.dcs.gla.ac.uk/~davidm/">David Manlove</a> who collected this data.</p></div>
 
-<div class="news_box"><h6><a href=" /data/matching/aamas/ "> MD-00004: AAMAS Bidding Data</a></h6><p>This dataset contains the bids of reviewers over papers from the <a href="http://www.aamas2015.com/en/">2015 Autonomous Agents and Multiagent Systems Conference</a>.  Inclusion in this data set was explicitly opt-in; it contains 9,817 bids of 201 reviewers over 613 papers; this represents about 40% of the actual 22,360 bids of 281 reviewers over 670 papers.</p></div>
+<div class="news_box"><h6><a href=" /data/matching/aamas/ "> MD-00004: AAMAS Bidding Data</a></h6><p>This dataset contains the bids of reviewers over papers from the 2015 and 2016 Autonomous Agents and Multiagent Systems Conference</a>.  Inclusion in these data sets were explicitly opt-in; 2015 contains 9,817 bids of 201 reviewers over 613 papers; this represents about 40% of the actual 22,360 bids of 281 reviewers over 670 papers.  The 2016 data contains 161 out of 393 reviewers with bids over 442 out of 550 papers.</p></div>
 
 
 
@@ -147,6 +149,8 @@
 <div class="news_box"><h6><a href=" /data/combinatorial/trip/ "> CD-00001: Trip Advisor Data</a></h6><p>This dataset contains 675,069 reviews of 1,851 hotels across the world scraped from <a href="www.tripadvisor.com">Trip Advisor</a>.  The data was scraped and donated by <a href="http://sifaka.cs.uiuc.edu/~wang296/">Hongning Wang</a>.</p></div>
 
 <div class="news_box"><h6><a href=" /data/combinatorial/frenchrate/ "> CD-00002: Proto French Election</a></h6><p> This analog dataset to the 2002 French Presidential Election Dataset was collected by Jean-Francois Laslier, Karine Van der Straeten and Michel Balinski.  It consists of 398 approval ballots and subjective ratings on a 20 point scale collected over potential candidates for the 2002 French Presidential election cast by students at Institut d’Etudes Politiques de Paris.</p></div>
+
+<div class="news_box"><h6><a href=" /data/combinatorial/social/ "> CD-00003: Social Recommendation</a></h6><p>This dataset contains the Facebook Social Graph and full ratings of 16 restaurants and 23 pubs by 93 users.</p></div>
 
 
 
@@ -172,7 +176,7 @@
 			</div>
 	
 			<!-- Break and Footer -->
-			<?php require_once($_SERVER['DOCUMENT_ROOT'] . '/common/foot.php'); ?>	
+			<?php require_once($_SERVER['DOCUMENT_ROOT'] . '/common/foot.php'); ?>
 		</div>
 	</body>
 	</html>

@@ -70,10 +70,10 @@ if __name__ == '__main__':
 
     # Sync EVERYTHING to DEV.
     print(" *** Pushing ENTIRE www directory to DEV@DREAMHOST *** ")
-    os.system('''rsync --recursive --times --verbose --progress --compress --delete-after --exclude="*.DS_Store" --exclude="*pycache*" /Users/mat320/repo/www-preflib.github/www/ koolkamel@www.preflib.org:~/dev.preflib.org''')
+    os.system('''rsync --recursive --times --verbose --progress --compress --delete-after --exclude="*.DS_Store" --exclude="*pycache*" /Users/nmattei/repo/github/preflib-www.git/www/ koolkamel@www.preflib.org:~/dev.preflib.org''')
 
 
     # Do a main push but don't take the .htaccess and .htpassword
     if results.main:
       print(" *** Pushing ENTIRE www directory to PREFLIB@DREAMHOST *** ")
-      os.system('''rsync --recursive --times --verbose --progress --compress --delete-after --exclude="*.DS_Store" --exclude=".htaccess" --exclude=".htpasswd" --exclude="*pycache*" /Users/mat320/repo/www-preflib.github/www/ koolkamel@www.preflib.org:~/preflib.org''')
+      os.system('''rsync --recursive --times --verbose --progress --compress --delete-after --exclude="*.DS_Store" --exclude=".htaccess" --exclude=".htpasswd" --exclude="*pycache*" /Users/nmattei/repo/github/preflib-www.git/www/ koolkamel@www.preflib.org:~/preflib.org''')

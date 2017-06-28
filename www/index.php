@@ -10,7 +10,7 @@
 
 		<!-- Intro Material -->
 		<div class="grid_7">
-			<p> A reference library of preference data and links assembled by <a href="http://www.nickmattei.net">Nicholas Mattei</a> and <a href="http://www.cse.unsw.edu.au/~tw/">Toby Walsh</a>.  This site and library is proudly supported by the <a href="http://www.org.nicta.com.au">Optimization Research Group</a> at <a href="http://www.nicta.com.au">NICTA</a>. We currently house over 3,000 datasets for use by the community.</p>
+			<p> A reference library of preference data and links assembled by <a href="http://www.nickmattei.net">Nicholas Mattei</a> and <a href="http://www.cse.unsw.edu.au/~tw/">Toby Walsh</a>.  This site and library is proudly supported by the <a href="https://research.csiro.au/adt/">Algorithmic Decision Theory</a> at <a href="https://www.data61.csiro.au/">Data61</a>. We currently house over 3,000 datasets for use by the community.</p>
 
 			<p> We want to provide a comprehensive resource for the multuple research communities that deal with preferences, including computational social choice, recommender systems, data mining, machine learning, and combinatorial optimization, to name just a few.</p>
 
@@ -25,7 +25,7 @@
 			<p>
 			<img src="/images/pref.png" alt="" title="" />
 
-			<a href="http://www.nicta.com.au/category/research/optimisation/" class="center"> <h3>Supported By:</h3><img src="/images/nicta.png" alt="" title="NICTA" /></a>
+			<a href="https://research.csiro.au/data61/preflib-tools-and-archive/" class="center"> <h3>Supported By:</h3><img src="/images/nicta.png" alt="" title="Data61" /></a>
 			</p>
 		</div>
 
@@ -36,6 +36,30 @@
 
 		<!-- News -->
 		<div class="grid_8">
+			<div class="news_box">
+			<div class="news_icon"></div>
+		    	<div class="news_content">
+		        	<b>June 1, 2017:</b>
+		        	<p>Happy Summer All!  We have uploaded a bevy of new data sets including AAMAS 2016 bidding data and some social network data.  The updates are coming a bit slower and if anyone out there wants to help Nick maintain the site, golly, he sure could use your help!
+		        	</p>
+		        </div>
+		    </div>
+
+			<div class="news_box">
+			<div class="news_icon"></div>
+		    	<div class="news_content">
+		        	<b>Jan. 10, 2017:</b>
+		        	<p>Happy New Year all!  A few quick updates on the
+		        	site.
+		        	<ul>
+		        		<li> Nick has moved to IBM!  Please note the updated addresses for getting in contact (nsmattei@gmail.com).</li>
+		        		<li> We are hosting the 4th Workshop on <a href="http://www.explore-2017.preflib.org/" target="_blank"> Exploring Beyond the Worst Case in Computational Social Choice (EXPLORE 2017)</a> at <a href="http://www.aamas2017.org/" target="_blank">AAMAS 2017!</a>. Please check out the website for more information and we hope to see you in Sao Paulo!.</li>
+		        	</ul>
+		        	We'll be back later in the month with some new datasets and a few other announcements.
+		        	</p>
+		        </div>
+		    </div>
+
 			<div class="news_box">
 			<div class="news_icon"></div>
 		    	<div class="news_content">

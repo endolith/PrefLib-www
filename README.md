@@ -1,9 +1,9 @@
 # PrefLib-www
-README.txt for PrefLib www (c) Nicholas Mattei and NICTA.
+README.txt for PrefLib www repository (c) Nicholas Mattei.
 
 All code and scripts for creating the PrefLib website.  Currently the archive and data indexes are missing because GitHub is a bit strict on data sizes.  The website serves as a repository for the data at this point.
 
-Please see www.PrefLib.org for more information about our project and a large library of real-world preference data For questions or comments please contact nsmattei@gmail.com or Nicholas.Mattei@nicta.com.au.
+Please see www.PrefLib.org for more information about our project and a large library of real-world preference data For questions or comments please contact nsmattei@gmail.com.
 
 This code comes without warranty. Please use or distribute for research and academic uses only. Please use according to the citation and fair use requests on found at www.preflib.org.
 

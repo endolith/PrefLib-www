@@ -2,7 +2,7 @@
 	File: 	build_data_html.py
 	Author:	Nicholas Mattei (nicholas.mattei@nicta.com.au)
 	Date:	Nov. 11th 2015
-	
+
 		* Copyright (c) 2014/2015, Nicholas Mattei and NICTA
 		* All rights reserved.
 		*
@@ -38,10 +38,10 @@ About
 	This file recurses through the data directory of the PrefLib website
 	and builds up (1) the /index.php page listing all data that is present,
 	(2) the data/x/y file which is the listing for all the data from a
-	particular group and (3) updates the /packs/index.php page and 
+	particular group and (3) updates the /packs/index.php page and
 	ensures that all zip files in the index match the requsite directories
 	(not including the html, just the info .txt)
-	
+
 '''
 
 import glob
@@ -63,24 +63,24 @@ LINK_NAMES = ['''<a name = "ed"></a>''', '''<a name = "md"></a>''', '''<a name =
 EXTENSIONS = ["soc", "soi", "toc", "toi", "tog", "mjg", "wmg", "pwg", "wmd"]
 
 
-EXTENSION_LONG = { "soc":"Strict Order - Complete List", 
+EXTENSION_LONG = { "soc":"Strict Order - Complete List",
 																			"soi":"Strict Order - Incomplete List",
 																				"toc":"Order with Ties - Complete List",
 																				"toi":"Order with Ties - Incomplete List",
 																				"tog":"Tournament Graph",
-																				"mjg":"Majority Graph", 
+																				"mjg":"Majority Graph",
 																				"wmg":"Weighted Majority Graph",
 																				"pwg":"Pairwise Graph",
 																				"wmd":"Weighted Matching Data",
 																				"zip":"Zipped Data File",
 																				"dat":"Extra Data File (CSV)"}
 
-FORMAT_LINKS = {    "soc":"/data/format.php#soc", 
+FORMAT_LINKS = {    "soc":"/data/format.php#soc",
 																				"soi":"/data/format.php#soi",
 																				"toc":"/data/format.php#toc",
 																				"toi":"/data/format.php#toi",
 																				"tog":"/data/format.php#tog",
-																				"mjg":"/data/format.php#mjg", 
+																				"mjg":"/data/format.php#mjg",
 																				"wmg":"/data/format.php#wmg",
 																				"pwg":"/data/format.php#pwg",
 																				"wmd":"/data/format.php#wmd",
@@ -116,12 +116,12 @@ DATA_INDEX_INTRO = \
 					<li> <a href="/data/index.php#ed">Election Data (ED):</a> Contains data that either was an election, or can be interpreted as election data. We have data from actual elections, movie rankings, and competitor rankings from various sporting competitions.</li>
 					<li><a href="/data/index.php#md">Matching Data (MD):</a> Contains data where agents express preference over items (and vise-verse) in order to pair agents to items.  Currently, we only have synthetic data from organ and kidney matching in the USA.</li>
 					<li><a href="/data/index.php#cd">Rating and Combinatorial Preference Data (CD):</a> Contains data from a broad set of domains that can be viewed as combinatorial and/or multidimensional including multi-attribute ratings, CP-nets, and GAI-nets. </li>
-					<li><a href="/data/index.php#od">Optimization Data (OD):</a> Contain data that is typically associated with optimization problems including SAT and CSP problems.</li> 
+					<li><a href="/data/index.php#od">Optimization Data (OD):</a> Contain data that is typically associated with optimization problems including SAT and CSP problems.</li>
 				</p>
 
 				<p> Each data file we host has a unique identifier in the format [XX]-#####-########.EXT.  These numbers are broken down as:
 				<ul>
-					<li>XX is a 2 letter category code from above. </li> 
+					<li>XX is a 2 letter category code from above. </li>
 					<li>##### is a 5 digit Series Code which specifies the source of the data. </li>
 					<li>######## is an 8 digit Element Number for each individual file of a series.
 					<li>EXT which is a unique <a href="./data/format.php">file extension</a> describing the type of data in the file.
@@ -131,10 +131,10 @@ DATA_INDEX_INTRO = \
 				<p> Each data file is labeled as either Original, Induced, or Imbued.
 				<ul>
 					<li><b>Original:</b> Data that has only been converted into our formatting.</li>
-					<li><b>Induced:</b> Data that has been induced from another context.  For example, computing a pairwise relation form a set of strict total orders.  No assumptions have been made to create these files, just a change in the expression language.</li> 
+					<li><b>Induced:</b> Data that has been induced from another context.  For example, computing a pairwise relation form a set of strict total orders.  No assumptions have been made to create these files, just a change in the expression language.</li>
 					<li><b>Imbued:</b> Data that has been imbued with extra information.  For example, extending an incomplete partial order by placing all unranked candidates tied at the end.</li>
 				</ul>
-				We encourage you to understand some of the impacts that making these assumptions can have, see, e.g. <a href="http://scholar.google.com/scholar?as_q=A+Behavioral+Perspective+on+Social+Choice">A Behavioral Perspective on Social Choice.</a>  Anna Popova, Michel Regenwetter, and Nicholas Mattei.  Annals of Mathematics and Artificial Intelligence 68(1-3), 2013. 
+				We encourage you to understand some of the impacts that making these assumptions can have, see, e.g. <a href="http://scholar.google.com/scholar?as_q=A+Behavioral+Perspective+on+Social+Choice">A Behavioral Perspective on Social Choice.</a>  Anna Popova, Michel Regenwetter, and Nicholas Mattei.  Annals of Mathematics and Artificial Intelligence 68(1-3), 2013.
 				</p>
 			</div>
 	'''
@@ -146,10 +146,10 @@ PICTURES_AND_LINKS = \
 				<p>
 				<img src="/images/pref.png" alt="" title="" />
 
-				<a href="http://www.nicta.com.au/category/research/optimisation/" class="center"> <h3>Supported By:</h3><img src="/images/nicta.png" alt="" title="NICTA" /></a>
+				<a href="https://research.csiro.au/data61/preflib-tools-and-archive/" class="center"> <h3>Supported By:</h3><img src="/images/nicta.png" alt="" title="NICTA" /></a>
 				</p>
 			</div>
-			
+
 			<!-- Break Page... -->
 			<div class="clear"></div>
 			<div class="grid_12 spacer"></div>
@@ -169,7 +169,7 @@ LINKS = \
 BREAK_AND_FOOTER = \
 	'''
 			<!-- Break and Footer -->
-			<?php require_once($_SERVER['DOCUMENT_ROOT'] . '/common/foot.php'); ?>	
+			<?php require_once($_SERVER['DOCUMENT_ROOT'] . '/common/foot.php'); ?>
 		</div>
 	</body>
 	</html>
@@ -180,7 +180,7 @@ def make_study_html(studies):
 		Convert a record in the following format:
 		Budgeted Social Choice: From Consensus to Personalized Decision Making; Tyler Lu and Craig Boutilier; IJCAI 2011; | Record 2 | Record 3
 
-		into a html UL list with links to google scholar for 
+		into a html UL list with links to google scholar for
 		the title of the paper.
 
 		Parameters
@@ -193,12 +193,12 @@ def make_study_html(studies):
 
 		Returns
 		-----------
-				Formatted HTML string of <ul> for each Element <li> with a 
+				Formatted HTML string of <ul> for each Element <li> with a
 				link to google scholar for the title.
 
 		Notes
 		-----------
-				Writes HTML file to the same directory location as the 
+				Writes HTML file to the same directory location as the
 				info.txt file came from.
 
 		'''
@@ -215,8 +215,8 @@ def make_study_html(studies):
 
 def make_listing_page(meta_data, file_list):
 		"""
-		Generate a per dataset index file to sit alongside 
-		the info.txt file.  All HTML is encoded in this 
+		Generate a per dataset index file to sit alongside
+		the info.txt file.  All HTML is encoded in this
 		function.
 
 		Parameters
@@ -231,7 +231,7 @@ def make_listing_page(meta_data, file_list):
 			5: Description:
 			6: Required Citations:
 			7: Selected Studies:
-					
+
 		file_list: string
 				Listing of the files for the dataset.
 				0: description,status,file_name
@@ -244,7 +244,7 @@ def make_listing_page(meta_data, file_list):
 
 		Notes
 		-----------
-			Writes HTML file to the same directory location as the 
+			Writes HTML file to the same directory location as the
 			info.txt file came from.
 
 			TODO: 15-Dec: We should put some sanity checking in here to make sure the files
@@ -266,7 +266,7 @@ def make_listing_page(meta_data, file_list):
 				Modify studies and citations to have links to google scholar
 		'''
 		required = make_study_html(meta_data[6])
-		selected = make_study_html(meta_data[7])  
+		selected = make_study_html(meta_data[7])
 
 		# Required Citations
 		html_page += '''\n\n<p><h6>Required Citations</h6><p><ul> \n''' + required + '''</ul></p>\n\n'''
@@ -295,7 +295,7 @@ def make_listing_page(meta_data, file_list):
 														'''
 
 		# Make the Table...
-		html_page += ''' 
+		html_page += '''
 																		<div class="grid_12">
 																		<table class="DataTable">
 																		<tr><th>Description</th><th>Type</th><th>Modification</th><th>File Name</th><th>File Size</th></tr>\n
@@ -316,7 +316,7 @@ def make_listing_page(meta_data, file_list):
 						extension = fname.split(".")[1].strip()
 
 						html_page += " <tr><td> " + desc + " </td><td> <a href=\"" + FORMAT_LINKS[extension] + "\">" + EXTENSION_LONG[extension] + "</a></td> <td> " +  status + ''' </td> <td> <a href="''' + link + "\" onClick=\"_gaq.push(['_trackEvent', 'Download', 'individual', '" + fname + "']);\">" + fname + "</a> </td><td> " + size + "</td></tr> \n\n"
-																		
+
 
 		html_page +=  '''
 		</table>
@@ -340,7 +340,7 @@ def build_data_pages():
 								print(" *** Updating " + ext + " Pack *** ")
 								count = os.system("find " + DATA_ROOT + " -type f -name '*." + ext + "' -print | zip --filesync --junk-paths " + DATA_ROOT + PACK_LOCATION + ext + " -@")
 								cmdstr = "find " + DATA_ROOT + " -type f -name '*." + ext + "' -print | wc -l"
-					
+
 								c = subprocess.check_output([cmdstr], shell=True)
 								c = str(c).strip().replace("\\n'", "")
 								pack_counts[ext] = int(c.strip().split(" ")[len(c.strip().split(" "))-1])
@@ -382,7 +382,7 @@ def build_data_pages():
 						# Extract and process info and listing
 						info = lines[:8]
 						listing = lines[8:]
-						# Catch here for extra : than the first... need to take 
+						# Catch here for extra : than the first... need to take
 						# Everything after the first :...
 						info = [x[x.find(":")+1:].strip() for x in info]
 
@@ -489,7 +489,7 @@ def build_pubs_php():
 		#Throw out lines with *..
 		lines = [l for l in lines if l[0] != '*']
 		lines = ''.join(lines)
-		
+
 		# Parse all the strings into a hash by year...
 		papers = {}
 		recs = lines.strip().split("|")
@@ -498,14 +498,14 @@ def build_pubs_php():
 			title, author, venue, year = crec.strip().split(";")
 			html = '''<li class="wide"> <a href="http://scholar.google.com/scholar?as_q=''' + title.strip().replace(" ", "+") + '''">''' + title.strip() + '''.</a> ''' + author.strip() + '''. ''' + venue.strip() + ''', ''' + year.strip() + '''. </li>\n'''
 			papers[int(year.strip())] = papers.get(int(year.strip()), []) + [html]
-			
+
 		# Write it out...
 		with open("../common/pubs.php", 'w') as f:
 			f.write('''<ol reversed>\n''')
 			for c in sorted(papers.keys(), reverse=True):
 					f.write("\n".join(papers[c]))
 			f.write('''</ol>\n''')
-		
+
 
 if __name__ == '__main__':
 		build_data_pages()
