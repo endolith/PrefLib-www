@@ -1,4 +1,6 @@
 <ol reversed>
+<li class="wide"> <a href="http://scholar.google.com/scholar?as_q=Flexible+level-1+consensus+ensuring+stable+social+choice:analysis+and+algorithms">Flexible level-1 consensus ensuring stable social choice:analysis and algorithms.</a> Mor Nitzan, Shmuel Nitzan, and Erel Segal-Halevi. Social Choice and Welfare, 2017. </li>
+
 <li class="wide"> <a href="http://scholar.google.com/scholar?as_q=Group+Decision+Support+for+Leisure+Activities+Using+Voting+and+Social+Networks">Group Decision Support for Leisure Activities Using Voting and Social Networks.</a> Ofrit Lesser, Lihi Naamani-Dery, Meir Kalech, and Yuval Elovici. Group Decision and Negotiation Journal: 26(3): 473-494, 2017. </li>
 
 <li class="wide"> <a href="http://scholar.google.com/scholar?as_q=Controlled+School+Choice+with+Soft+Bounds+and+Overlapping+Types">Controlled School Choice with Soft Bounds and Overlapping Types.</a> Ryoji Kurata, Naoto Hamada, Atsushi Iwasaki and Makoto Yokoo. Journal of Artificial Intelligence Research Volume 58, 2017. </li>
