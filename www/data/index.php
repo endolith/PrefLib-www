@@ -16,12 +16,12 @@
 					<li> <a href="/data/index.php#ed">Election Data (ED):</a> Contains data that either was an election, or can be interpreted as election data. We have data from actual elections, movie rankings, and competitor rankings from various sporting competitions.</li>
 					<li><a href="/data/index.php#md">Matching Data (MD):</a> Contains data where agents express preference over items (and vise-verse) in order to pair agents to items.  Currently, we only have synthetic data from organ and kidney matching in the USA.</li>
 					<li><a href="/data/index.php#cd">Rating and Combinatorial Preference Data (CD):</a> Contains data from a broad set of domains that can be viewed as combinatorial and/or multidimensional including multi-attribute ratings, CP-nets, and GAI-nets. </li>
-					<li><a href="/data/index.php#od">Optimization Data (OD):</a> Contain data that is typically associated with optimization problems including SAT and CSP problems.</li> 
+					<li><a href="/data/index.php#od">Optimization Data (OD):</a> Contain data that is typically associated with optimization problems including SAT and CSP problems.</li>
 				</p>
 
 				<p> Each data file we host has a unique identifier in the format [XX]-#####-########.EXT.  These numbers are broken down as:
 				<ul>
-					<li>XX is a 2 letter category code from above. </li> 
+					<li>XX is a 2 letter category code from above. </li>
 					<li>##### is a 5 digit Series Code which specifies the source of the data. </li>
 					<li>######## is an 8 digit Element Number for each individual file of a series.
 					<li>EXT which is a unique <a href="./data/format.php">file extension</a> describing the type of data in the file.
@@ -31,10 +31,10 @@
 				<p> Each data file is labeled as either Original, Induced, or Imbued.
 				<ul>
 					<li><b>Original:</b> Data that has only been converted into our formatting.</li>
-					<li><b>Induced:</b> Data that has been induced from another context.  For example, computing a pairwise relation form a set of strict total orders.  No assumptions have been made to create these files, just a change in the expression language.</li> 
+					<li><b>Induced:</b> Data that has been induced from another context.  For example, computing a pairwise relation form a set of strict total orders.  No assumptions have been made to create these files, just a change in the expression language.</li>
 					<li><b>Imbued:</b> Data that has been imbued with extra information.  For example, extending an incomplete partial order by placing all unranked candidates tied at the end.</li>
 				</ul>
-				We encourage you to understand some of the impacts that making these assumptions can have, see, e.g. <a href="http://scholar.google.com/scholar?as_q=A+Behavioral+Perspective+on+Social+Choice">A Behavioral Perspective on Social Choice.</a>  Anna Popova, Michel Regenwetter, and Nicholas Mattei.  Annals of Mathematics and Artificial Intelligence 68(1-3), 2013. 
+				We encourage you to understand some of the impacts that making these assumptions can have, see, e.g. <a href="http://scholar.google.com/scholar?as_q=A+Behavioral+Perspective+on+Social+Choice">A Behavioral Perspective on Social Choice.</a>  Anna Popova, Michel Regenwetter, and Nicholas Mattei.  Annals of Mathematics and Artificial Intelligence 68(1-3), 2013.
 				</p>
 			</div>
 	
@@ -43,10 +43,10 @@
 				<p>
 				<img src="/images/pref.png" alt="" title="" />
 
-				<a href="http://www.nicta.com.au/category/research/optimisation/" class="center"> <h3>Supported By:</h3><img src="/images/nicta.png" alt="" title="NICTA" /></a>
+				<a href="https://research.csiro.au/data61/preflib-tools-and-archive/" class="center"> <h3>Supported By:</h3><img src="/images/nicta.png" alt="" title="NICTA" /></a>
 				</p>
 			</div>
-			
+
 			<!-- Break Page... -->
 			<div class="clear"></div>
 			<div class="grid_12 spacer"></div>
@@ -84,7 +84,7 @@
 
 <div class="news_box"><h6><a href=" /data/election/anes/ "> ED-00013: American National Election Studies Data</a></h6><p>This dataset contains the results of the <a href="http://www.electionstudies.org/">American National Election Studies</a> thermometer polls taken between 1970 and 2008 (not including 2006).  The data presented here was derrived by datasets assembled by <a href="http://www.econ.vt.edu/faculty/facultybios/tidemanbio.htm">Nicolaus Tideman</a> and <a href="http://www2.binghamton.edu/economics/people/plassmann.html">Florenz Plassmann</a>.</p></div>
 
-<div class="news_box"><h6><a href=" /data/election/sushi/ "> ED-00014: Sushi Data</a></h6><p>This dataset contains the results of a series of surveys conducted by <a href="http://www.kamishima.net/sushi/">Toshihiro Kamishima</a> asking 5000 individuals for their preferences about various kinds of sushi.  There are three different datasets that were elicited in different ways: <ul><li> <b>Element Series 00000001</b> contains 10 complete strict rank orders of 10 different kinds of sushi.</li> <li> <b>Element Series 00000002</b> contains individual's strict rank ordering of 100 different kinds of sushi (candidates). </li> <li> <b>Element Series 00000003</b> contains individual's scoring of sushi items on a scale of 0-4, with repeats allowed.</li> </ul>  This dataset contains 14 files in total including soc, soi, toi, and toc files.</p></div>
+<div class="news_box"><h6><a href=" /data/election/sushi/ "> ED-00014: Sushi Data</a></h6><p>This dataset contains the results of a series of surveys conducted by <a href="http://www.kamishima.net/sushi/">Toshihiro Kamishima</a> asking 5000 individuals for their preferences about various kinds of sushi.  There are three different datasets that were elicited in different ways: <ul><li> <b>Element Series 00000001</b> contains 10 complete strict rank orders of 10 different kinds of sushi.</li> <li> <b>Element Series 00000002</b> contains individual's strict rank ordering of 100 different kinds of sushi (candidates). </li> <li> <b>Element Series 00000003</b> contains individual's scoring of sushi items on a scale of 0-4, with repeats allowed.</li> </ul>  This dataset contains 14 files in total including soc, soi, toi, and toc files.<br><br> <b>Note that the dataset was incorrectly converted, it has been fixed as of Jan 2016, please re-download.</b></p></div>
 
 <div class="news_box"><h6><a href=" /data/election/cleanweb/ "> ED-00015: Clean Web Search</a></h6><p>This dataset contains the results of comparing websearches across Bing, Google, Yahoo, and Ask.  This data is provided by <a href="http://robert.bredereck.info/">Robert Bredereck</a> at TU:Berlin.  Robert provides tools to compute Kemeny rankings on this data at his <a href="http://fpt.akt.tu-berlin.de/kconsens/README">website at TU Berlin</a>.</p></div>
 
@@ -118,6 +118,14 @@
 
 <div class="news_box"><h6><a href=" /data/election/uklabor/ "> ED-00030: UK Labor Party Leadership Vote</a></h6><p>The <a href="http://rangevoting.org/LabourUK2010.html">2010 UK Labor Party Leadership Vote is posted at www.rangevoting.org.</a>  This set contains the votes cast by all 266 MPs over the 5 leadership candidates.  The votes are incomplete strict orders which we have posted along with extensions placing all unranked candidates tied at the end and pairwise graphs.</p></div>
 
+<div class="news_box"><h6><a href=" /data/election/vermont/ "> ED-00031: Vermont District Races</a></h6><p>This dataset contains votes for 15 different races for various public offices held in Vermont in 2014.  This data was collected and donated by <a href="https://www.researchgate.net/profile/Jeremy_Hansen2">Jeremy A Hansen</a>.  There are 3 to 6 candidates and 532 to 1960 voters in these data files.  Not all races were competitive so not every race is reported for every district.</p></div>
+
+<div class="news_box"><h6><a href=" /data/election/education/ "> ED-00032: Education Surveys in Informatics (Cujae)</a></h6><p>This dataset contains the results of surveying students and professors in the Faculty of Informatics, <a href="http://cujae.edu.cu/">Instituto Superior Politécnico José Antonio Echeverría (Cujae, Havana, Cuba)</a> about their preferences on courses and the most important aspects affecting their performance as students and professionals. Answers include ties and missing elements. These surveys, conducted in 2015, include criteria about different numbers of aspects (6 to 32 candidates) and 13 courses.</p></div>
+
+<div class="news_box"><h6><a href=" /data/election/poster/ "> ED-00033: San Sebastian Poster Competition</a></h6><p>Approval Ballots from the San Sebastian Poster Competition held during <a href="http://www.illc.uva.nl/COST-IC1205/Events/Action-Summer-Schools/San-Sebastian-2016/">The Summer School on Computational Social Choice</a> organized by COST Action IC1205 at the Miramar Palace in San Sebastian in July 2016.  This set has two elections of approval ballots with 17 alternatives and about 60 voters each.  The data on this page was donated by <a href="https://staff.science.uva.nl/u.endriss/">Ulle Endriss</a>.</p></div>
+
+<div class="news_box"><h6><a href=" /data/election/cities/ "> ED-00034: Cities Survey</a></h6><p>This dataset contains noisy input from two surveys, one about cost of living and one about population, of 392 individuals over 36 alternatives for cost of living and 48 alternatives for population. Each individual provided a ranking of six given cities in terms of cost of living and a ranking of six countries in terms of population.</p></div>
+
 
 
 <div class="clear"></div> <div class="grid_8 spacer"></div>
@@ -128,9 +136,9 @@
 
 <div class="news_box"><h6><a href=" /data/matching/csconf/ "> MD-00002: Computer Science Conference Bidding Data</a></h6><p>This dataset contains the bidding data from 3 Computer Science Conferences.  This contains the bids of all reviewers (aside a small number of opt-outs) over a subset of papers at the conference.</p></div>
 
-<div class="news_box"><h6><a href=" /data/matching/project/ "> MD-00003: Project Bidding Data</a></h6><p>This dataset contains bids of students over a set of projects for student/project allocations at the School of Computing Science, University of Glasgod.  Each project is supervised by an individual each with a maximum capacity of supervision.  There are 8 years worth of data in this set and with between 31 and 51 students and 56 and 155 projects. This data was kindly donated by <a href="http://www.dcs.gla.ac.uk/~davidm/">David Manlove</a> who collected this data.</p></div>
+<div class="news_box"><h6><a href=" /data/matching/project/ "> MD-00003: Project Bidding Data</a></h6><p>This dataset contains bids of students over a set of projects for student/project allocations at the School of Computing Science, University of Glasgow.  Each project is supervised by an individual each with a maximum capacity of supervision.  There are 8 years worth of data in this set and with between 31 and 51 students and 56 and 155 projects. This data was kindly donated by <a href="http://www.dcs.gla.ac.uk/~davidm/">David Manlove</a> who collected this data.</p></div>
 
-<div class="news_box"><h6><a href=" /data/matching/aamas/ "> MD-00004: AAMAS Bidding Data</a></h6><p>This dataset contains the bids of reviewers over papers from the <a href="http://www.aamas2015.com/en/">2015 Autonomous Agents and Multiagent Systems Conference</a>.  Inclusion in this data set was explicitly opt-in; it contains 9,817 bids of 201 reviewers over 613 papers; this represents about 40% of the actual 22,360 bids of 281 reviewers over 670 papers.</p></div>
+<div class="news_box"><h6><a href=" /data/matching/aamas/ "> MD-00004: AAMAS Bidding Data</a></h6><p>This dataset contains the bids of reviewers over papers from the 2015 and 2016 Autonomous Agents and Multiagent Systems Conference</a>.  Inclusion in these data sets were explicitly opt-in; 2015 contains 9,817 bids of 201 reviewers over 613 papers; this represents about 40% of the actual 22,360 bids of 281 reviewers over 670 papers.  The 2016 data contains 161 out of 393 reviewers with bids over 442 out of 550 papers.</p></div>
 
 
 
@@ -141,6 +149,8 @@
 <div class="news_box"><h6><a href=" /data/combinatorial/trip/ "> CD-00001: Trip Advisor Data</a></h6><p>This dataset contains 675,069 reviews of 1,851 hotels across the world scraped from <a href="www.tripadvisor.com">Trip Advisor</a>.  The data was scraped and donated by <a href="http://sifaka.cs.uiuc.edu/~wang296/">Hongning Wang</a>.</p></div>
 
 <div class="news_box"><h6><a href=" /data/combinatorial/frenchrate/ "> CD-00002: Proto French Election</a></h6><p> This analog dataset to the 2002 French Presidential Election Dataset was collected by Jean-Francois Laslier, Karine Van der Straeten and Michel Balinski.  It consists of 398 approval ballots and subjective ratings on a 20 point scale collected over potential candidates for the 2002 French Presidential election cast by students at Institut d’Etudes Politiques de Paris.</p></div>
+
+<div class="news_box"><h6><a href=" /data/combinatorial/social/ "> CD-00003: Social Recommendation</a></h6><p>This dataset contains the Facebook Social Graph and full ratings of 16 restaurants and 23 pubs by 93 users.</p></div>
 
 
 
@@ -166,7 +176,7 @@
 			</div>
 	
 			<!-- Break and Footer -->
-			<?php require_once($_SERVER['DOCUMENT_ROOT'] . '/common/foot.php'); ?>	
+			<?php require_once($_SERVER['DOCUMENT_ROOT'] . '/common/foot.php'); ?>
 		</div>
 	</body>
 	</html>

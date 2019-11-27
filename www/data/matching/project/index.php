@@ -12,7 +12,7 @@
 
 &nbsp;<div class="grid_7">
 <h5>MD-00003: Project Bidding Data</h5>
-<p>This dataset contains bids of students over a set of projects for student/project allocations at the School of Computing Science, University of Glasgod.  Each project is supervised by an individual each with a maximum capacity of supervision.  There are 8 years worth of data in this set and with between 31 and 51 students and 56 and 155 projects. This data was kindly donated by <a href="http://www.dcs.gla.ac.uk/~davidm/">David Manlove</a> who collected this data.</p><p>In addition to the strict and incomplete preference profiles of the students we have extended the profiles with all unranked items tied at the end.  We have also posted <b>.dat</b> files containing the supervisor identifiers and capacities.  The format for the .dat files is <i>Supervisor ID, Capacity, Projects</i>; where <i>Projects</i> is a space separated list of the projects supervised by the Supervisor.  Each project has a capacity of 1 while each supervisor has a variable capacity.  In academic sessions 2007-08 and 2008-09 there were no supervisor capacities in force, thus the projects and supervisors are in 1-1 correspondence.</p>
+<p>This dataset contains bids of students over a set of projects for student/project allocations at the School of Computing Science, University of Glasgow.  Each project is supervised by an individual each with a maximum capacity of supervision.  There are 8 years worth of data in this set and with between 31 and 51 students and 56 and 155 projects. This data was kindly donated by <a href="http://www.dcs.gla.ac.uk/~davidm/">David Manlove</a> who collected this data.</p><p>In addition to the strict and incomplete preference profiles of the students we have extended the profiles with all unranked items tied at the end.  We have also posted <b>.dat</b> files containing the supervisor identifiers and capacities.  The format for the .dat files is <i>Supervisor ID, Capacity, Projects</i>; where <i>Projects</i> is a space separated list of the projects supervised by the Supervisor.  Each project has a capacity of 1 while each supervisor has a variable capacity.  In academic sessions 2007-08 and 2008-09 there were no supervisor capacities in force, thus the projects and supervisors are in 1-1 correspondence.</p>
 
 <p><h6>Required Citations</h6><p><ul> 
 <li> <a href="http://scholar.google.com/scholar?as_q=Profile-based+optimal+matchings+in+the+Student/Project+Allocation+problem">Profile-based optimal matchings in the Student/Project Allocation problem.</a> Augustine Kwanashie, Robert W. Irving, David F. Manlove, Colin T.S. Sng. <a href="http://arxiv.org/abs/1403.0751">ArXiv Preprint 1403.0751</a>, Also appeared at the 2014 Workshop on Combinatorial Algorithms, 2015. </li>
@@ -27,10 +27,10 @@
 				<p>
 				<img src="/images/pref.png" alt="" title="" />
 
-				<a href="http://www.nicta.com.au/category/research/optimisation/" class="center"> <h3>Supported By:</h3><img src="/images/nicta.png" alt="" title="NICTA" /></a>
+				<a href="https://research.csiro.au/data61/preflib-tools-and-archive/" class="center"> <h3>Supported By:</h3><img src="/images/nicta.png" alt="" title="NICTA" /></a>
 				</p>
 			</div>
-			
+
 			<!-- Break Page... -->
 			<div class="clear"></div>
 			<div class="grid_12 spacer"></div>
@@ -43,7 +43,7 @@
 																		<div class="clear"></div>
 																		<div class="grid_12 spacer"></div>
 																		<div class="clear"></div>
-														 
+														
 																		<div class="grid_12">
 																		<table class="DataTable">
 																		<tr><th>Description</th><th>Type</th><th>Modification</th><th>File Name</th><th>File Size</th></tr>
@@ -150,7 +150,7 @@
 
 
 			<!-- Break and Footer -->
-			<?php require_once($_SERVER['DOCUMENT_ROOT'] . '/common/foot.php'); ?>	
+			<?php require_once($_SERVER['DOCUMENT_ROOT'] . '/common/foot.php'); ?>
 		</div>
 	</body>
 	</html>

@@ -5,6 +5,8 @@
 	<li><a href="http://whale3.noiraudes.net/" target="_blank">Whale3: Which Alternative is Elected?</a> </li>
 	<li><a href="http://votelib-hdm.ise.bgu.ac.il/" target="_blank">VoteLib: A Library of Voting Behavior</a> </li>
 	<li><a href="http://www.ece.iastate.edu/~gsanthan/crisner.html" target="_blank">CRISNER: A Qualitative Preference Reasoner</a> </li>
+	<li><a href="http://www.spliddit.org/" target="_blank">Spliddit: Quick and Easy Solutions to Online Fair Division Problems</a> </li>
+	<li><a href="http://robovote.org/" target="_blank">RoboVote: AI Driven Decisions</a> </li>
 </ul>
 <h6> Data </h6>
 <ul>

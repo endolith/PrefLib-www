@@ -1,6 +1,19 @@
 <ol reversed>
+<li class="wide"> <a href="http://scholar.google.com/scholar?as_q=Flexible+level-1+consensus+ensuring+stable+social+choice:analysis+and+algorithms">Flexible level-1 consensus ensuring stable social choice:analysis and algorithms.</a> Mor Nitzan, Shmuel Nitzan, and Erel Segal-Halevi. Social Choice and Welfare, 2017. </li>
+
+<li class="wide"> <a href="http://scholar.google.com/scholar?as_q=Group+Decision+Support+for+Leisure+Activities+Using+Voting+and+Social+Networks">Group Decision Support for Leisure Activities Using Voting and Social Networks.</a> Ofrit Lesser, Lihi Naamani-Dery, Meir Kalech, and Yuval Elovici. Group Decision and Negotiation Journal: 26(3): 473-494, 2017. </li>
+
+<li class="wide"> <a href="http://scholar.google.com/scholar?as_q=Controlled+School+Choice+with+Soft+Bounds+and+Overlapping+Types">Controlled School Choice with Soft Bounds and Overlapping Types.</a> Ryoji Kurata, Naoto Hamada, Atsushi Iwasaki and Makoto Yokoo. Journal of Artificial Intelligence Research Volume 58, 2017. </li>
+
+<li class="wide"> <a href="http://scholar.google.com/scholar?as_q=Optimizing+positional+scoring+rules+for+rank+aggregation">Optimizing positional scoring rules for rank aggregation.</a> Ioannis Caragiannis, Xenophon Chatzigeorgiou, George A. Krimpas, and Alexandros A. Voudouris. In Proceedings of the 31st AAAI Conference on Artificial Intelligence, 2017. </li>
+<li class="wide"> <a href="http://scholar.google.com/scholar?as_q=Judgment+Aggregation+under+Issue+Dependencies">Judgment Aggregation under Issue Dependencies.</a> Marco Costantini, Carla Groenland, and Ulle Endriss. 30th AAAI Conference on Artificial Intelligence (AAAI), 2016. </li>
+
 <li class="wide"> <a href="http://scholar.google.com/scholar?as_q=Strategyproof+Peer+Selection:+Mechanisms,+Analyses,+and+Experiments">Strategyproof Peer Selection: Mechanisms, Analyses, and Experiments.</a> Haris Aziz, Omer Lev, Nicholas Mattei, Jeffery S. Rosenschein, and Toby Walsh. 30th AAAI Conference on Artificial Intelligence (AAAI 2016), 2016. </li>
+
+<li class="wide"> <a href="http://scholar.google.com/scholar?as_q=Ballot-Level+Observations+About+Vermont's+2014+General+Election">Ballot-Level Observations About Vermont's 2014 General Election.</a> Jeremy A. Hansen. New England Journal of Political Science 8 (2): 185—217, 2016. </li>
 <li class="wide"> <a href="http://scholar.google.com/scholar?as_q=Equilibria+Under+the+Probabilistic+Serial+Rule">Equilibria Under the Probabilistic Serial Rule.</a> Haris Aziz, Serge Gaspers, Simon Mackenzie, Nicholas Mattei, Nina Narodytska, and Toby Walsh. 24th International Joint Conference on Artificial Intelligence (IJCAI 2015), 2015. </li>
+
+<li class="wide"> <a href="http://scholar.google.com/scholar?as_q=Adapting+the+Social+Network+to+Affect+Elections">Adapting the Social Network to Affect Elections.</a> Sigal Sina, Noam Hazon, Avinatan Hassidim and Sarit Kraus. 14th International Conference on Autonomous Agents and Multiagent Systems (AAMAS 2015), 2015. </li>
 
 <li class="wide"> <a href="http://scholar.google.com/scholar?as_q=Manipulating+the+Probabilistic+Serial+Rule">Manipulating the Probabilistic Serial Rule.</a> Haris Aziz, Serge Gaspers, Simon Mackenzie, Nicholas Mattei, Nina Narodytska, and Toby Walsh. 14th International Conference on Autonomous Agents and Multiagent Systems (AAMAS 2015), 2015. </li>
 

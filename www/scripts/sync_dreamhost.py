@@ -2,7 +2,7 @@
 	File: 	sync_dreamhost.py
 	Author:	Nicholas Mattei (nicholas.mattei@nicta.com.au)
 	Date:	Nov. 11th 2015
-	
+
   * Copyright (c) 2014/2015, Nicholas Mattei and NICTA
   * All rights reserved.
   *
@@ -36,7 +36,7 @@
 About
 --------------------
 	Just a wrapper around some system calls to update the site
-	and make it match the local directories.  
+	and make it match the local directories.
 	This has hooks to:
 		-rb --rebuild: rebuild the index before anything else
 		-m --main: push to the main site (pushes to dev by default).
@@ -70,10 +70,10 @@ if __name__ == '__main__':
 
     # Sync EVERYTHING to DEV.
     print(" *** Pushing ENTIRE www directory to DEV@DREAMHOST *** ")
-    os.system('''rsync --recursive --times --verbose --progress --compress --delete-after --exclude="*.DS_Store" --exclude="*pycache*" /Users/Nick/repo/www-preflib.github/www/ koolkamel@www.preflib.org:~/dev.preflib.org''')
+    os.system('''rsync --recursive --times --verbose --progress --compress --delete-after --exclude="*.DS_Store" --exclude="*pycache*" /Users/nmattei/repo/github/preflib-www.git/www/ koolkamel@www.preflib.org:~/dev.preflib.org''')
 
 
     # Do a main push but don't take the .htaccess and .htpassword
     if results.main:
       print(" *** Pushing ENTIRE www directory to PREFLIB@DREAMHOST *** ")
-      os.system('''rsync --recursive --times --verbose --progress --compress --delete-after --exclude="*.DS_Store" --exclude=".htaccess" --exclude=".htpasswd" --exclude="*pycache*" /Users/Nick/repo/www-preflib.github/www/ koolkamel@www.preflib.org:~/preflib.org''')
+      os.system('''rsync --recursive --times --verbose --progress --compress --delete-after --exclude="*.DS_Store" --exclude=".htaccess" --exclude=".htpasswd" --exclude="*pycache*" /Users/nmattei/repo/github/preflib-www.git/www/ koolkamel@www.preflib.org:~/preflib.org''')

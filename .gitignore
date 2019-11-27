@@ -54,3 +54,17 @@ www/data/election/netflix-noncondorcet/4set8.zip
 www/data/election/netflix-noncondorcet/4set9.zip
 www/data/election/netflix-noncondorcet/4setlarge.zip
 www/data/election/netflix-noncondorcet/4setnear.zip
+*.pyc
+www/data/election/aspen/aspen.zip
+www/data/election/berkley/berkley.zip
+www/data/election/burlington/burlington.zip
+www/data/election/cleanweb/cleanweb.zip
+www/data/election/nasa/nasa.zip
+www/data/election/netflix-noncondorcet/netflix-noncondorcet.zip
+www/data/election/poster/poster.zip
+www/data/election/uklabor/uklabor.zip
+www/data/election/vermont/vermont.zip
+www/data/matching/aamas/aamas.zip
+www/data/matching/csconf/csconf.zip
+www/data/matching/kidney/kidney.zip
+www/data/matching/project/project.zip

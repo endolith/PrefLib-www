@@ -1,14 +1,46 @@
 * Publication Database for PrefLib.
 * Title ; Authors ; Info ; Year |
 
-Strategyproof Peer Selection: Mechanisms, Analyses, and Experiments; 
+Flexible level-1 consensus ensuring stable social choice:analysis and algorithms; Mor Nitzan, Shmuel Nitzan, and Erel Segal-Halevi; Social Choice and Welfare; 2017 |
+
+Group Decision Support for Leisure Activities Using Voting and Social Networks;
+Ofrit Lesser, Lihi Naamani-Dery, Meir Kalech, and Yuval Elovici;
+Group Decision and Negotiation Journal: 26(3): 473-494;
+2017 |
+
+Controlled School Choice with Soft Bounds and Overlapping Types;
+Ryoji Kurata, Naoto Hamada, Atsushi Iwasaki and Makoto Yokoo;
+Journal of Artificial Intelligence Research Volume 58;
+2017 |
+
+Optimizing positional scoring rules for rank aggregation;
+Ioannis Caragiannis, Xenophon Chatzigeorgiou, George A. Krimpas, and Alexandros A. Voudouris;
+In Proceedings of the 31st AAAI Conference on Artificial Intelligence;
+2017 |
+
+Judgment Aggregation under Issue Dependencies;
+Marco Costantini, Carla Groenland, and Ulle Endriss;
+30th AAAI Conference on Artificial Intelligence (AAAI);
+2016 |
+
+Strategyproof Peer Selection: Mechanisms, Analyses, and Experiments;
 Haris Aziz, Omer Lev, Nicholas Mattei, Jeffery S. Rosenschein, and Toby Walsh;
 30th AAAI Conference on Artificial Intelligence (AAAI 2016);
+2016 |
+
+Ballot-Level Observations About Vermont's 2014 General Election;
+Jeremy A. Hansen;
+New England Journal of Political Science 8 (2): 185—217;
 2016 |
 
 Equilibria Under the Probabilistic Serial Rule ;
 Haris Aziz, Serge Gaspers, Simon Mackenzie, Nicholas Mattei, Nina Narodytska, and Toby Walsh ;
 24th International Joint Conference on Artificial Intelligence (IJCAI 2015) ;
+2015 |
+
+Adapting the Social Network to Affect Elections;
+Sigal Sina, Noam Hazon, Avinatan Hassidim and Sarit Kraus;
+14th International Conference on Autonomous Agents and Multiagent Systems (AAMAS 2015) ;
 2015 |
 
 Manipulating the Probabilistic Serial Rule ;
@@ -18,8 +50,8 @@ Haris Aziz, Serge Gaspers, Simon Mackenzie, Nicholas Mattei, Nina Narodytska, an
 
 Voting with Rank Dependent Scoring Rules ;
 Judy Goldsmith, Jerome Lang, Nicholas Mattei, and Patrice Perny ;
-28th AAAI Conference on Artificial Intelligence (AAAI 2014) ; 
-2014 | 
+28th AAAI Conference on Artificial Intelligence (AAAI 2014) ;
+2014 |
 
 A study of human behavior in online voting ;
 M. Tal, R. Meir, and Y. Kobi Gal ;
@@ -32,7 +64,7 @@ Proceedings of AAAI ;
 2015 |
 
 Complexity of Manipulative Actions When Voting with Ties ;
-Z. Fitzsimmons and Edith Hemaspaandra ; 
+Z. Fitzsimmons and Edith Hemaspaandra ;
 Algorithmic Decision Theory ;
 2015 |
 
@@ -79,7 +111,7 @@ Proceedings of AAMAS ;
 Better Human Computation Through Principled Voting ;
 Andrew Mao, Ariel D. Procaccia, and Yiling Chen ;
 Proceedings of AAAI ;
-2013 | 
+2013 |
 
 A Behavioral Perspective on Social Choice. Anna Popova, Michel Regenwetter ;
 and Nicholas Mattei. Annals of Mathematics and Artificial Intelligence ;
@@ -101,12 +133,12 @@ John P. Dickerson, Ariel D. Procaccia, Tuomas Sandholm ;
 Proceedings of EC ;
 2013 |
 
-Modeling the outcomes of vote-casting in actual elections ; 
+Modeling the outcomes of vote-casting in actual elections ;
 N. Tideman and F. Plassmann ;
 In: Dan Felsenthal and Mose Machover (eds.) Electoral sytems: Paradoxes, assumptions, and procedures. Springer, 217 - 251;
-2012 | 
+2012 |
 
-Optimizing Kidney Exchange with Transplant Chains: Theory and Reality; 
+Optimizing Kidney Exchange with Transplant Chains: Theory and Reality;
 John P. Dickerson, Ariel D. Procaccia, Tuomas Sandholm;
 Proceedings of AAMAS ;
 2012 |
@@ -119,9 +151,9 @@ Proceedings of COMSOC ;
 Dynamic Matching via Weighted Myopia with Application to Kidney Exchange ;
 John P. Dickerson, Ariel D. Procaccia, Tuomas Sandholm ;
 Proceedings of AAAI ;
-2012 | 
+2012 |
 
-Where Are the Hard Manipulation Problems? ; 
+Where Are the Hard Manipulation Problems? ;
 Toby Walsh ;
 Journal of Artificial Intelligence Research, 42, 1-39 ;
 2011 |
@@ -134,7 +166,7 @@ Proceedings of ADT ;
 Budgeted Social Choice: From Consensus to Personalized Decision Making ;
 Tyler Lu and Craig Boutilier ;
 Proceedings of IJCAI ;
-2011 | 
+2011 |
 
 Partial Kernelization for Rank Aggregation: Theory and Experiments ;
 N. Betzler, R. Bredereck, and R. Niedermeier ;
@@ -150,23 +182,23 @@ A Survey and Empirical Comparison of Object Ranking Methods ;
 T. Kamishima, H. Kazawa, and S. Akaho. ;
 In J. Fürnkranz and E. Hüllermeier, editors, Preference Learning ;
 2010 |
-	
+
 Where are the really hard manipulation problems: The phase transition in manipulating the veto rule ;
 Toby Walsh ;
 Proceedings of IJCAI ;
 2009 |
 
 Fixed-Parameter Algorithms for Computing Kemeny scores - Theory and Practice ;
-R. Bredereck ; 
+R. Bredereck ;
 Thesis, Department of Mathematics and Computer Science, University of Jena ;
-2009 | 
+2009 |
 
 A Live Experiment on Approval Voting ;
 Jean-François Laslier and Karine Van der Straeten ;
-Experimental Economics 11: 97–105; 
+Experimental Economics 11: 97–105;
 2008 |
 
 Nantonac Collaborative Filtering: Recommendation Based on Order Responses ;
 T. Kamishima ;
 Proceedings of the 9th International Conference on Knowledge Discovery and Data Mining (KDD) ;
-2003 
+2003

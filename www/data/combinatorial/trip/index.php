@@ -20,6 +20,7 @@
 <p><h6>Selected Citations Using This Dataset</h6><p><ul> 
 <li> <a href="http://scholar.google.com/scholar?as_q=Latent+Aspect+Rating+Analysis+on+Review+Text+Data:+A+Rating+Regression+Approach">Latent Aspect Rating Analysis on Review Text Data: A Rating Regression Approach.</a> Hongning Wang, Yue Lu and Chengxiang Zhai. The 16th ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD), 2010. </li>
 <li> <a href="http://scholar.google.com/scholar?as_q=Latent+Aspect+Rating+Analysis+without+Aspect+Keyword+Supervision">Latent Aspect Rating Analysis without Aspect Keyword Supervision.</a> Hongning Wang, Yue Lu and ChengXiang Zhai. The 17th ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD), 2011. </li>
+<li> <a href="http://scholar.google.com/scholar?as_q=Judgment+Aggregation+under+Issue+Dependencies">Judgment Aggregation under Issue Dependencies.</a> Marco Costantini, Carla Groenland, and Ulle Endriss. 30th AAAI Conference on Artificial Intelligence (AAAI), 2016. </li>
 </ul></p>
 
 </div>
@@ -28,10 +29,10 @@
 				<p>
 				<img src="/images/pref.png" alt="" title="" />
 
-				<a href="http://www.nicta.com.au/category/research/optimisation/" class="center"> <h3>Supported By:</h3><img src="/images/nicta.png" alt="" title="NICTA" /></a>
+				<a href="https://research.csiro.au/data61/preflib-tools-and-archive/" class="center"> <h3>Supported By:</h3><img src="/images/nicta.png" alt="" title="NICTA" /></a>
 				</p>
 			</div>
-			
+
 			<!-- Break Page... -->
 			<div class="clear"></div>
 			<div class="grid_12 spacer"></div>
@@ -44,7 +45,7 @@
 																		<div class="clear"></div>
 																		<div class="grid_12 spacer"></div>
 																		<div class="clear"></div>
-														 
+														
 																		<div class="grid_12">
 																		<table class="DataTable">
 																		<tr><th>Description</th><th>Type</th><th>Modification</th><th>File Name</th><th>File Size</th></tr>
@@ -59,7 +60,7 @@
 
 
 			<!-- Break and Footer -->
-			<?php require_once($_SERVER['DOCUMENT_ROOT'] . '/common/foot.php'); ?>	
+			<?php require_once($_SERVER['DOCUMENT_ROOT'] . '/common/foot.php'); ?>
 		</div>
 	</body>
 	</html>
