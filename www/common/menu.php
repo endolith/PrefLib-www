@@ -5,7 +5,7 @@
 	  	<li><a href="/">Main</a></li>
 	  	<li><a href="/about.php">About</a></li>
 	  	<li><a href="/papers.php">Papers</a></li>
-	  	<li>Data
+	  	<li><a href="http://www.preflib.org/data/">Data</a>
 	    	<ul>
 	    	  <li><a href="/data/format.php">Formats</a></li>
 	    	  <li><a href="/data/">All Data</a></li>
