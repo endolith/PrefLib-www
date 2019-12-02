@@ -179,3 +179,34 @@ ul.drop ul {
 ul.drop ul li { float: none; }
 ul.drop ul ul { top: -2px; left: 100%; }
 ul.drop li:hover > ul { visibility: visible }
+
+/* --------------------  Mobile version --------------- */
+
+@media (max-width:480px){
+    body {
+        min-width: 0;
+        font-size: 100%;
+        line-height: 1.5;
+    }
+    .container_12 {
+        width: 100% !important;
+    }
+    .grid_12, .grid_7, .grid_8, .grid_4 {
+        width: 100% !important;
+    }
+    .grid_5 {
+        display: none;
+    }
+    .news_box {
+        padding-right: 1rem;
+    }
+    .news_content{
+        width: 100% !important;
+    }
+    ul.drop a {
+        font-size: 100%;
+    }
+    ul.drop li {
+        padding: 0.2rem 0.2rem;
+    }
+}
