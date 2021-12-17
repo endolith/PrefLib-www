@@ -7,7 +7,7 @@ Please see www.PrefLib.org for more information about our project and a large li
 
 This code comes without warranty. Please use or distribute for research and academic uses only. Please use according to the citation and fair use requests on found at www.preflib.org.
 
-** Big Note: ** I am not a web developer by trade or by training.  I am doing this as a service, please excuse any bad conventions. 
+**Big Note:** I am not a web developer by trade or by training.  I am doing this as a service, please excuse any bad conventions. 
 
 # Release Notes
 
