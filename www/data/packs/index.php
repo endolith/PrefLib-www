@@ -9,7 +9,7 @@
 		<div class="container_12">
 			<?php require_once($_SERVER['DOCUMENT_ROOT'] . '/common/menu.php'); ?>
 	<div class="grid_7"><h5> Data Types </h5>
-<p>We currently have 9 distinct data file types on the site.  Please click on the particular data type to download all files of that type, regardless of data set or catagory.  For information on the types of data on this site, please see <a href="/data/format.php">Data Formats</a>.
+<p>We currently have 9 distinct data file types on the site.  Please click on the particular data type to download all files of that type, regardless of data set or category.  For information on the types of data on this site, please see <a href="/data/format.php">Data Formats</a>.
  <ul><li><a href="/data/format.php#soc">soc - Strict Order - Complete List</a></li>
 <li><a href="/data/format.php#soi">soi - Strict Order - Incomplete List</a></li>
 <li><a href="/data/format.php#toc">toc - Order with Ties - Complete List</a></li>

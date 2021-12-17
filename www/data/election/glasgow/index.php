@@ -12,7 +12,7 @@
 
 &nbsp;<div class="grid_7">
 <h5>ED-00008: Glasgow City Council</h5>
-<p>This data set contains the results of the 2007 Glasgow City Council elections, seperated by Ward.  There are 21 wards, each with different candidates and voters.  These files report the results of all the Ward level elections which were origionally held under STV.  In this data set there is a maximum of 13 candidates and a minimum of 8 candidates.  The maximum number of voters is 12,744 and the minimum is 5,199.</p>  <p> The data presented here was donated by Jeffrey O'Neill who runs the site <a href="http://www.openstv.org">OpenSTV.org</a>.</p>
+<p>This data set contains the results of the 2007 Glasgow City Council elections, separated by Ward.  There are 21 wards, each with different candidates and voters.  These files report the results of all the Ward level elections which were originally held under STV.  In this data set there is a maximum of 13 candidates and a minimum of 8 candidates.  The maximum number of voters is 12,744 and the minimum is 5,199.</p>  <p> The data presented here was donated by Jeffrey O'Neill who runs the site <a href="http://www.openstv.org">OpenSTV.org</a>.</p>
 
 <p><h6>Required Citations</h6><p><ul> 
 <li> <a href="http://scholar.google.com/scholar?as_q=Open+STV">Open STV.</a> Jeffery O'Neill. <a href="http://www.openstv.org">www.OpenSTV.org</a>, 2013. </li>

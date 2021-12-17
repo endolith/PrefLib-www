@@ -12,7 +12,7 @@
 
 &nbsp;<div class="grid_7">
 <h5>CD-00001: Trip Advisor Data</h5>
-<p>This dataset contains 675,069 reviews of 1,851 hotels across the world scraped from <a href="www.tripadvisor.com">Trip Advisor</a>.  The data was scraped and donated by <a href="http://sifaka.cs.uiuc.edu/~wang296/">Hongning Wang</a>.</p> <p>One file contains the numerical aspect ratings provided by the users, along with other information about the hotel.  The second file contains the text of the users review.  These reviews have been slightly modified, all excess spaces and tabs have been removed and all commas have bene changed to semi-colons.</p> <p>Both files are zipped due to their size.  Both files are encoded in the <b>dat</b> format and the first line of each file explains the fields within the file.  Some of the usernames are encoded in Unicode so please be careful when parsing the files!</p>
+<p>This dataset contains 675,069 reviews of 1,851 hotels across the world scraped from <a href="www.tripadvisor.com">Trip Advisor</a>.  The data was scraped and donated by <a href="http://sifaka.cs.uiuc.edu/~wang296/">Hongning Wang</a>.</p> <p>One file contains the numerical aspect ratings provided by the users, along with other information about the hotel.  The second file contains the text of the users review.  These reviews have been slightly modified, all excess spaces and tabs have been removed and all commas have been changed to semi-colons.</p> <p>Both files are zipped due to their size.  Both files are encoded in the <b>dat</b> format and the first line of each file explains the fields within the file.  Some of the usernames are encoded in Unicode so please be careful when parsing the files!</p>
 
 <p><h6>Required Citations</h6><p><ul> 
 <li>None.</li></ul></p>

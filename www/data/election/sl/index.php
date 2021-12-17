@@ -12,7 +12,7 @@
 
 &nbsp;<div class="grid_7">
 <h5>ED-00022: San Leandro Election Data</h5>
-<p>The San Leandro data contains the results from several elections, including mayor and city council elections, held in San Leandro, CA between 2010 and 2012. The set contains 3 distinct elections with between 4 and 7 canddiates and about 25,000 voters each.</p> <p>Note that these elections were conducted under a ranked voting system which allowed blank entries. In processing this data for PrefLib we have ignored blanks and only report the order over the candidates.</p><p> The data on this page was donated by Jeffrey O'Neill who runs the site <a href="http://www.openstv.org">OpenSTV.org</a>.</p>
+<p>The San Leandro data contains the results from several elections, including mayor and city council elections, held in San Leandro, CA between 2010 and 2012. The set contains 3 distinct elections with between 4 and 7 candidates and about 25,000 voters each.</p> <p>Note that these elections were conducted under a ranked voting system which allowed blank entries. In processing this data for PrefLib we have ignored blanks and only report the order over the candidates.</p><p> The data on this page was donated by Jeffrey O'Neill who runs the site <a href="http://www.openstv.org">OpenSTV.org</a>.</p>
 
 <p><h6>Required Citations</h6><p><ul> 
 <li> <a href="http://scholar.google.com/scholar?as_q=Open+STV">Open STV.</a> Jeffery O'Neill. <a href="http://www.openstv.org">www.OpenSTV.org</a>, 2013. </li>

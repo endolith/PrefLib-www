@@ -48,7 +48,7 @@
 																		<table class="DataTable">
 																		<tr><th>Description</th><th>Type</th><th>Modification</th><th>File Name</th><th>File Size</th></tr>
 
-																		 <tr><td> Social Graph and Votes </td><td> <a href="/data/format.php#data">Zipped Data File</a></td> <td> Origional </td> <td> <a href="/data/combinatorial/social/CD-00003-00000001.zip" onClick="_gaq.push(['_trackEvent', 'Download', 'individual', 'CD-00003-00000001.zip']);">CD-00003-00000001.zip</a> </td><td> 220K</td></tr> 
+																		 <tr><td> Social Graph and Votes </td><td> <a href="/data/format.php#data">Zipped Data File</a></td> <td> Original </td> <td> <a href="/data/combinatorial/social/CD-00003-00000001.zip" onClick="_gaq.push(['_trackEvent', 'Download', 'individual', 'CD-00003-00000001.zip']);">CD-00003-00000001.zip</a> </td><td> 220K</td></tr> 
 
 
 		</table>

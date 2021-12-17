@@ -48,13 +48,13 @@
 																		<table class="DataTable">
 																		<tr><th>Description</th><th>Type</th><th>Modification</th><th>File Name</th><th>File Size</th></tr>
 
-																		 <tr><td> tudes Poltiques </td><td> <a href="/data/format.php#toc">Order with Ties - Complete List</a></td> <td> Original </td> <td> <a href="/data/election/frenchrate/ED-00027-00000001.toc" onClick="_gaq.push(['_trackEvent', 'Download', 'individual', 'ED-00027-00000001.toc']);">ED-00027-00000001.toc</a> </td><td> 8.0K</td></tr> 
+																		 <tr><td> Etudes Politiques </td><td> <a href="/data/format.php#toc">Order with Ties - Complete List</a></td> <td> Original </td> <td> <a href="/data/election/frenchrate/ED-00027-00000001.toc" onClick="_gaq.push(['_trackEvent', 'Download', 'individual', 'ED-00027-00000001.toc']);">ED-00027-00000001.toc</a> </td><td> 8.0K</td></tr> 
 
- <tr><td> Etudes Poltiques </td><td> <a href="/data/format.php#pwg">Pairwise Graph</a></td> <td> Induced </td> <td> <a href="/data/election/frenchrate/ED-00027-00000001.pwg" onClick="_gaq.push(['_trackEvent', 'Download', 'individual', 'ED-00027-00000001.pwg']);">ED-00027-00000001.pwg</a> </td><td> 4.0K</td></tr> 
+ <tr><td> Etudes Politiques </td><td> <a href="/data/format.php#pwg">Pairwise Graph</a></td> <td> Induced </td> <td> <a href="/data/election/frenchrate/ED-00027-00000001.pwg" onClick="_gaq.push(['_trackEvent', 'Download', 'individual', 'ED-00027-00000001.pwg']);">ED-00027-00000001.pwg</a> </td><td> 4.0K</td></tr> 
 
- <tr><td> Etudes Poltiques </td><td> <a href="/data/format.php#wmg">Weighted Majority Graph</a></td> <td> Induced </td> <td> <a href="/data/election/frenchrate/ED-00027-00000001.wmg" onClick="_gaq.push(['_trackEvent', 'Download', 'individual', 'ED-00027-00000001.wmg']);">ED-00027-00000001.wmg</a> </td><td> 4.0K</td></tr> 
+ <tr><td> Etudes Politiques </td><td> <a href="/data/format.php#wmg">Weighted Majority Graph</a></td> <td> Induced </td> <td> <a href="/data/election/frenchrate/ED-00027-00000001.wmg" onClick="_gaq.push(['_trackEvent', 'Download', 'individual', 'ED-00027-00000001.wmg']);">ED-00027-00000001.wmg</a> </td><td> 4.0K</td></tr> 
 
- <tr><td> Etudes Poltiques </td><td> <a href="/data/format.php#tog">Tournament Graph</a></td> <td> Induced </td> <td> <a href="/data/election/frenchrate/ED-00027-00000001.tog" onClick="_gaq.push(['_trackEvent', 'Download', 'individual', 'ED-00027-00000001.tog']);">ED-00027-00000001.tog</a> </td><td> 4.0K</td></tr> 
+ <tr><td> Etudes Politiques </td><td> <a href="/data/format.php#tog">Tournament Graph</a></td> <td> Induced </td> <td> <a href="/data/election/frenchrate/ED-00027-00000001.tog" onClick="_gaq.push(['_trackEvent', 'Download', 'individual', 'ED-00027-00000001.tog']);">ED-00027-00000001.tog</a> </td><td> 4.0K</td></tr> 
 
 
 		</table>

@@ -48,7 +48,7 @@
 																		<table class="DataTable">
 																		<tr><th>Description</th><th>Type</th><th>Modification</th><th>File Name</th><th>File Size</th></tr>
 
-																		 <tr><td> Etudes Poltiques </td><td> <a href="/data/format.php#data">Extra Data File (CSV)</a></td> <td> Original </td> <td> <a href="/data/combinatorial/frenchrate/CD-00002-00000001.dat" onClick="_gaq.push(['_trackEvent', 'Download', 'individual', 'CD-00002-00000001.dat']);">CD-00002-00000001.dat</a> </td><td> 40K</td></tr> 
+																		 <tr><td> Etudes Politiques </td><td> <a href="/data/format.php#data">Extra Data File (CSV)</a></td> <td> Original </td> <td> <a href="/data/combinatorial/frenchrate/CD-00002-00000001.dat" onClick="_gaq.push(['_trackEvent', 'Download', 'individual', 'CD-00002-00000001.dat']);">CD-00002-00000001.dat</a> </td><td> 40K</td></tr> 
 
 
 		</table>

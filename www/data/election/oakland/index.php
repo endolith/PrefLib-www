@@ -12,7 +12,7 @@
 
 &nbsp;<div class="grid_7">
 <h5>ED-00019: Oakland Election Data</h5>
-<p>The 2010 Oakland Data contains the results from the city council and mayoral elections held in Oakland, CA in 2010. The set contains 7 distinct elections with between 4 and 11 canddiates and 900 and 145,000 voters.</p> <p>Note that these elections were conducted under a ranked voting system which allowed blank entries. In processing this data for PrefLib we have ignored blanks and only report the order over the candidates.</p><p> The data on this page was donated by Jeffrey O'Neill who runs the site <a href="http://www.openstv.org">OpenSTV.org</a>.</p>
+<p>The 2010 Oakland Data contains the results from the city council and mayoral elections held in Oakland, CA in 2010. The set contains 7 distinct elections with between 4 and 11 candidates and 900 and 145,000 voters.</p> <p>Note that these elections were conducted under a ranked voting system which allowed blank entries. In processing this data for PrefLib we have ignored blanks and only report the order over the candidates.</p><p> The data on this page was donated by Jeffrey O'Neill who runs the site <a href="http://www.openstv.org">OpenSTV.org</a>.</p>
 
 <p><h6>Required Citations</h6><p><ul> 
 <li> <a href="http://scholar.google.com/scholar?as_q=Open+STV">Open STV.</a> Jeffery O'Neill. <a href="http://www.openstv.org">www.OpenSTV.org</a>, 2013. </li>

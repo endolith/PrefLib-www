@@ -58,7 +58,7 @@
 			<div class="news_icon"></div>
 		    	<div class="news_content">
 		        	<b>June 1, 2015:</b>
-		            <p> We have moved the devlopment and hosting of <a href="https://github.com/nmattei/PrefLib-Tools" target="_blank"> PrefLib Tools over to GitHub!</a>  Check out the current version and join us on expanding the capabilities of PrefLib!</p>
+		            <p> We have moved the development and hosting of <a href="https://github.com/nmattei/PrefLib-Tools" target="_blank"> PrefLib Tools over to GitHub!</a>  Check out the current version and join us on expanding the capabilities of PrefLib!</p>
 		        	</div>
 		    </div>
 
@@ -88,7 +88,7 @@
 
 					<p> We have added over 1,000 new data sets from over 10 new sources -- bringing the total library size to over 4,000 files! We have also revamped the <a href="/data/">data pages</a> to make them easier to navigate. A small change to the <a href="/data/format.php">file extensions</a> has been made for more clarity.</p>
 
-		            <p> Finally there is a small update to the <a href="/tools/">Tools</a> library inclding a command line interface and functions to test for Single Peakedness.</p>
+		            <p> Finally there is a small update to the <a href="/tools/">Tools</a> library including a command line interface and functions to test for Single Peakedness.</p>
 		        </div>
 		    </div>
 

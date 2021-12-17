@@ -46,7 +46,7 @@ There are an additional few files in the root directory that are self explanator
 
 ### Main Scripts:
 
-- build_data_html.py: Recurses through the data directory of the PrefLib website and builds up (1) the /index.php page listing all data that is present, (2) the data/x/y file which is the listing for all the data from a particular group and (3) updates the /packs/index.php page and ensures that all zip files in the index match the requsite directories (not including the html, just the info .txt) and (4) builds the papers page including links to Google scholar.
+- build_data_html.py: Recurses through the data directory of the PrefLib website and builds up (1) the /index.php page listing all data that is present, (2) the data/x/y file which is the listing for all the data from a particular group and (3) updates the /packs/index.php page and ensures that all zip files in the index match the requisite directories (not including the html, just the info .txt) and (4) builds the papers page including links to Google scholar.
 
 - sync_dreamhost.py: A wrapper around rsync to build the site and push everything to the remote host and make sure the local is the same as the remote.
 
